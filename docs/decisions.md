@@ -39,13 +39,19 @@ Reserve 0x00–0x1F for controls; consider retaining 0x20–0x7F as a hypothetic
 
 **Technical question:** Does the earlier Latin region put letters in continuous Classical Latin alphabetical order, and where are the freed J/U/W locations assigned?
 
+## D013 — Licensing of original repository material
+**State:** CANON (2026-10-25)
+
+Original documentation and editorial encoding tables are offered under **CC BY 4.0**; source code and code examples under **MIT**. This does not relicense third-party source materials. See root LICENSE and LICENSE-CODE.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
 - [ ] D007: whether CVL-63 genuinely deserves an independent standard
-- [ ] D008: complete CVL-68 256-entry table
+- [x] D008 exploration: inventory all 256 positions, including RESERVED entries in [draft ledger](../specifications/CVL-68-byte-ledger.md)
+- [ ] D008 finalization: assign or deliberately reserve slots and establish normative semantics
 - [ ] D009: accent marks, breathings, Greek final sigma and normalization
 - [ ] D010: identifier security for Latin/Greek homoglyphs
 - [ ] D011: byte order and packed text compatibility; *not* dictated by language
 - [ ] D012: governance of post-1968 universal character encoding
-- [ ] D013: repository documentation/code licensing, prior to external code contributions
+- [x] D013: documentation CC BY 4.0 / code MIT
