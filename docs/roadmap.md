@@ -9,15 +9,19 @@
 - [x] CVL-54, CVL-63, CVL-68 exploratory specification documents
 - [x] Initial historical sources list
 - [ ] Technical and philological peer review
-- [ ] Project-wide licensing decision
+- [x] Project-wide licensing decision: CC BY 4.0 documents; MIT code
 
 ## 0.2 — CVL-68 normative table
 
-- [ ] Resolve code positions for all 256 byte values
+- [x] Publish an exploratory 256-slot inventory (including explicitly RESERVED positions)
+- [ ] Finalize every assigned character and establish interoperable CVL-68 decoding semantics
 - [ ] Decide control codes, Greek diacritic representation and case mapping
-- [ ] Provide round-trip test vectors for Latin, Greek and mixed-script text
+- [x] Publish initial manually checked Latin/Greek vectors
+- [ ] Implement automated round-trip tests, including mixed-script text and combining marks
 - [ ] Document incompatibility with our world's ASCII/Unicode
 - [ ] Version and freeze first interoperable encoding profile
+
+See [CVL-68 byte ledger](../specifications/CVL-68-byte-ledger.md) for the non-normative inventory. It is not a frozen standard.
 
 ## 0.3 — CVL-54 / CVL-68 converter
 
