@@ -45,6 +45,11 @@ Latin `A` and Greek `Α` must remain distinct code points even if a font makes t
 6. Can a text file be round-tripped across CVL-54, CVL-63 and CVL-68 without loss?
 7. How can non-Greek and non-Latin scripts be exchanged before a later universal standard?
 
+## Supplementary draft profiles
+
+- [Polytonic Greek Profile P1](CVL-68-polytonic.md) — combining marks, final sigma and comparison semantics.
+- [CVL-54 to CVL-68 migration](CVL-54-to-68-migration.md) — stateful decoding and legacy data limitations.
+
 ## Current research artifact
 
 A [full 256-position candidate ledger](CVL-68-byte-ledger.md) now exists, with 79 explicitly RESERVED positions, eight proposed combining diacritics and sample byte vectors. The inventory is **not yet normative**. In particular, CVL-68 is **not ASCII compatible** even where some punctuation and digits share numeric positions.
