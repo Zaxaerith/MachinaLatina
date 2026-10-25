@@ -15,13 +15,17 @@
 
 - [x] Publish an exploratory 256-slot inventory (including explicitly RESERVED positions)
 - [ ] Finalize every assigned character and establish interoperable CVL-68 decoding semantics
-- [ ] Decide control codes, Greek diacritic representation and case mapping
+- [x] Publish polytonic P1 candidate and initial sigma/combining comparison policy
+- [ ] Finalize control codes, diacritics, case mapping and normative validation
 - [x] Publish initial manually checked Latin/Greek vectors
 - [ ] Implement automated round-trip tests, including mixed-script text and combining marks
-- [ ] Document incompatibility with our world's ASCII/Unicode
+- [x] Document first incompatibility analysis and legacy migration constraints
+- [ ] Complete implementable ASCII/Unicode mapping and compatibility tests
 - [ ] Version and freeze first interoperable encoding profile
 
 See [CVL-68 byte ledger](../specifications/CVL-68-byte-ledger.md) for the non-normative inventory. It is not a frozen standard.
+
+The [encoding war narrative](encoding-war-1963-1968.md), [polytonic proposal](../specifications/CVL-68-polytonic.md) and [migration proposal](../specifications/CVL-54-to-68-migration.md) are now published as **drafts**, not locked standards.
 
 ## 0.3 — CVL-54 / CVL-68 converter
 
