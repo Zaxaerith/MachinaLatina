@@ -29,6 +29,9 @@ Instead of translating modern English keywords after the fact, this project asks
 | [CVL-63](specifications/CVL-63.md) | Transitional seven-bit communications proposal |
 | [CVL-68](specifications/CVL-68.md) | Eight-bit bilingual character encoding; principal draft |
 | [CVL-68 byte ledger](specifications/CVL-68-byte-ledger.md) | All 256 positions accounted for; non-normative test vectors and reserved positions |
+| [Encoding War / 编码战争](docs/encoding-war-1963-1968.md) | Fictional 1963–1968 standards conflict |
+| [Polytonic Greek P1](specifications/CVL-68-polytonic.md) | Candidate accent, breathing, sigma and normalization rules |
+| [Legacy migration](specifications/CVL-54-to-68-migration.md) | Conversion and archival constraints for six-bit machine records |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
