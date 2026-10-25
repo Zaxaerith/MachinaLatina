@@ -1,0 +1,25 @@
+Machina Latina — Documentation License
+
+Copyright © 2026 Zaxaerith.
+
+Unless stated otherwise, the original documentation, timeline narratives, design
+specifications, diagrams, and editorial character-map data in this repository are
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Full legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary:
+https://creativecommons.org/licenses/by/4.0/
+
+You may share, adapt, and use the licensed material, including commercially, if
+you provide appropriate attribution, link to the license, and indicate changes.
+You are not required to license your adaptations under the same license.
+
+Attribution suggestion:
+"Machina Latina — Zaxaerith, CC BY 4.0,
+https://github.com/Zaxaerith/MachinaLatina"
+
+This notice does not claim ownership of third-party cited sources, historical
+facts, ancient languages, or underlying ideas and technical conventions.
+Implementations of proposed technical conventions are not required to reproduce
+the prose of the specifications. Source code follows LICENSE-CODE (MIT).
