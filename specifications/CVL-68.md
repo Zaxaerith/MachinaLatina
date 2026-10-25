@@ -45,6 +45,10 @@ Latin `A` and Greek `Α` must remain distinct code points even if a font makes t
 6. Can a text file be round-tripped across CVL-54, CVL-63 and CVL-68 without loss?
 7. How can non-Greek and non-Latin scripts be exchanged before a later universal standard?
 
+## Current research artifact
+
+A [full 256-position candidate ledger](CVL-68-byte-ledger.md) now exists, with 79 explicitly RESERVED positions, eight proposed combining diacritics and sample byte vectors. The inventory is **not yet normative**. In particular, CVL-68 is **not ASCII compatible** even where some punctuation and digits share numeric positions.
+
 ## First milestone
 
-Publish a reviewed 256-position map, test vectors, and documented rejected alternatives **before writing an encoder or emulator**. Do not claim ASCII compatibility: our hypothetical Latin region may differ from ASCII despite a superficially similar 0x20–0x7F allocation.
+Review the candidate 256-position map, refine test vectors, and document rejected alternatives **before treating any profile as interoperable**. Do not claim ASCII compatibility: our hypothetical Latin region may differ from ASCII despite a superficially similar 0x20–0x7F allocation.
