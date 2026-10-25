@@ -15,6 +15,10 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
 
+## Related narrative
+
+See [Controversia Codicum / Encoding War, 1963–1968](encoding-war-1963-1968.md). Its fictional factions and events are DRAFT, not real history.
+
 ## Transition pressures / 为什么标准必须更换？
 
 **1954 → 1963:** Character-page switching works when uppercase terminals dominate but complicates recovery after transmission errors, indexing and embedded mathematical symbols.
