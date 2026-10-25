@@ -28,6 +28,7 @@ Instead of translating modern English keywords after the fact, this project asks
 | [CVL-54](specifications/CVL-54.md) | Six-bit Latin–Greek shift encoding; predecessor draft |
 | [CVL-63](specifications/CVL-63.md) | Transitional seven-bit communications proposal |
 | [CVL-68](specifications/CVL-68.md) | Eight-bit bilingual character encoding; principal draft |
+| [CVL-68 byte ledger](specifications/CVL-68-byte-ledger.md) | All 256 positions accounted for; non-normative test vectors and reserved positions |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -68,7 +69,7 @@ In the fictional six-bit encoding, the Latin inscription `VERBVM` can occupy one
 
 ## Contributions and licensing
 
-Historical corrections, philological suggestions and architecture critiques are welcome for discussion. A project-wide license has **not yet been selected**; public visibility alone does not grant a blanket reuse license. Please discuss substantial external contributions before submitting.
+Historical corrections, philological suggestions and architecture critiques are welcome for discussion. **Licensing:** Original documentation, specifications and editorial tables are available under **CC BY 4.0** (see [LICENSE](LICENSE)); source code and code examples under **MIT** (see [LICENSE-CODE](LICENSE-CODE)). Third-party quotations and linked sources remain under their own terms. Credit the project and indicate changes when adapting documentation.
 
 ---
 
