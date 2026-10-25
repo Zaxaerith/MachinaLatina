@@ -17,10 +17,10 @@ This ledger proposes **one possible full accounting of the 256 byte positions** 
 ## Key test examples
 
 - `SALVE` → `52 41 4B 54 45`.
-- `VERBVM` → `54 45 50 42 54 4C`.
+- `VERBVM` → `54 45 51 42 54 4C`.
 - `ΛΟΓΟΣ` → `8A 8E 82 8E 91`.
 - `Α` (Greek Alpha) → `80`; `A` (Latin A) → `41`. They are deliberately distinct.
-- `λόγος` → `AA AE B8 A2 AE B1` with the acute mark encoded after the preceding vowel. **This is a provisional decomposed sequence**; Unicode `ό` may normalize differently.
+- `λόγος` → `AA AE B8 A2 AE 98` with the acute mark encoded after the preceding vowel. **This is a provisional decomposed sequence**; Unicode `ό` may normalize differently.
 - A decode/encode round trip is byte-exact only for assigned glyph sequences *without normalization*. Unicode canonical normalization or case folding **may change byte sequences** and is outside this first profile.
 
 ## Important protocol caveats
