@@ -6,6 +6,8 @@
 
 Support basic Latin and Greek uppercase text on equipment for which a compact 6-bit character code and 36-bit machine word are attractive. The name CVL is provisional, expanded here as *Codex Utriusque Linguae* (in a 23-letter orthography: **CODEX VTRIVSQVE LINGVAE**).
 
+For a **numerically specified, provisional example**, see [CVL-54/P0](CVL-54-P0.md). It is an experimental candidate, **not** a retroactive finalization of CVL-54.
+
 ## Proposed model
 
 - Each code unit has **6 bits** and 64 possible values.
