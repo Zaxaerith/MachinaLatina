@@ -44,6 +44,11 @@ Reserve 0x00–0x1F for controls; consider retaining 0x20–0x7F as a hypothetic
 
 Original documentation and editorial encoding tables are offered under **CC BY 4.0**; source code and code examples under **MIT**. This does not relicense third-party source materials. See root LICENSE and LICENSE-CODE.
 
+## D014 — Machina XXXVI experimental word-addressed ISA
+**State:** DRAFT / P0 research proposal (2026-10-26)
+
+A hypothetical 1954 scientific machine uses 36-bit words, 15-bit word addresses, a 12-bit opcode field, three index registers and six-bit CVL-54/P0 text with terminal-maintained LATINA/GRAECA shift state. Ten opcode semantics, bit encodings, and octal examples are proposed, but no emulator, floating-point format, tape protocol or hardware existence is claimed. See [ISA](../specifications/Machina-XXXVI.md) and [worked examples](machina-xxxvi-programs.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
