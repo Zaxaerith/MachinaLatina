@@ -4,7 +4,7 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 
 | Year | Status | Event | Engineering consequence |
 | --- | --- | --- | --- |
-| 1954 | DRAFT | **CVL-54** six-bit Latin/Greek shift pages proposed for early scientific machines | Six six-bit codes fit one 36-bit word; page state complicates random access |
+| 1954 | DRAFT | **CVL-54** six-bit Latin/Greek shift pages and experimental **Machina XXXVI/P0** | Six six-bit codes fit one 36-bit word; 15-bit word addresses and printer page state; [architecture](../specifications/Machina-XXXVI.md) |
 | 1957 | DRAFT | **TRANFOR** scientific formula language is adopted by research centers | Six-character identifiers and Greek mathematical labels emerge as design questions |
 | 1963 | DRAFT | **CVL-63** seven-bit communication code developed for terminals | Retains shift-state costs; needs a documented transition from CVL-54 |
 | 1964 | HIST anchor | Real-world System/360 helps demonstrate the relevance of 8-bit bytes | Our world need not have the same vendor; comparable byte-oriented pressures exist |
