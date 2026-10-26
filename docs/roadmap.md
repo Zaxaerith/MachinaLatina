@@ -34,11 +34,14 @@ The [encoding war narrative](encoding-war-1963-1968.md), [polytonic proposal](..
 - [ ] Test packing/unpacking six six-bit symbols in one 36-bit word
 - [ ] Validate error recovery and lossy conversions
 
-## 0.4 — Machina XXXVI design
+## 0.4 — Machina XXXVI design (Phase IV in progress)
 
-- [ ] Data formats, registers, addressing, interrupts and I/O
-- [ ] Completely specified ISA with executable test vectors
-- [ ] Minimal emulator and assembler, not a real hardware claim
+- [x] Publish experimental 36-bit word layout, 15-bit word addresses, registers, and synchronous output subset
+- [x] Specify P0 ten-opcode ISA and worked octal/hex machine words **on paper**
+- [x] Propose six-bit CVL-54/P0 two-page character assignments and shift semantics
+- [ ] Independently verify every machine word and output trace with code
+- [ ] Specify signed/floating arithmetic, interrupts, failures, tapes and physical I/O
+- [ ] Implement a minimal emulator and assembler; **not yet delivered**
 
 ## Later phases
 
