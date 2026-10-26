@@ -32,6 +32,10 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Encoding War / 编码战争](docs/encoding-war-1963-1968.md) | Fictional 1963–1968 standards conflict |
 | [Polytonic Greek P1](specifications/CVL-68-polytonic.md) | Candidate accent, breathing, sigma and normalization rules |
 | [Legacy migration](specifications/CVL-54-to-68-migration.md) | Conversion and archival constraints for six-bit machine records |
+| [Machina XXXVI ISA P0](specifications/Machina-XXXVI.md) | Fictional 1954 36-bit word-addressed machine and ten defined opcodes |
+| [CVL-54/P0 character profile](specifications/CVL-54-P0.md) | First numerical six-bit bilingual-page mapping candidate |
+| [Worked machine words](docs/machina-xxxvi-programs.md) | Octal/hex instruction and SALVE ΛΟΓΟΣ print vectors |
+| [36-bit legacy](docs/machina-xxxvi-legacy.md) | Why an eight-bit bilingual successor creates compatibility pressures |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
