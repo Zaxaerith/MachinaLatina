@@ -15,6 +15,10 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
 
+## Modern research implementation (not an alternate-history event)
+
+On **2026-10-31 in our own world**, this repository added a Python reference emulator for the fictional 1954 Machina XXXVI/P0 instruction subset. See [Phase V report](phase-v-emulator.md). Source inclusion is not evidence that the fictional machine existed in 1954, or that the committed tests have passed.
+
 ## Related narrative
 
 See [Controversia Codicum / Encoding War, 1963–1968](encoding-war-1963-1968.md). Its fictional factions and events are DRAFT, not real history.
