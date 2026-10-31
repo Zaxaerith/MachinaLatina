@@ -36,8 +36,21 @@ Instead of translating modern English keywords after the fact, this project asks
 | [CVL-54/P0 character profile](specifications/CVL-54-P0.md) | First numerical six-bit bilingual-page mapping candidate |
 | [Worked machine words](docs/machina-xxxvi-programs.md) | Octal/hex instruction and SALVE ΛΟΓΟΣ print vectors |
 | [36-bit legacy](docs/machina-xxxvi-legacy.md) | Why an eight-bit bilingual successor creates compatibility pressures |
+| [Phase V reference emulator](docs/phase-v-emulator.md) | Standard-library Python implementation, CLI and validation status |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
+
+## First executable experiment / 第五阶段程序
+
+The Phase V Python reference emulator implements the **ten Machina XXXVI/P0 opcodes** and the **stateful six-bit CVL-54/P0 printer**. It uses Python 3.10+ with no third-party packages.
+
+```sh
+python -m machina_xxxvi demo
+python -m machina_xxxvi run examples/salve_logos.m36
+python -m unittest discover -s tests -v
+```
+
+Expected terminal output: `SALVE ΛΟΓΟΣ`. The tests are checked in, **but a fully executed test run is not yet confirmed**; see [Phase V notes](docs/phase-v-emulator.md). There is no assembler, signed/floating arithmetic or CVL-68-native hardware yet.
 
 ## Three evidence levels / 三种证据等级
 
@@ -65,7 +78,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-10-25 — founding documentation, pre-implementation.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-10-31 — Phase V reference interpreter source committed; tests written, runtime validation pending.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
