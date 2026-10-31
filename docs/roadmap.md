@@ -41,7 +41,20 @@ The [encoding war narrative](encoding-war-1963-1968.md), [polytonic proposal](..
 - [x] Propose six-bit CVL-54/P0 two-page character assignments and shift semantics
 - [ ] Independently verify every machine word and output trace with code
 - [ ] Specify signed/floating arithmetic, interrupts, failures, tapes and physical I/O
-- [ ] Implement a minimal emulator and assembler; **not yet delivered**
+- [x] Commit a minimal Python P0 emulator, octal image loader and sample program
+- [x] Add unit tests covering instruction words, arithmetic, invalid fields and Greek printer state
+- [ ] Execute and record full test run against synchronized checkout
+- [ ] Implement an assembler; **not yet delivered**
+
+## 0.5 — Python reference interpreter (Phase V)
+
+- [x] Ten ISA P0 operations implemented in standard-library Python
+- [x] CVL-54/P0 stateful printer, octal image loader and demo program
+- [x] Test suite checked in (success not yet independently demonstrated)
+- [ ] Run the full tests and record verified output
+- [ ] Cross-platform smoke/CI and external test vectors
+
+See [Phase V report](phase-v-emulator.md).
 
 ## Later phases
 
