@@ -36,7 +36,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [CVL-54/P0 character profile](specifications/CVL-54-P0.md) | First numerical six-bit bilingual-page mapping candidate |
 | [Worked machine words](docs/machina-xxxvi-programs.md) | Octal/hex instruction and SALVE ΛΟΓΟΣ print vectors |
 | [36-bit legacy](docs/machina-xxxvi-legacy.md) | Why an eight-bit bilingual successor creates compatibility pressures |
-| [Phase V reference emulator](docs/phase-v-emulator.md) | Standard-library Python implementation, CLI and validation status |
+| [Phase V reference emulator](docs/phase-v-emulator.md) | Standard-library Python implementation and ISA P0 |
+| [Phase VI assembler + CVL gateway](docs/phase-vi-assembler-gateway.md) | Two-pass assembler, direct-byte conversion experiment and locally executed tests |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -50,7 +51,13 @@ python -m machina_xxxvi run examples/salve_logos.m36
 python -m unittest discover -s tests -v
 ```
 
-Expected terminal output: `SALVE ΛΟΓΟΣ`. The tests are checked in, **but a fully executed test run is not yet confirmed**; see [Phase V notes](docs/phase-v-emulator.md). There is no assembler, signed/floating arithmetic or CVL-68-native hardware yet.
+Expected terminal output: `SALVE ΛΟΓΟΣ`. Phase VI **adds a two-pass assembler and conversion gateway**; 22 tests passed locally on a reconstructed source tree, with clean-checkout/CI verification still outstanding. Signed/floating arithmetic and CVL-68-native hardware are not implemented.
+
+```sh
+python -m machina_xxxvi assemble examples/salve_logos.mxa --output demo.m36
+python -m machina_xxxvi run demo.m36
+python -m machina_xxxvi bridge demo.m36 00100 00101 --output demo.cvl
+```
 
 ## Three evidence levels / 三种证据等级
 
@@ -78,7 +85,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-10-31 — Phase V reference interpreter source committed; tests written, runtime validation pending.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase VI assembler and CVL-54→CVL-68 bridge committed; 22 local tests passed on a reconstructed working tree. CI/clean-clone verification still outstanding.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
