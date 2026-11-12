@@ -43,6 +43,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Nova-N0 memory](specifications/Machina-Nova-N0.md) | Experimental 24-bit byte addressing and 32-bit big-endian memory |
 | [Machina Nova-N1 ISA](specifications/Machina-Nova-N1.md) | Executable independent 1968 CPU with 12 candidate instructions |
 | [Phase VIII: two executable machine languages](docs/phase-viii-nova-n1.md) | Cross-machine text comparison and local test evidence |
+| [TRANFOR/P0 language](specifications/TRANFOR-P0.md) | First shared NAT15 scientific language and two native backends |
+| [Phase IX: portable source](docs/phase-ix-tranfor.md) | Compiler results, usage and research limitations |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -83,6 +85,18 @@ The experimental [Machina Nova-N1 ISA](specifications/Machina-Nova-N1.md) now ha
 
 The Phase VIII tests **passed locally on reconstructed legacy sources**; clean GitHub checkout and CI execution are still unverified. See [Phase VIII report](docs/phase-viii-nova-n1.md).
 
+## Phase IX: one source, two machines / 第九阶段
+
+**TRANFOR/P0** is an experimental common high-level language for XXXVI and Nova. It supports restricted 15-bit natural integers, simple add/subtract calculations and the Latin–Greek characters shared by both systems. The two backends generate *different* native memory images.
+
+```sh
+python -m tranfor run examples/portable_greeting.trf
+python -m tranfor build examples/portable_greeting.trf --out-dir build/tranfor
+python -m unittest discover -s tests -p test_tranfor.py -v
+```
+
+Its seven focused tests passed in a **local reconstructed-source environment**, but the committed GitHub tree has not yet been verified by clean-clone CI. See [Phase IX report](docs/phase-ix-tranfor.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -109,7 +123,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase VIII independent Nova-N1 CPU, image and two-machine comparison committed. Twelve Phase VIII tests passed locally; no clean-checkout CI is claimed.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase IX TRANFOR/P0 dual-target compiler and example committed. Seven dedicated tests passed locally using reconstructed existing CPU interfaces; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
