@@ -69,6 +69,11 @@ Two experimental families are proposed: [XXXVI-R0](../specifications/Machina-XXX
 
 Two experimental finite binary formats, [XXXVI-F36 and Nova-F32](../specifications/FLOAT-P0.md), use sign/exponent/explicit-normalized-fraction fields with different precision and exponent ranges. Both use exact rational evaluation followed by per-operation round-to-nearest ties-to-even, with invalid exponents and out-of-range results trapped. The [TRANFOR/P1](../specifications/TRANFOR-P1.md) extension keeps NAT15 integers, adds explicitly typed REALIS and deliberately **does not demand identical rounded floating values** on incompatible machines. IEEE 754 is not retroactively inserted into the fictional 1950s or 1960s.
 
+## D019 — Dot-product reproducibility is an algorithmic property
+**State:** DRAFT / executable research (2026-11-12)
+
+[TRANFOR/P2](../specifications/TRANFOR-P2.md) adds bounded 1–8-element REALIS vectors and ordered dot products. [Phase XI](phase-xi-vectors.md) specifies **left-to-right multiply, round, add, round** semantics; F36/F32 can produce different yet valid answers. The dual compiler lowers each step to existing CPU instructions plus new FMVL/FDIV instructions, retaining native word/byte addressing differences. This is neither SIMD nor a stable matrix library or historical fact.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
