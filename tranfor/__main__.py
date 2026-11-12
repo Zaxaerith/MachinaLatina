@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .compiler import compile_source, execute
 from .scientific import compile_scientific, execute_scientific
+from .vectors import compile_vectors, execute_vectors
 from machina_xxxvi.assembler import format_image as old_format
 from machina_nova.image import format_image as nova_format
 
@@ -19,8 +20,48 @@ def main() -> int:
         cmd.add_argument("source", type=Path)
         if name.startswith("build"):
             cmd.add_argument("--out-dir", type=Path, required=True)
+    for name in ("run-vector", "build-vector"):
+        cmd = sub.add_parser(name, help="TRANFOR/P2 bounded vector dot-product experiment")
+        cmd.add_argument("source", type=Path)
+        if name.startswith("build"):
+            cmd.add_argument("--out-dir", type=Path, required=True)
     args = parser.parse_args()
     try:
+        if args.command in ("run-vector", "build-vector"):
+            project = compile_vectors(args.source.read_text(encoding="utf-8"))
+            native = project.native
+            if args.command == "run-vector":
+                result = execute_vectors(project)
+                print(result["text"])
+                for name in project.exposed:
+                    if name in result["integer"]:
+                        print(f"{name}={result['integer'][name]}")
+                    else:
+                        f36, f32 = result["F36"][name], result["F32"][name]
+                        print(f"{name}: XXXVI-F36={f36} / Nova-F32={f32}" +
+                              (" [DIFFERENT ROUNDING]" if f36 != f32 else ""))
+                print("TRANFOR/P2: BOTH TARGETS MATCH THEIR DEFINED FORMATS")
+            else:
+                args.out_dir.mkdir(parents=True, exist_ok=True)
+                stem = args.source.stem
+                old = args.out_dir / f"{stem}.m36"
+                nova = args.out_dir / f"{stem}.nvi"
+                path = args.out_dir / f"{stem}.map.json"
+                old.write_text(old_format(native.old_words), encoding="utf-8")
+                nova.write_text(nova_format(native.nova_regions), encoding="utf-8")
+                manifest = {
+                    "status": "TRANFOR/P2 experimental fixed vectors; no stable ABI",
+                    "variables": list(project.exposed),
+                    "vector_elements": {n: list(names) for n,names in project.vectors.items()},
+                    "xxxvi_word_addresses_octal": {n:f"{a:05o}" for n,a in native.old_addresses.items()},
+                    "nova_byte_addresses_hex": {n:f"{a:06X}" for n,a in native.nova_addresses.items()},
+                    "expected_F36": {n:str(v) for n,v in native.expected_f36.items()},
+                    "expected_F32": {n:str(v) for n,v in native.expected_f32.items()},
+                    "expected_text": native.expected_text,
+                }
+                path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                print(f"XXXVI image: {old}\nNova image: {nova}\nVariable map: {path}")
+            return 0
         scientific = args.command.endswith("-real")
         source = args.source.read_text(encoding="utf-8")
         compiled = compile_scientific(source) if scientific else compile_source(source)
