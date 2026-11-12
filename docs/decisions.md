@@ -59,6 +59,11 @@ Two experimental families are proposed: [XXXVI-R0](../specifications/Machina-XXX
 
 [Machina Nova-N1](../specifications/Machina-Nova-N1.md) proposes an independent **32-bit fixed-instruction ISA** using an 8-bit opcode and 24-bit unsigned byte-address operand, a 32-bit accumulator, twelve initial operations and native CVL-68 candidate byte output. The reference emulator and its own sparse memory-image format are working experiments, **not a canonized machine-code standard** or a binary-compatible extension of XXXVI. See [Phase VIII results](phase-viii-nova-n1.md).
 
+## D017 — Portable TRANFOR/P0 NAT15 contract
+**State:** DRAFT / executable research (2026-11-12)
+
+[TRANFOR/P0](../specifications/TRANFOR-P0.md) specifies a single-assignment language with strictly range-checked unsigned **NAT15** numbers, a shared text repertoire and explicit compiler targets for XXXVI/P0 36-bit words and Nova-N1 32-bit instructions. Source portability does **not** mean binary compatibility, matching memory addresses or full ancient Greek orthography. No formal historical source-language standard is claimed. See [Phase IX report](phase-ix-tranfor.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
