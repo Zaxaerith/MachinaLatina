@@ -61,7 +61,7 @@ The .nvi format is a **modern sparse hex-byte memory listing**, not a vintage bi
 
 ## Phase X floating extension
 
-Four more opcodes are now specified for research: `60 FLEG` (load a validated F32 word), `61 FADD`, `62 FSVB`, and `63 FPON` (validate and store). They operate on the existing accumulator, use aligned four-byte words and perform the exact [Nova-F32](FLOAT-P0.md) round-to-nearest ties-to-even finite semantics. The original twelve N1 opcodes remain unchanged. This extension is not IEEE 754 and adds no multiply/divide. See [Phase X report](../docs/phase-x-floating.md).
+Four more opcodes are now specified for research: `60 FLEG` (load a validated F32 word), `61 FADD`, `62 FSVB`, and `63 FPON` (validate and store). They operate on the existing accumulator, use aligned four-byte words and perform the exact [Nova-F32](FLOAT-P0.md) round-to-nearest ties-to-even finite semantics. The original twelve N1 opcodes remain unchanged. This extension is not IEEE 754. Phase XI further adds `64 FMVL` and `65 FDIV` (hexadecimal) for finite multiply/divide with exact-rational operation and one F32 rounding, and traps division by zero. See [Phase XI](../docs/phase-xi-vectors.md). See [Phase X report](../docs/phase-x-floating.md).
 
 ## What is still missing
 
