@@ -1,0 +1,9 @@
+; TRANFOR/P2: one source, two independently rounded native dot products
+REALIS ONE = 1.0
+REALIS THIRD = 3.0
+FORMVLA DIV = ONE / THIRD
+VECTOR P = [1.0, 1.0, 1.0]
+VECTOR Q = [1.0, 0.000000059604644775390625, -1.0]
+PRODVC S = P * Q
+SCRIBE "SALVE ΛΟΓΟΣ"
+FINIS
