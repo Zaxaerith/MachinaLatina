@@ -113,9 +113,23 @@ See [Phase IX](phase-ix-tranfor.md) and [TRANFOR/P0 specification](../specificat
 - [x] Demonstrate deterministic divergence for 1 + 2^-24 on F36 vs F32
 - [x] Run 11 new local floating tests and 7 prior TRANFOR tests against a reconstructed development environment
 - [ ] Validate a clean checkout of the full GitHub repository (including Phase V–IX tests) in CI
-- [ ] Define float multiplication/division, comparison, formatted numeric I/O and cross-format conversion
+- [x] Define float multiplication/division with per-format deterministic rounding
+- [ ] Define comparison, formatted numeric I/O and cross-format conversion
 
 See [Phase X report](phase-x-floating.md), [floating profile](../specifications/FLOAT-P0.md) and [TRANFOR/P1](../specifications/TRANFOR-P1.md).
+
+## 1.1 — Phase XI: bounded scientific vectors
+
+- [x] Extend both fictional finite floating formats with exact-rational multiplication/division, one rounding per operation
+- [x] Extend XXXVI and Nova with separate experimental FMVL/FDIV opcodes
+- [x] Extend TRANFOR to P2 bounded VECTOR literals (1–8 REALIS values) and ordered PRODVC dot products
+- [x] Generate actual machine instructions rather than compiler-only dot-product constants
+- [x] Demonstrate F36 1/16777216 versus F32 0 after identical ordered dot-product source
+- [x] Run 10 new tests; 69/69 in reconstructed local tree on 2026-11-12
+- [ ] Confirm clean checkout/full-suite reproducibility via CI
+- [ ] Investigate library and precision contracts, no speculative premature OS
+
+See [Phase XI](phase-xi-vectors.md) and [TRANFOR/P2](../specifications/TRANFOR-P2.md).
 
 ## Later phases
 
