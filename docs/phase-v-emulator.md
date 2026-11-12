@@ -1,6 +1,6 @@
 # Phase V — Machina XXXVI/P0 reference emulator
 
-**Status: implementation committed; automated test execution still requires a Python environment with this checkout.**
+**Historical snapshot:** this was the Phase V status. As of Phase VI (2026-11-12), 13 original Phase V test methods passed locally as part of a 22-method run in a reconstructed working tree; clean-checkout/CI validation remains outstanding. See [Phase VI report](phase-vi-assembler-gateway.md).
 
 The first implementation of the fictional 1954 Machina XXXVI is written in **Python 3.10+ using only the Python standard library**. This is a modern reference interpreter for a counterfactual architecture, not software recovered from an historical computer.
 
@@ -69,6 +69,6 @@ A program without FIN eventually hits a bounded step limit. HALT occurs **only**
 
 ## Validation status / 验证状态
 
-The test suite in `tests/test_machina_xxxvi.py` was created alongside the implementation; **a successful end-to-end test run has not yet been recorded** in this development environment, because the local execution container could not reach GitHub to materialize the remotely committed source. Do not claim green tests until `python -m unittest discover -s tests -v` is actually run against a synchronized checkout.
+The original suite was subsequently reproduced and run locally on 2026-11-12 (13 tests passed); together with Phase VI additions, 22 tests passed. These were run on a **reconstructed working tree**, not a freshly cloned GitHub checkout, and should not be represented as GitHub CI results. See [Phase VI report](phase-vi-assembler-gateway.md).
 
 Future work: independent word-vector verification; end-to-end command-line tests; CI; assembler syntax; reliable 36-bit archival and text gateway semantics.
