@@ -74,7 +74,7 @@ def parse_scientific(source: str) -> tuple[list[Action], dict[str, str], str]:
         if in_text:
             raise TranforError(f'line {line_no}: numeric statement after SCRIBE')
         declaration = re.fullmatch(r'(DATVM|REALIS)\s+(\S+)\s*=\s*(\S+)', line)
-        expression = re.fullmatch(r'(CALCVLA|FORMVLA)\s+(\S+)\s*=\s*(\S+)\s*([+-])\s*(\S+)', line)
+        expression = re.fullmatch(r'(CALCVLA|FORMVLA)\s+(\S+)\s*=\s*(\S+)\s*([+*/-])\s*(\S+)', line)
         if declaration:
             cmd, name, raw = declaration.groups()
             _identifier(name, line_no)
@@ -102,6 +102,8 @@ def parse_scientific(source: str) -> tuple[list[Action], dict[str, str], str]:
             if name in kinds:
                 raise TranforError(f'line {line_no}: duplicate variable {name}')
             kind = 'NAT15' if cmd == 'CALCVLA' else 'REALIS'
+            if cmd == 'CALCVLA' and operator not in '+-':
+                raise TranforError(f'line {line_no}: NAT15 supports only + and -')
             if kinds.get(left) != kind or kinds.get(right) != kind:
                 raise TranforError(f'line {line_no}: undefined operands or mixed numeric types')
             kinds[name] = kind
@@ -131,7 +133,7 @@ def compile_scientific(source: str) -> ScientificBuild:
             f36[item.name], f32[item.name] = F36.encode(item.literal), F32.encode(item.literal)
         elif item.kind == 'FORMVLA':
             try:
-                operation = 'add' if item.operator == '+' else 'subtract'
+                operation = {'+':'add', '-':'subtract', '*':'multiply', '/':'divide'}[item.operator]
                 f36[item.name] = getattr(F36, operation)(f36[item.left], f36[item.right])
                 f32[item.name] = getattr(F32, operation)(f32[item.left], f32[item.right])
             except FloatFault as exc:
@@ -174,10 +176,10 @@ def compile_scientific(source: str) -> ScientificBuild:
                        nova_encode(0x13, nova_addr[a])))
         else:
             oi.extend((old_encode(10, old_addr[s.left]),
-                       old_encode(11 if s.operator == '+' else 12, old_addr[s.right]),
+                       old_encode({'+':11, '-':12, '*':14, '/':15}[s.operator], old_addr[s.right]),
                        old_encode(13, old_addr[a])))
             ni.extend((nova_encode(0x60, nova_addr[s.left]),
-                       nova_encode(0x61 if s.operator == '+' else 0x62, nova_addr[s.right]),
+                       nova_encode({'+':0x61, '-':0x62, '*':0x64, '/':0x65}[s.operator], nova_addr[s.right]),
                        nova_encode(0x63, nova_addr[a])))
     oi.extend(old_encode(8, old_text + i) for i in range(ntext))
     ni.extend(nova_encode(0x50, nova_text + i) for i in range(len(t68)))
