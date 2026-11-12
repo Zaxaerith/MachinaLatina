@@ -84,6 +84,15 @@ class FloatFormat:
     def subtract(self, left: int, right: int) -> int:
         return self.encode(self.decode(left) - self.decode(right))
 
+    def multiply(self, left: int, right: int) -> int:
+        return self.encode(self.decode(left) * self.decode(right))
+
+    def divide(self, left: int, right: int) -> int:
+        denominator = self.decode(right)
+        if denominator == 0:
+            raise FloatFault(f"{self.name}: division by zero")
+        return self.encode(self.decode(left) / denominator)
+
 
 # Fractional binary significand with an EXPLICIT leading 1 bit in the fraction.
 # Normal: 1/2 <= mantissa / 2**fraction_bits < 1.
