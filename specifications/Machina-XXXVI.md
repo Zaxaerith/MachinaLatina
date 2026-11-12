@@ -78,9 +78,13 @@ These upper-case mnemonics deliberately fit the 23-letter Classical Latin base. 
 
 The CPU's `EMIT` operation is synchronous in this model; **real device latencies, interrupts and controllers are deferred**. No `INW`, tape DMA or buffered character I/O is specified yet.
 
+## Phase X floating extension — additional experimental opcodes
+
+The Phase X study extends this earlier P0 instruction set with FLEG (octal 0012), FADD (0013), FSVB (0014) and FPON (0015). Floating operations interpret the existing 36-bit A word as [XXXVI-F36](FLOAT-P0.md), trap invalid representations and round finite add/subtract exactly once per operation. This **does not** add float multiplication, division or complete era-specific physical I/O. See [Phase X](../docs/phase-x-floating.md).
+
 ## Scientific arithmetic / numerical formats deferred
 
-A 1950s scientific computer would normally require signed integers and hardware floating point. Rather than quietly borrowing a later standard, P0 specifies only bitwise-stable unsigned modular integer arithmetic. Candidates for later review:
+A 1950s scientific computer would normally require signed integers and hardware floating point. Historical **P0** defined only unsigned modular integers. Phase X adds a separate *experimental finite float subset*; other numerical decisions remain open:
 
 - sign–magnitude vs two's-complement negative integers;
 - floating `1 sign + 8 exponent + 27 fraction` as a historically inspired **candidate**, not a defined numeric representation;
