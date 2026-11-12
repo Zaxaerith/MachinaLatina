@@ -43,18 +43,30 @@ The [encoding war narrative](encoding-war-1963-1968.md), [polytonic proposal](..
 - [ ] Specify signed/floating arithmetic, interrupts, failures, tapes and physical I/O
 - [x] Commit a minimal Python P0 emulator, octal image loader and sample program
 - [x] Add unit tests covering instruction words, arithmetic, invalid fields and Greek printer state
-- [ ] Execute and record full test run against synchronized checkout
-- [ ] Implement an assembler; **not yet delivered**
+- [x] Run 22 local unit tests against a reconstructed working tree (2026-11-12)
+- [ ] Execute full suite on a clean GitHub checkout / CI
+- [x] Implement P0 two-pass assembler and handwritten / TEX word generation
 
 ## 0.5 — Python reference interpreter (Phase V)
 
 - [x] Ten ISA P0 operations implemented in standard-library Python
 - [x] CVL-54/P0 stateful printer, octal image loader and demo program
 - [x] Test suite checked in (success not yet independently demonstrated)
-- [ ] Run the full tests and record verified output
+- [x] Run and record 22 local tests (reconstructed tree, not clean clone)
+- [ ] Run CI / clean-clone conformance tests
 - [ ] Cross-platform smoke/CI and external test vectors
 
 See [Phase V report](phase-v-emulator.md).
+
+## 0.6 — Phase VI: assembler and text gateway
+
+- [x] Two-pass Latin mnemonic assembler with forward labels, ORG/VER/TEX, and octal memory-image export
+- [x] Candidate CVL-54/P0 to CVL-68 direct-byte subset gateway (lossy with respect to original archive metadata)
+- [x] 22/22 local test methods passed on 2026-11-12 (13 legacy + 9 new)
+- [ ] Verify the committed GitHub tree in CI or a clean clone
+- [ ] Develop a coherent record framing / printer reset contract and fuller polytonic treatment
+
+See [Phase VI report](phase-vi-assembler-gateway.md).
 
 ## Later phases
 
