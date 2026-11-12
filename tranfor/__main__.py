@@ -1,29 +1,46 @@
-"""CLI: python -m tranfor run FILE | build FILE --out-dir DIR."""
+"""TRANFOR/P0 and TRANFOR/P1 dual-target tools, modern experimental drafts."""
 from __future__ import annotations
+
 import argparse
 import json
 from pathlib import Path
+
 from .compiler import compile_source, execute
+from .scientific import compile_scientific, execute_scientific
 from machina_xxxvi.assembler import format_image as old_format
 from machina_nova.image import format_image as nova_format
 
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="TRANFOR/P0 fictional dual-target compiler")
+    parser = argparse.ArgumentParser(description="Machina Latina experimental TRANFOR compiler")
     sub = parser.add_subparsers(dest="command", required=True)
-    run = sub.add_parser("run", help="compile, run and compare both CPU targets")
-    run.add_argument("source", type=Path)
-    build = sub.add_parser("build", help="emit both memory images and a variable map")
-    build.add_argument("source", type=Path)
-    build.add_argument("--out-dir", type=Path, required=True)
+    for name in ("run", "run-real", "build", "build-real"):
+        cmd = sub.add_parser(name)
+        cmd.add_argument("source", type=Path)
+        if name.startswith("build"):
+            cmd.add_argument("--out-dir", type=Path, required=True)
     args = parser.parse_args()
     try:
-        compiled = compile_source(args.source.read_text(encoding="utf-8"))
+        scientific = args.command.endswith("-real")
+        source = args.source.read_text(encoding="utf-8")
+        compiled = compile_scientific(source) if scientific else compile_source(source)
         if args.command == "run":
-            text, values = execute(compiled)
-            print(text)
-            for name, value in values.items():
-                print(f"{name}={value}")
+            result_text, values = execute(compiled)
+            print(result_text)
+            for key, value in values.items():
+                print(f"{key}={value}")
             print("TRANFOR/P0: BOTH TARGETS AGREE")
+        elif args.command == "run-real":
+            result = execute_scientific(compiled)
+            print(result["text"])
+            for name, kind in compiled.kinds.items():
+                if kind == "NAT15":
+                    print(f"{name}={result['integer'][name]}")
+                else:
+                    f36, f32 = result["F36"][name], result["F32"][name]
+                    print(f"{name}: XXXVI-F36={f36} / Nova-F32={f32}" +
+                          (" [DIFFERENT ROUNDING]" if f36 != f32 else ""))
+            print("TRANFOR/P1: BOTH TARGETS MATCH THEIR DEFINED FORMATS")
         else:
             args.out_dir.mkdir(parents=True, exist_ok=True)
             stem = args.source.stem
@@ -32,20 +49,33 @@ def main() -> int:
             map_path = args.out_dir / f"{stem}.map.json"
             old_path.write_text(old_format(compiled.old_words), encoding="utf-8")
             nova_path.write_text(nova_format(compiled.nova_regions), encoding="utf-8")
-            manifest = {
-                "status": "TRANFOR/P0 modern draft; not a stable ABI",
-                "xxxvi_word_addresses_octal": {name: f"{addr:05o}" for name, addr in compiled.old_variables.items()},
-                "nova_byte_addresses_hex": {name: f"{addr:06X}" for name, addr in compiled.nova_variables.items()},
-                "expected_values": compiled.expected_values,
-                "expected_text": compiled.expected_text,
-            }
+            if scientific:
+                manifest = {
+                    "status": "TRANFOR/P1 floating research draft, not a stable ABI",
+                    "xxxvi_word_addresses_octal": {n: f"{a:05o}" for n,a in compiled.old_addresses.items()},
+                    "nova_byte_addresses_hex": {n: f"{a:06X}" for n,a in compiled.nova_addresses.items()},
+                    "types": compiled.kinds,
+                    "NAT15": compiled.expected_integer,
+                    "F36_exact_rational": {n: str(v) for n,v in compiled.expected_f36.items()},
+                    "F32_exact_rational": {n: str(v) for n,v in compiled.expected_f32.items()},
+                    "expected_text": compiled.expected_text,
+                }
+            else:
+                manifest = {
+                    "status": "TRANFOR/P0 modern draft; not a stable ABI",
+                    "xxxvi_word_addresses_octal": {n: f"{a:05o}" for n,a in compiled.old_variables.items()},
+                    "nova_byte_addresses_hex": {n: f"{a:06X}" for n,a in compiled.nova_variables.items()},
+                    "expected_values": compiled.expected_values,
+                    "expected_text": compiled.expected_text,
+                }
             map_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             print(f"XXXVI image: {old_path}")
             print(f"Nova image: {nova_path}")
             print(f"Variable map: {map_path}")
         return 0
     except (ValueError, RuntimeError, OSError) as exc:
-        parser.exit(1, f"TRANFOR/P0: {exc}\n")
+        parser.exit(1, f"TRANFOR error: {exc}\n")
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
