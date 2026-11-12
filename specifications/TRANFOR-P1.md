@@ -44,8 +44,12 @@ python -m tranfor build-real examples/rounding.trf --out-dir build/floating
 python -m unittest discover -s tests -p test_scientific.py -v
 ```
 
+## Phase XI extension
+
+`FORMVLA` also accepts scalar `*` and `/` in the experimental Phase XI implementation. This extends but does not reinterpret the earlier P1 `+` and `-` forms. `CALCVLA` remains NAT15 addition/subtraction only. [TRANFOR/P2](TRANFOR-P2.md) adds bounded vectors and ordered dot products via unrolled actual machine operations.
+
 ## Non-goals
 
-No general functions, loops, arrays, user input, variable reassignment, float multiplication/division, real-number formatted printing, automatic numeric promotion, full polytonic Greek text, a historical 1950s compiler or interoperability with modern IEEE 754 software.
+No general functions, loops, arrays, user input, variable reassignment, real-number formatted printing, automatic numeric promotion, full polytonic Greek text, a historical 1950s compiler or interoperability with modern IEEE 754 software.
 
 See [floating profile](FLOAT-P0.md) and [Phase X report](../docs/phase-x-floating.md).
