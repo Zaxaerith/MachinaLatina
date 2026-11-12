@@ -41,6 +41,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Phase VII architecture fork](docs/phase-vii-architecture-fork.md) | 36-bit XXXVI-R0 versus 32-bit byte-addressed Nova-N0 |
 | [XXXVI-R0 retrofit](specifications/Machina-XXXVI-R0.md) | Experimental four-byte packing in a 36-bit word |
 | [Nova-N0 memory](specifications/Machina-Nova-N0.md) | Experimental 24-bit byte addressing and 32-bit big-endian memory |
+| [Machina Nova-N1 ISA](specifications/Machina-Nova-N1.md) | Executable independent 1968 CPU with 12 candidate instructions |
+| [Phase VIII: two executable machine languages](docs/phase-viii-nova-n1.md) | Cross-machine text comparison and local test evidence |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -71,6 +73,16 @@ python -m machina_xxxvi.archlab
 python -m unittest discover -s tests -p test_archlab.py -v
 ```
 
+## Phase VIII: the independent Nova CPU / 第八阶段
+
+The experimental [Machina Nova-N1 ISA](specifications/Machina-Nova-N1.md) now has its own 32-bit CPU interpreter, sample byte-addressed program and 12 focused tests. Running the two **different** machine-language greetings produces the same visible text, not binary-compatible code.
+
+    python -m machina_nova demo
+    python -m machina_nova run examples/nova_salve_logos.nvi
+    python -m machina_nova compare
+
+The Phase VIII tests **passed locally on reconstructed legacy sources**; clean GitHub checkout and CI execution are still unverified. See [Phase VIII report](docs/phase-viii-nova-n1.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -97,7 +109,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase VII memory-layout experiment committed; seven additional focused tests passed locally in a standalone experimental module. The preceding 22 Phase V/VI tests were separately reported on a reconstructed working tree. No clean-checkout CI is claimed.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase VIII independent Nova-N1 CPU, image and two-machine comparison committed. Twelve Phase VIII tests passed locally; no clean-checkout CI is claimed.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
