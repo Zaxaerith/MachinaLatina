@@ -5,12 +5,14 @@ Fictional 1954 architecture: 36-bit word-addressed, ten opcodes, no floats.
 from __future__ import annotations
 
 from .cvl54 import Printer, WORD_MASK
+from .floating import F36, FloatFault
 
 ADDRESS_MASK = (1 << 15) - 1
 MEMORY_WORDS = 1 << 15
 OPCODES = {
     0: "FIN", 1: "LEGE", 2: "PONE", 3: "ADDE", 4: "SVBT",
     5: "SALTA", 6: "SI0", 7: "PONX", 8: "EMIT", 9: "NVM",
+    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON",
 }
 
 
@@ -102,6 +104,20 @@ class Machine:
             self.printer.feed_word(self.memory[ea])
         elif op == 9:
             self.a = adr
+        elif op in (10, 11, 12, 13):
+            try:
+                if op == 10:
+                    F36.decode(self.memory[ea])
+                    self.a = self.memory[ea]
+                elif op == 11:
+                    self.a = F36.add(self.a, self.memory[ea])
+                elif op == 12:
+                    self.a = F36.subtract(self.a, self.memory[ea])
+                else:
+                    F36.decode(self.a)
+                    self.memory[ea] = self.a
+            except FloatFault as exc:
+                raise MachineFault(f"F36 fault at {at:05o}: {exc}") from exc
         self.pc = next_pc
         self.steps += 1
         return at, OPCODES[op]
