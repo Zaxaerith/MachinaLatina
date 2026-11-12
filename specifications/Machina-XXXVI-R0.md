@@ -23,7 +23,7 @@ R0 preserves the [Machina XXXVI/P0](Machina-XXXVI.md) machine word and addresses
 6. Preserve original packed six-bit archives separately if byte-exact historical restoration is required.
 7. No device interrupt, controller timing, tape framing or independent adapter instruction protocol is defined.
 
-**Example:** candidate CVL-68 `SALVE ΛΟΓΟΣ` (11 bytes) becomes three words: `52414B540`, `45208A8E0`, `828E91000` (hex, nine characters per 36-bit word). Its last word carries one data byte, and 3 trailing filler bytes; there are 4 reserved low bits per word.
+**Example:** candidate CVL-68 `SALVE ΛΟΓΟΣ` (11 bytes) becomes three words: `52414B540`, `45208A8E0`, `828E91000` (hex, nine characters per 36-bit word). Its last word carries three data bytes and one trailing filler byte; there are 4 reserved low bits per word.
 
 **Limit:** this is not native character addressing. An old instruction can still only select entire 36-bit memory words. The CPU's 15-bit addressing remains unchanged.
 
