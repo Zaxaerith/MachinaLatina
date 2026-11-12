@@ -45,6 +45,9 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Phase VIII: two executable machine languages](docs/phase-viii-nova-n1.md) | Cross-machine text comparison and local test evidence |
 | [TRANFOR/P0 language](specifications/TRANFOR-P0.md) | First shared NAT15 scientific language and two native backends |
 | [Phase IX: portable source](docs/phase-ix-tranfor.md) | Compiler results, usage and research limitations |
+| [Floating profiles](specifications/FLOAT-P0.md) | Two non-IEEE exact-rounding F36/F32 formats |
+| [TRANFOR/P1](specifications/TRANFOR-P1.md) | Typed scientific floating extension with two native backends |
+| [Phase X: numerical divergence](docs/phase-x-floating.md) | How 36-bit and 32-bit computers compute different rounded answers |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -97,6 +100,18 @@ python -m unittest discover -s tests -p test_tranfor.py -v
 
 Its seven focused tests passed in a **local reconstructed-source environment**, but the committed GitHub tree has not yet been verified by clean-clone CI. See [Phase IX report](docs/phase-ix-tranfor.md).
 
+## Phase X: two floating-point architectures / 第十阶段
+
+Both CPUs now support experimental floating-point extensions **without altering the old P0 integer instructions**. XXXVI-F36 and Nova-F32 use different precision/range profiles; TRANFOR/P1's exact rational oracle checks each target separately rather than incorrectly insisting every floating result match.
+
+```sh
+python -m tranfor run-real examples/rounding.trf
+python -m tranfor build-real examples/rounding.trf --out-dir build/floating
+python -m unittest discover -s tests -p test_scientific.py -v
+```
+
+The source example computes 1 + 2^-24: F36 retains the increment; F32 rounds the exact tie to 1. Local reconstructed-source tests ran successfully, but a full clean checkout and CI are unverified. See [Phase X study](docs/phase-x-floating.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -123,7 +138,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase IX TRANFOR/P0 dual-target compiler and example committed. Seven dedicated tests passed locally using reconstructed existing CPU interfaces; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase X F36/F32 mathematical reference, floating CPU extensions and TRANFOR/P1 scientific language committed. Local reconstructed-source tests passed; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
