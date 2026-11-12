@@ -6,8 +6,6 @@ from __future__ import annotations
 
 LATIN = "ABCDEFGHIKLMNOPQRSTVXYZ"
 GREEK = "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ"
-SHARED = {**{25 + i: c for i, c in enumerate("0123456789")},
-          **dict(enumerate(" ., :;+ -*/=()?".replace(" ", ""), start=999))}
 # Fixed assignments from CVL-54/P0; avoid relying on dictionary insertion order.
 SHARED = {
     **{25 + i: c for i, c in enumerate("0123456789")},
