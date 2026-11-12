@@ -104,6 +104,19 @@ See [Phase VIII](phase-viii-nova-n1.md).
 
 See [Phase IX](phase-ix-tranfor.md) and [TRANFOR/P0 specification](../specifications/TRANFOR-P0.md).
 
+## 1.0 — Phase X: portable scientific arithmetic, not identical floating results
+
+- [x] Publish experimental 36-bit XXXVI-F36 and 32-bit Nova-F32 binary float profiles
+- [x] Implement exact-rational finite encoding, round-to-nearest ties-to-even and trapped invalid codes
+- [x] Add four FLEG/FADD/FSVB/FPON instructions to **each** CPU, preserving original P0 integer opcodes
+- [x] Add typed REALIS/FORMVLA to TRANFOR/P1, with two per-format backend oracles
+- [x] Demonstrate deterministic divergence for 1 + 2^-24 on F36 vs F32
+- [x] Run 11 new local floating tests and 7 prior TRANFOR tests against a reconstructed development environment
+- [ ] Validate a clean checkout of the full GitHub repository (including Phase V–IX tests) in CI
+- [ ] Define float multiplication/division, comparison, formatted numeric I/O and cross-format conversion
+
+See [Phase X report](phase-x-floating.md), [floating profile](../specifications/FLOAT-P0.md) and [TRANFOR/P1](../specifications/TRANFOR-P1.md).
+
 ## Later phases
 
 - [x] First experimental TRANFOR/P0 scientific language sketch and dual-target compiler (not a production compiler)
