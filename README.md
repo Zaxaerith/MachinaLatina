@@ -38,6 +38,9 @@ Instead of translating modern English keywords after the fact, this project asks
 | [36-bit legacy](docs/machina-xxxvi-legacy.md) | Why an eight-bit bilingual successor creates compatibility pressures |
 | [Phase V reference emulator](docs/phase-v-emulator.md) | Standard-library Python implementation and ISA P0 |
 | [Phase VI assembler + CVL gateway](docs/phase-vi-assembler-gateway.md) | Two-pass assembler, direct-byte conversion experiment and locally executed tests |
+| [Phase VII architecture fork](docs/phase-vii-architecture-fork.md) | 36-bit XXXVI-R0 versus 32-bit byte-addressed Nova-N0 |
+| [XXXVI-R0 retrofit](specifications/Machina-XXXVI-R0.md) | Experimental four-byte packing in a 36-bit word |
+| [Nova-N0 memory](specifications/Machina-Nova-N0.md) | Experimental 24-bit byte addressing and 32-bit big-endian memory |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -57,6 +60,15 @@ Expected terminal output: `SALVE ΛΟΓΟΣ`. Phase VI **adds a two-pass assembl
 python -m machina_xxxvi assemble examples/salve_logos.mxa --output demo.m36
 python -m machina_xxxvi run demo.m36
 python -m machina_xxxvi bridge demo.m36 00100 00101 --output demo.cvl
+```
+
+## 1968 architecture fork / 第七阶段
+
+The [Phase VII analysis](docs/phase-vii-architecture-fork.md) compares **XXXVI-R0** (four eight-bit bytes packed into each 36-bit word, with external length metadata) against **Nova-N0** (24-bit byte addresses and candidate 32-bit data words). It is a **memory-layout study**, not a new CPU or released emulator. The proposals coexist with the six-bit 1954 machine; they do not rewrite that history.
+
+```sh
+python -m machina_xxxvi.archlab
+python -m unittest discover -s tests -p test_archlab.py -v
 ```
 
 ## Three evidence levels / 三种证据等级
@@ -85,7 +97,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase VI assembler and CVL-54→CVL-68 bridge committed; 22 local tests passed on a reconstructed working tree. CI/clean-clone verification still outstanding.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase VII memory-layout experiment committed; seven additional focused tests passed locally in a standalone experimental module. The preceding 22 Phase V/VI tests were separately reported on a reconstructed working tree. No clean-checkout CI is claimed.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
