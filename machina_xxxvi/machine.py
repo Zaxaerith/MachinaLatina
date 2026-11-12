@@ -12,7 +12,7 @@ MEMORY_WORDS = 1 << 15
 OPCODES = {
     0: "FIN", 1: "LEGE", 2: "PONE", 3: "ADDE", 4: "SVBT",
     5: "SALTA", 6: "SI0", 7: "PONX", 8: "EMIT", 9: "NVM",
-    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON",
+    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON", 14: "FMVL", 15: "FDIV",
 }
 
 
@@ -104,7 +104,7 @@ class Machine:
             self.printer.feed_word(self.memory[ea])
         elif op == 9:
             self.a = adr
-        elif op in (10, 11, 12, 13):
+        elif op in (10, 11, 12, 13, 14, 15):
             try:
                 if op == 10:
                     F36.decode(self.memory[ea])
@@ -113,9 +113,13 @@ class Machine:
                     self.a = F36.add(self.a, self.memory[ea])
                 elif op == 12:
                     self.a = F36.subtract(self.a, self.memory[ea])
-                else:
+                elif op == 13:
                     F36.decode(self.a)
                     self.memory[ea] = self.a
+                elif op == 14:
+                    self.a = F36.multiply(self.a, self.memory[ea])
+                else:
+                    self.a = F36.divide(self.a, self.memory[ea])
             except FloatFault as exc:
                 raise MachineFault(f"F36 fault at {at:05o}: {exc}") from exc
         self.pc = next_pc
