@@ -15,6 +15,7 @@ OPCODES = {
     0x13: "PONW", 0x20: "ADDE", 0x21: "SVBT", 0x30: "SALTA",
     0x31: "SI0", 0x40: "NVM", 0x41: "ADI", 0x50: "EMIT",
     0x60: "FLEG", 0x61: "FADD", 0x62: "FSVB", 0x63: "FPON",
+    0x64: "FMVL", 0x65: "FDIV",
 }
 MNEMONICS = {name: code for code, name in OPCODES.items()}
 
@@ -120,6 +121,10 @@ class NovaCPU:
                 next_a = F32.add(self.a, self.memory.read_word32(operand))
             elif op == 0x62:
                 next_a = F32.subtract(self.a, self.memory.read_word32(operand))
+            elif op == 0x64:
+                next_a = F32.multiply(self.a, self.memory.read_word32(operand))
+            elif op == 0x65:
+                next_a = F32.divide(self.a, self.memory.read_word32(operand))
             elif op == 0x63:
                 self.memory._range(operand, 4)
                 if operand % 4:
