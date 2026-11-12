@@ -1,0 +1,7 @@
+; TRANFOR/P0: shared source targeting two fictional machine families
+DATVM A = 7
+DATVM B = 5
+CALCVLA C = A + B
+CALCVLA D = C - A
+SCRIBE "SALVE ΛΟΓΟΣ"
+FINIS
