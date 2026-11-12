@@ -93,9 +93,20 @@ See [Phase VII architecture fork](phase-vii-architecture-fork.md).
 
 See [Phase VIII](phase-viii-nova-n1.md).
 
+## 0.9 — Phase IX: TRANFOR/P0 portable source experiment
+
+- [x] Publish a constrained NAT15 and shared Latin–Greek text-language contract
+- [x] Implement dual XXXVI/P0 and Nova-N1 compiler backends
+- [x] Emit two distinct native memory-image formats plus variable-address metadata
+- [x] Run local compiler and interpreter smoke test; 7 focused tests passed using reconstructed existing target interfaces
+- [ ] Validate exact committed source across both real repository CPU implementations and clean-checkout CI
+- [ ] Study portable floating-point semantics, a source-to-source front end, and cross-machine I/O protocols
+
+See [Phase IX](phase-ix-tranfor.md) and [TRANFOR/P0 specification](../specifications/TRANFOR-P0.md).
+
 ## Later phases
 
-- [ ] TRANFOR scientific language sketch and compiler experiment
+- [x] First experimental TRANFOR/P0 scientific language sketch and dual-target compiler (not a production compiler)
 - [ ] Latin system calls, terminal emulation and primitive file system
 - [ ] Historical 'compatibility incident' case studies
 - [ ] Later universal multi-script encoding and fictional Internet standards
