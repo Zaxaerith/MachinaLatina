@@ -65,6 +65,14 @@ Old XXXVI opcodes are **octal**; Nova opcodes are **hexadecimal**. Both float in
 
 XXXVI operands address **36-bit words**; Nova operands address **four-byte-aligned 32-bit words**. All float faults are trapped; a faulting instruction must not partially update A, PC or output. No floating multiply/divide, exceptions with hardware status flags, transcendental math or real I/O formats are defined.
 
+## Phase XI extension: multiplication and division
+
+The exact-rational reference profiles now add `multiply(left,right)` and `divide(left,right)`. Both decode operands as exact values, compute the exact product or quotient, and round **once** into the destination profile. A zero denominator raises a trapped floating fault; zero times a finite operand yields canonical zero. Nonrepresentable finite products/quotients also trap.
+
+The corresponding native CPU instructions are XXXVI octal `0016 FMVL` and `0017 FDIV`, and Nova hexadecimal `64 FMVL` and `65 FDIV`. These names are fictional. No fused multiply-add, vectorized instruction, decimal or IEEE-754 special value semantics are implied.
+
+See [TRANFOR/P2](TRANFOR-P2.md) and [Phase XI](../docs/phase-xi-vectors.md).
+
 ## Validation and historical perspective
 
 The modern exact-rational library is `machina_xxxvi/floating.py`; both CPU interpreters now use it. See the [TRANFOR/P1](TRANFOR-P1.md) source contract and [Phase X report](../docs/phase-x-floating.md).
