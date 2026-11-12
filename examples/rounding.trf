@@ -1,0 +1,9 @@
+; TRANFOR/P1: typed natural integers and pre-universal floating point
+DATVM A = 7
+DATVM B = 5
+CALCVLA C = A + B
+REALIS X = 1.0
+REALIS EPS = 0.000000059604644775390625
+FORMVLA Y = X + EPS
+SCRIBE "SALVE ΛΟΓΟΣ"
+FINIS
