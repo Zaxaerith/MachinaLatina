@@ -76,10 +76,22 @@ See [Phase VI report](phase-vi-assembler-gateway.md).
 - [x] Implement 24-bit-address-space / 32-bit big-endian N0 memory laboratory
 - [x] Run 7 focused local memory-layout tests (2026-11-12)
 - [ ] Validate full repository tests on a synchronized checkout or GitHub Actions
-- [ ] Decide Nova's actual ISA and architecture profile before any CPU emulator
+- [x] Propose and implement an experimental Nova-N1 ISA and reference CPU; **not yet canonized**
 - [ ] Specify controller record framing and software-level compatibility
 
 See [Phase VII architecture fork](phase-vii-architecture-fork.md).
+
+## 0.8 — Phase VIII: first independent Nova CPU
+
+- [x] Specify Nova-N1 fixed 32-bit instruction format (8-bit opcode + 24-bit operand)
+- [x] Implement twelve byte-addressed CPU instructions, native byte output and hex-byte memory images
+- [x] Run two independent machine-language greetings; both decode to SALVE ΛΟΓΟΣ
+- [x] Execute twelve local Phase VIII tests and document limitations
+- [ ] Validate the full GitHub repository checkout under CI
+- [ ] Research a compact Nova instruction scheme and buffered I/O
+- [ ] Explore a portable high-level programming language with two backends
+
+See [Phase VIII](phase-viii-nova-n1.md).
 
 ## Later phases
 
