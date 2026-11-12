@@ -6,6 +6,7 @@ Uses the Phase VII Nova-N0 experimental byte memory, not the XXXVI ISA.
 from __future__ import annotations
 
 from machina_xxxvi.archlab import NovaMemory, DEFAULT_NOVA_INSTALLED_BYTES
+from machina_xxxvi.floating import F32
 
 ADDRESS_MAX = (1 << 24) - 1
 WORD_MASK = (1 << 32) - 1
@@ -13,6 +14,7 @@ OPCODES = {
     0x00: "FIN", 0x10: "LEGB", 0x11: "LEGW", 0x12: "PONB",
     0x13: "PONW", 0x20: "ADDE", 0x21: "SVBT", 0x30: "SALTA",
     0x31: "SI0", 0x40: "NVM", 0x41: "ADI", 0x50: "EMIT",
+    0x60: "FLEG", 0x61: "FADD", 0x62: "FSVB", 0x63: "FPON",
 }
 MNEMONICS = {name: code for code, name in OPCODES.items()}
 
@@ -110,12 +112,27 @@ class NovaCPU:
                 next_a = (self.a + operand) & WORD_MASK
             elif op == 0x50:
                 output_byte = self.memory.read_byte(operand)
+            elif op == 0x60:
+                word = self.memory.read_word32(operand)
+                F32.decode(word)
+                next_a = word
+            elif op == 0x61:
+                next_a = F32.add(self.a, self.memory.read_word32(operand))
+            elif op == 0x62:
+                next_a = F32.subtract(self.a, self.memory.read_word32(operand))
+            elif op == 0x63:
+                self.memory._range(operand, 4)
+                if operand % 4:
+                    raise ValueError("unaligned FPON")
+                F32.decode(self.a)
         except ValueError as exc:
             raise NovaFault(f"Nova-N1 fault at PC=0x{at:06X}: {exc}") from exc
         # Commit after validations. Instruction faults leave A/PC/output unchanged.
         if op == 0x12:
             self.memory.write_byte(operand, self.a & 0xFF)
         elif op == 0x13:
+            self.memory.write_word32(operand, self.a)
+        elif op == 0x63:
             self.memory.write_word32(operand, self.a)
         if output_byte is not None:
             self.output.append(output_byte)
