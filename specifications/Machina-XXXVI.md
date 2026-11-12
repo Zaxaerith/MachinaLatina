@@ -80,7 +80,7 @@ The CPU's `EMIT` operation is synchronous in this model; **real device latencies
 
 ## Phase X floating extension — additional experimental opcodes
 
-The Phase X study extends this earlier P0 instruction set with FLEG (octal 0012), FADD (0013), FSVB (0014) and FPON (0015). Floating operations interpret the existing 36-bit A word as [XXXVI-F36](FLOAT-P0.md), trap invalid representations and round finite add/subtract exactly once per operation. This **does not** add float multiplication, division or complete era-specific physical I/O. See [Phase X](../docs/phase-x-floating.md).
+The Phase X study extends this earlier P0 instruction set with FLEG (octal 0012), FADD (0013), FSVB (0014) and FPON (0015). Floating operations interpret the existing 36-bit A word as [XXXVI-F36](FLOAT-P0.md), trap invalid representations and round finite add/subtract exactly once per operation. This **does not** add float multiplication, division or complete era-specific physical I/O. See [Phase X](../docs/phase-x-floating.md). Phase XI further adds experimental `0016 FMVL` and `0017 FDIV` (octal) for finite [F36](FLOAT-P0.md) multiply/divide, including trapped division by zero. These are not a new P0 ISA.
 
 ## Scientific arithmetic / numerical formats deferred
 
