@@ -1,0 +1,9 @@
+; MXA/P0: Latin-Greek output on a word-addressed fictional 1954 machine.
+ORG 00000
+EMIT SALVE
+EMIT LOGOS
+FIN
+
+ORG 00100
+SALVE: VER 22,01,13,24,05,43 ; SALVE [space]
+LOGOS: VER 61,13,17,03,17,22 ; switch Greek + ΛΟΓΟΣ
