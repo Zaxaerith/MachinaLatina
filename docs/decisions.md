@@ -49,6 +49,11 @@ Original documentation and editorial encoding tables are offered under **CC BY 4
 
 A hypothetical 1954 scientific machine uses 36-bit words, 15-bit word addresses, a 12-bit opcode field, three index registers and six-bit CVL-54/P0 text with terminal-maintained LATINA/GRAECA shift state. Ten opcode semantics, bit encodings, and octal examples are proposed, but no emulator, floating-point format, tape protocol or hardware existence is claimed. See [ISA](../specifications/Machina-XXXVI.md) and [worked examples](machina-xxxvi-programs.md).
 
+## D015 — The 1968 architecture fork
+**State:** DRAFT (2026-11-12)
+
+Two experimental families are proposed: [XXXVI-R0](../specifications/Machina-XXXVI-R0.md) retains word-addressed 36-bit execution, with CVL-68 byte records packed four per word plus four reserved bits; [Nova-N0](../specifications/Machina-Nova-N0.md) explores 24-bit byte addresses, candidate 32-bit words and big-endian memory. **Neither a Nova ISA nor native byte access in the XXXVI CPU has been canonized.** See [comparison](phase-vii-architecture-fork.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
