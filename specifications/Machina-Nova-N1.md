@@ -33,7 +33,7 @@ On reset A and PC are zero; the Python test harness zero-initializes RAM. Fetch 
 | 41 | ADI | 24-bit immediate | add immediate modulo 2^32 |
 | 50 | EMIT | byte address | send one raw byte to terminal |
 
-All other 244 opcodes are reserved. FIN requires a zero operand. The SI0 operand is checked only when its branch is actually taken. Latin mnemonics are fictional technical coinages; this is an accumulator ISA, not a transplanted IBM or PDP-10 instruction set.
+The original N1 profile reserved the other 244 opcodes; Phase X additionally assigns 0x60–0x63 in its experimental floating extension (see below). FIN requires a zero operand. The SI0 operand is checked only when its branch is actually taken. Latin mnemonics are fictional technical coinages; this is an accumulator ISA, not a transplanted IBM or PDP-10 instruction set.
 
 ## First native bilingual program
 
@@ -59,8 +59,12 @@ An EMIT opcode outputs an uninterpreted eight-bit byte. A modern CVL-68 draft de
 
 The .nvi format is a **modern sparse hex-byte memory listing**, not a vintage binary/ROM standard. One line is a six-digit hexadecimal address, a colon and hexadecimal byte pairs; comments use semicolons. The reference loader rejects overlap, invalid hex and out-of-range data.
 
+## Phase X floating extension
+
+Four more opcodes are now specified for research: `60 FLEG` (load a validated F32 word), `61 FADD`, `62 FSVB`, and `63 FPON` (validate and store). They operate on the existing accumulator, use aligned four-byte words and perform the exact [Nova-F32](FLOAT-P0.md) round-to-nearest ties-to-even finite semantics. The original twelve N1 opcodes remain unchanged. This extension is not IEEE 754 and adds no multiply/divide. See [Phase X report](../docs/phase-x-floating.md).
+
 ## What is still missing
 
-N1 has no assembler, signed/floating arithmetic, interrupts, DMA, protection, real terminal timing, file system or system-call ABI. CVL-68 is not frozen and does not define complete Unicode-equivalent polytonic Greek text. Textual output equivalence with XXXVI does not imply executable compatibility or equal efficiency: this deliberately naive Nova greeting uses 48 code bytes to emit 11 text bytes.
+N1 has no assembler, signed integer arithmetic, floating multiply/divide, interrupts, DMA, protection, real terminal timing, file system or system-call ABI. CVL-68 is not frozen and does not define complete Unicode-equivalent polytonic Greek text. Textual output equivalence with XXXVI does not imply executable compatibility or equal efficiency: this deliberately naive Nova greeting uses 48 code bytes to emit 11 text bytes.
 
 More context: [Phase VIII](../docs/phase-viii-nova-n1.md), [Nova-N0](Machina-Nova-N0.md), [Phase VII](../docs/phase-vii-architecture-fork.md).
