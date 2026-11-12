@@ -48,6 +48,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Floating profiles](specifications/FLOAT-P0.md) | Two non-IEEE exact-rounding F36/F32 formats |
 | [TRANFOR/P1](specifications/TRANFOR-P1.md) | Typed scientific floating extension with two native backends |
 | [Phase X: numerical divergence](docs/phase-x-floating.md) | How 36-bit and 32-bit computers compute different rounded answers |
+| [TRANFOR/P2 vectors](specifications/TRANFOR-P2.md) | Ordered dot products and REALIS multiply/divide on both CPUs |
+| [Phase XI: scientific vectors](docs/phase-xi-vectors.md) | Two-machine results, 69 local tests and limitations |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -112,6 +114,18 @@ python -m unittest discover -s tests -p test_scientific.py -v
 
 The source example computes 1 + 2^-24: F36 retains the increment; F32 rounds the exact tie to 1. Local reconstructed-source tests ran successfully, but a full clean checkout and CI are unverified. See [Phase X study](docs/phase-x-floating.md).
 
+## Phase XI: vector science / 第十一阶段
+
+The experimental **TRANFOR/P2** language compiles bounded VECTOR declarations and **left-to-right rounded** PRODVC dot products to actual XXXVI and Nova floating instructions. The F36 and F32 CPU extensions now support FMVL and FDIV. In the sample, the shared dot product produces **1/16777216 on F36 and 0 on F32**, in accordance with their own accuracy models.
+
+```sh
+python -m tranfor run-vector examples/portable_dot.trf
+python -m tranfor build-vector examples/portable_dot.trf --out-dir build/vectors
+python -m unittest discover -s tests -p test_vectors.py -v
+```
+
+69/69 local unit methods passed in a reconstructed development tree (59 inherited, 10 new); a clean checkout/CI has not yet been validated. See [Phase XI](docs/phase-xi-vectors.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -138,7 +152,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase X F36/F32 mathematical reference, floating CPU extensions and TRANFOR/P1 scientific language committed. Local reconstructed-source tests passed; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-12 — Phase XI floating multiply/divide and TRANFOR/P2 ordered vector dot products committed. 69 local tests passed in reconstructed working tree; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
