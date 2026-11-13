@@ -63,6 +63,10 @@ The .nvi format is a **modern sparse hex-byte memory listing**, not a vintage bi
 
 Four more opcodes are now specified for research: `60 FLEG` (load a validated F32 word), `61 FADD`, `62 FSVB`, and `63 FPON` (validate and store). They operate on the existing accumulator, use aligned four-byte words and perform the exact [Nova-F32](FLOAT-P0.md) round-to-nearest ties-to-even finite semantics. The original twelve N1 opcodes remain unchanged. This extension is not IEEE 754. Phase XI further adds `64 FMVL` and `65 FDIV` (hexadecimal) for finite multiply/divide with exact-rational operation and one F32 rounding, and traps division by zero. See [Phase XI](../docs/phase-xi-vectors.md). See [Phase X report](../docs/phase-x-floating.md).
 
+## Phase XIII extension: native byte-record input
+
+The new experimental opcode `66 CAPTA` (hexadecimal) transfers **one eight-bit value** from a host-mounted CVL-68/P0 record to the addressed memory byte and advances the record cursor. A missing/exhausted record or invalid destination traps without advancing PC or cursor or updating memory. This complements `50 EMIT` and does not give the CPU a full filesystem, terminal driver, interrupt system or EOF status register. See [Ordo P1](ORDO-P1-DEVICE.md).
+
 ## What is still missing
 
 N1 has no assembler, signed integer arithmetic, floating multiply/divide, interrupts, DMA, protection, real terminal timing, file system or system-call ABI. CVL-68 is not frozen and does not define complete Unicode-equivalent polytonic Greek text. Textual output equivalence with XXXVI does not imply executable compatibility or equal efficiency: this deliberately naive Nova greeting uses 48 code bytes to emit 11 text bytes.
