@@ -145,6 +145,21 @@ See [Phase XI](phase-xi-vectors.md) and [TRANFOR/P2](../specifications/TRANFOR-P
 
 See [Ordo Operum/P0](../specifications/ORDO-P0.md) and [Phase XII](phase-xii-batch.md).
 
+## 1.3 — Phase XIII: native guest input and job-to-job records
+
+- [x] Define `CAPTA` input instructions for XXXVI (36-bit word) and Nova (8-bit byte)
+- [x] Preserve fault-atomic unmounted/exhausted-record semantics
+- [x] Add strict CVL-68 → CVL-54 word adapter without silent transliteration
+- [x] Extend LABOR cards with `ACCIPE` input spools and successful-job consumption cursors
+- [x] Add crossed CPU-native echo images and a four-job input-roundtrip deck
+- [x] Add 13 targeted guest input / spool integration tests
+- [x] Add a minimal GitHub Actions workflow to run all Python tests and actual deck
+- [ ] Observe actual successful workflow run in GitHub and inspect any failures
+- [ ] Design guest-visible EOF/status and recoverable record-based input API
+- [ ] Study device framing before claiming an in-guest operating system
+
+See [Ordo P1](../specifications/ORDO-P1-DEVICE.md) and [Phase XIII](phase-xiii-device-io.md).
+
 ## Later phases
 
 - [x] First experimental TRANFOR/P0 scientific language sketch and dual-target compiler (not a production compiler)
