@@ -1,0 +1,22 @@
+; Two initial source jobs, followed by crossed native-machine input readers.
+LABOR PRIMA XXXVI TRANFOR
+FONTE portable_dot.trf
+EDE ACTA
+FINIS
+
+LABOR SECVN NOVA TRANFOR
+FONTE portable_dot.trf
+EDE ACTA
+FINIS
+
+LABOR TERTIA NOVA IMAGE
+IMAGO echo_nova.nvi
+ACCIPE ACTA
+EDE PROBA
+FINIS
+
+LABOR QVARTA XXXVI IMAGE
+IMAGO echo_xxxvi.m36
+ACCIPE ACTA
+EDE PROBA
+FINIS
