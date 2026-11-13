@@ -50,6 +50,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Phase X: numerical divergence](docs/phase-x-floating.md) | How 36-bit and 32-bit computers compute different rounded answers |
 | [TRANFOR/P2 vectors](specifications/TRANFOR-P2.md) | Ordered dot products and REALIS multiply/divide on both CPUs |
 | [Phase XI: scientific vectors](docs/phase-xi-vectors.md) | Two-machine results, 69 local tests and limitations |
+| [Ordo Operum/P0 batch cards](specifications/ORDO-P0.md) | Shared LABOR control cards, OMR1 sequential record format and error isolation |
+| [Phase XII: batch monitor](docs/phase-xii-batch.md) | Fictional 1970s batch-processing research and validation scope |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -126,6 +128,18 @@ python -m unittest discover -s tests -p test_vectors.py -v
 
 69/69 local unit methods passed in a reconstructed development tree (59 inherited, 10 new); a clean checkout/CI has not yet been validated. See [Phase XI](docs/phase-xi-vectors.md).
 
+## Phase XII: Ordo Operum / 第十二阶段
+
+**Ordo Operum/P0** is a modern *host-side job monitor* for the fictional XXXVI and Nova CPU emulators. It accepts identical **LABOR** cards for two machine families, compiles existing TRANFOR/P2 sources or loads native memory images, and appends decoded output as length-prefixed CVL-68/P0 records. Jobs run sequentially; a fault is recorded without halting later jobs.
+
+```sh
+python -m ordo_operum run examples/batch_science.ord --out-dir build/batch
+python -m ordo_operum inspect build/batch/ACTA.omr
+python -m unittest discover -s tests -p test_ordo.py -v
+```
+
+**Validation:** 15 isolated local unit tests passed with a CVL-68-compatible test shim and a mock job executor. Full native four-job CPU execution in a clean GitHub checkout has not been verified; the displayed output is expected by the design, not a measured end-to-end outcome. This is **not** yet a guest kernel or filesystem. See [Phase XII report](docs/phase-xii-batch.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -152,7 +166,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-12 — Phase XI floating multiply/divide and TRANFOR/P2 ordered vector dot products committed. 69 local tests passed in reconstructed working tree; GitHub clean-checkout CI remains unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-13 — Phase XII host-side Ordo Operum/P0 batch monitor and spool drafts committed; 15 isolated local tests passed, clean-checkout native integration and CI still unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
