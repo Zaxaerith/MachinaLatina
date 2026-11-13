@@ -15,7 +15,7 @@ OPCODES = {
     0x13: "PONW", 0x20: "ADDE", 0x21: "SVBT", 0x30: "SALTA",
     0x31: "SI0", 0x40: "NVM", 0x41: "ADI", 0x50: "EMIT",
     0x60: "FLEG", 0x61: "FADD", 0x62: "FSVB", 0x63: "FPON",
-    0x64: "FMVL", 0x65: "FDIV",
+    0x64: "FMVL", 0x65: "FDIV", 0x66: "CAPTA",
 }
 MNEMONICS = {name: code for code, name in OPCODES.items()}
 
@@ -54,6 +54,17 @@ class NovaCPU:
         self.halted = False
         self.steps = 0
         self.output = bytearray()      # raw CVL-68 *candidate* bytes
+        self.input_record: bytes | None = None
+        self.input_position = 0
+
+    def mount_input(self, record: bytes) -> None:
+        """Mount one candidate CVL-68 record for bytewise CAPTA reads."""
+        if type(record) is not bytes:
+            raise ValueError("Nova input record must be bytes")
+        if self.steps:
+            raise ValueError("cannot mount input after execution starts")
+        self.input_record = record
+        self.input_position = 0
 
     @property
     def z(self) -> bool:
@@ -113,6 +124,12 @@ class NovaCPU:
                 next_a = (self.a + operand) & WORD_MASK
             elif op == 0x50:
                 output_byte = self.memory.read_byte(operand)
+            elif op == 0x66:
+                self.memory._range(operand, 1)
+                if self.input_record is None:
+                    raise ValueError("CAPTA without attached record")
+                if self.input_position >= len(self.input_record):
+                    raise ValueError("CAPTA end of input record")
             elif op == 0x60:
                 word = self.memory.read_word32(operand)
                 F32.decode(word)
@@ -139,6 +156,9 @@ class NovaCPU:
             self.memory.write_word32(operand, self.a)
         elif op == 0x63:
             self.memory.write_word32(operand, self.a)
+        if op == 0x66:
+            self.memory.write_byte(operand, self.input_record[self.input_position])
+            self.input_position += 1
         if output_byte is not None:
             self.output.append(output_byte)
         if op == 0:
