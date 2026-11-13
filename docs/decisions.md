@@ -79,6 +79,11 @@ Two experimental finite binary formats, [XXXVI-F36 and Nova-F32](../specificatio
 
 [Ordo Operum/P0](../specifications/ORDO-P0.md) defines a bilingual-world **common job-control deck** that selects the existing XXXVI or Nova native emulator, with either TRANFOR/P2 compilation or a native machine image. Successful output becomes one independently length-framed CVL-68/P0 record in a named `OMR1` sequential spool; faults do not stop later jobs. This is a modern *host program* and **does not implement a guest kernel, guest file system, magnetic tape controller or privilege isolation**. See [Phase XII](phase-xii-batch.md).
 
+## D021 — Input records are real guest instructions, not host print simulation
+**State:** DRAFT / executable implementation (2026-11-13)
+
+The [Ordo Operum/P1 device interface](../specifications/ORDO-P1-DEVICE.md) assigns **CAPTA** to each existing fictional CPU: XXXVI reads one packed 36-bit CVL-54 word into word-addressed memory, and Nova reads one native CVL-68 byte into byte-addressed memory. A host `ACCIPE` job card consumes exactly one prior output spool record after successful guest execution, translating text strictly when necessary. Failed jobs do not consume the record. This establishes **input I/O**, not a guest kernel, physical tape transport or recoverable EOF status. [Phase XIII report](phase-xiii-device-io.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
