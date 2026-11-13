@@ -83,6 +83,10 @@ The example deck includes four jobs: two `TRANFOR` jobs compiling one shared sou
 
 **Verification boundary:** the deck/spool/unit-test logic passed **15 isolated local tests** using a test-only CVL-68 gateway implementation reproducing the existing code assignments. The four native jobs have **not** been fully executed against a clean checkout of the actual GitHub source tree, and there is no GitHub Actions green run. Do not treat the expected sample output as a confirmed end-to-end CPU result.
 
+## Phase XIII onward
+
+An experimental [Ordo P1](ORDO-P1-DEVICE.md) extension now introduces `ACCIPE` input spools and native `CAPTA` input instructions. This **does not retroactively change P0** or confer a guest kernel or physical tape controller. P0 remains the output-only protocol described above.
+
 ## What P0 does not provide
 
 No guest filesystem, guest input APIs, persistent machine supervisor, jobs submitted concurrently, I/O scheduling, magnetic tape bit format, disk blocks, users/permissions, process switching, memory protection, kernel/user boundary, dynamic linker or executable interoperability across XXXVI/Nova.
