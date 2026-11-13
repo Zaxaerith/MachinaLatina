@@ -12,7 +12,7 @@ MEMORY_WORDS = 1 << 15
 OPCODES = {
     0: "FIN", 1: "LEGE", 2: "PONE", 3: "ADDE", 4: "SVBT",
     5: "SALTA", 6: "SI0", 7: "PONX", 8: "EMIT", 9: "NVM",
-    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON", 14: "FMVL", 15: "FDIV",
+    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON", 14: "FMVL", 15: "FDIV", 16: "CAPTA",
 }
 
 
@@ -41,6 +41,17 @@ class Machine:
         self.x = [0, 0, 0]
         self.halted = False
         self.steps = 0
+        self.input_words: tuple[int, ...] | None = None
+        self.input_position = 0
+
+    def mount_input(self, words: tuple[int, ...]) -> None:
+        """Mount one record of 36-bit input words before executing a job."""
+        if not isinstance(words, tuple) or any(type(w) is not int or not 0 <= w <= WORD_MASK for w in words):
+            raise ValueError("input requires a tuple of unsigned 36-bit words")
+        if self.steps:
+            raise ValueError("cannot mount input after execution starts")
+        self.input_words = words
+        self.input_position = 0
 
     @property
     def z(self) -> bool:
@@ -104,6 +115,13 @@ class Machine:
             self.printer.feed_word(self.memory[ea])
         elif op == 9:
             self.a = adr
+        elif op == 16:
+            if self.input_words is None:
+                raise MachineFault(f"CAPTA without attached record at {at:05o}")
+            if self.input_position >= len(self.input_words):
+                raise MachineFault(f"CAPTA end of input record at {at:05o}")
+            self.memory[ea] = self.input_words[self.input_position]
+            self.input_position += 1
         elif op in (10, 11, 12, 13, 14, 15):
             try:
                 if op == 10:
