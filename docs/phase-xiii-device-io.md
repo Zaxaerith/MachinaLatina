@@ -40,9 +40,20 @@ If all four jobs succeed, `PROBA.omr` contains two `SALVE ΛΟΓΟΣ` records wi
 - `tests/test_device_input.py`: 13 focused integration-oriented test methods.
 - `.github/workflows/ci.yml`: one minimal Python 3.11 GitHub Actions workflow to run the **entire repository test suite** and four-job demonstration on a clean checkout.
 
-## Validation status
+## Verified clean-checkout acceptance — 2026-11-13
 
-The Phase XIII source, executable-image examples and tests are in the GitHub repository. The conformance workflow is now configured to run when main changes. At documentation time, **no observed clean-checkout test/CI PASS is claimed**. In particular, earlier local Phase XII tests exercised a mock executor; the new four-job tests must be executed for real before reporting end-to-end success.
+[GitHub Actions run #43436209578](https://github.com/Zaxaerith/MachinaLatina/actions/runs/43436209578) **completed successfully** on the full committed repository, with **97/97 unittest methods PASS**. The workflow also ran the genuine `examples/input_roundtrip.ord` deck. The recorded native-machine results were:
+
+```text
+PRIMA    XXXVI FINIS     37 ACTA: SALVE ΛΟΓΟΣ
+SECVN    NOVA  FINIS     46 ACTA: SALVE ΛΟΓΟΣ
+TERTIA   NOVA  FINIS     23 PROBA: SALVE ΛΟΓΟΣ
+QVARTA   XXXVI FINIS      5 PROBA: SALVE ΛΟΓΟΣ
+RECORD 1 (11 bytes): SALVE ΛΟΓΟΣ
+RECORD 2 (11 bytes): SALVE ΛΟΓΟΣ
+```
+
+This closes the previous lack of clean-checkout confirmation for the tested Python code and cross-family record path. It does **not** validate physical I/O timing, a guest operating system, real historical hardware, or final CVL normative interoperability.
 
 ## How this changes the fictional timeline
 

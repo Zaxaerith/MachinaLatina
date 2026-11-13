@@ -154,7 +154,7 @@ See [Ordo Operum/P0](../specifications/ORDO-P0.md) and [Phase XII](phase-xii-bat
 - [x] Add crossed CPU-native echo images and a four-job input-roundtrip deck
 - [x] Add 13 targeted guest input / spool integration tests
 - [x] Add a minimal GitHub Actions workflow to run all Python tests and actual deck
-- [ ] Observe actual successful workflow run in GitHub and inspect any failures
+- [x] Observe real GitHub Actions PASS on full repository: 97 tests plus four cross-machine native jobs ([run #43436209578](https://github.com/Zaxaerith/MachinaLatina/actions/runs/43436209578), 2026-11-13)
 - [ ] Design guest-visible EOF/status and recoverable record-based input API
 - [ ] Study device framing before claiming an in-guest operating system
 

@@ -60,7 +60,7 @@ python -m unittest discover -s tests -p test_device_input.py -v
 
 The native instructions, monitor, input adapters, two echo images and 13 focused tests are checked in. The checked-in tests cover guest instruction execution, input-exhaustion faults, missing/duplicate ACCIPE directives, cross-family replay, consumption semantics, archive round trips and command-line execution.
 
-A **GitHub Actions Python conformance workflow** was also added for a clean-checkout verification attempt. Do not claim it has passed until its result is observed. Earlier P0 isolated tests were performed against mock executor interfaces; this phase explicitly adds genuine CPU integration tests, but their presence in the repository is not itself proof that they have passed in CI.
+A **GitHub Actions Python conformance workflow** has now [passed on the full repository checkout](https://github.com/Zaxaerith/MachinaLatina/actions/runs/43436209578) (2026-11-13): **97 Python tests PASS**, and the four-job cross-architecture record replay and spool inspection also PASS. This supersedes earlier mock-only validation limitations for the tested integration path. It does not establish a physical tape controller or a guest OS.
 
 ## What must be designed before claiming a guest OS
 

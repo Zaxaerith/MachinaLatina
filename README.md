@@ -152,7 +152,7 @@ python -m ordo_operum inspect build/input/PROBA.omr
 python -m unittest discover -s tests -v
 ```
 
-A small GitHub Actions check now runs the whole repository test suite and the cross-machine demo on a clean checkout. **The workflow's success has not yet been observed**, so do not interpret checked-in integration tests as a confirmed CI PASS. See [Phase XIII report](docs/phase-xiii-device-io.md).
+[GitHub Actions conformance run #43436209578](https://github.com/Zaxaerith/MachinaLatina/actions/runs/43436209578) has **completed successfully** on the full repository checkout: **97/97 Python tests PASS**, plus all four real cross-machine batch jobs and two decoded PROBA spool records. This validates the Phase XIII input chain, but does not make the broader experimental character standards normative. See [Phase XIII report](docs/phase-xiii-device-io.md).
 
 ## Three evidence levels / 三种证据等级
 
@@ -180,7 +180,7 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-13 — Phase XIII native CAPTA input, Ordo Operum/P1 ACCIPE record routing, two guest echo images and clean-checkout GitHub Actions workflow committed; full integration CI result not yet verified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-13 — Phase XIII native CAPTA input and Ordo Operum/P1 ACCIPE cross-machine replay committed. Full clean-checkout GitHub Actions verification: 97/97 tests PASS and all four native jobs PASS (run #43436209578).** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
