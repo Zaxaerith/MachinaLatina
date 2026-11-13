@@ -52,6 +52,8 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Phase XI: scientific vectors](docs/phase-xi-vectors.md) | Two-machine results, 69 local tests and limitations |
 | [Ordo Operum/P0 batch cards](specifications/ORDO-P0.md) | Shared LABOR control cards, OMR1 sequential record format and error isolation |
 | [Phase XII: batch monitor](docs/phase-xii-batch.md) | Fictional 1970s batch-processing research and validation scope |
+| [Ordo Operum/P1 input device](specifications/ORDO-P1-DEVICE.md) | Native word/byte record CAPTA instructions and ACCIPE job-card extension |
+| [Phase XIII: guest record input](docs/phase-xiii-device-io.md) | Four-job XXXVI/Nova cross-machine record replay and CI validation plan |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
@@ -140,6 +142,18 @@ python -m unittest discover -s tests -p test_ordo.py -v
 
 **Validation:** 15 isolated local unit tests passed with a CVL-68-compatible test shim and a mock job executor. Full native four-job CPU execution in a clean GitHub checkout has not been verified; the displayed output is expected by the design, not a measured end-to-end outcome. This is **not** yet a guest kernel or filesystem. See [Phase XII report](docs/phase-xii-batch.md).
 
+## Phase XIII: native input devices / 第十三阶段
+
+The fictional machines now have distinct record-input instructions called **CAPTA**: one CVL-54 packed 36-bit word per instruction on XXXVI, versus one CVL-68 byte per instruction on Nova. Ordo Operum/P1 introduces `ACCIPE` to pass a prior output record to a later guest job. The demo routes actual records **XXXVI → Nova** and **Nova → XXXVI**, retaining native CPU execution and strict character conversion.
+
+```sh
+python -m ordo_operum run examples/input_roundtrip.ord --out-dir build/input
+python -m ordo_operum inspect build/input/PROBA.omr
+python -m unittest discover -s tests -v
+```
+
+A small GitHub Actions check now runs the whole repository test suite and the cross-machine demo on a clean checkout. **The workflow's success has not yet been observed**, so do not interpret checked-in integration tests as a confirmed CI PASS. See [Phase XIII report](docs/phase-xiii-device-io.md).
+
 ## Three evidence levels / 三种证据等级
 
 - **HIST** — documented events or standards from our real history, with cited sources.
@@ -160,13 +174,13 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 ## What this repository is not
 
 - Not a claim that historical Romans built electronic computers.
-- Not a complete ISO/Unicode-like standard or a working virtual machine (yet).
+- Not a complete ISO/Unicode-like standard or a **production-grade** virtual machine (the experimental CPU interpreters are real code).
 - Not proof that Latin or Greek necessarily imply a particular word size, opcode or instruction set.
 - Not a collection of fabricated quotations attributed to real historical people.
 
 ## Status / 项目状态
 
-**2026-11-13 — Phase XII host-side Ordo Operum/P0 batch monitor and spool drafts committed; 15 isolated local tests passed, clean-checkout native integration and CI still unverified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-13 — Phase XIII native CAPTA input, Ordo Operum/P1 ACCIPE record routing, two guest echo images and clean-checkout GitHub Actions workflow committed; full integration CI result not yet verified.** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
 
 ### A small thought experiment
 
