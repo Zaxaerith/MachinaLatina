@@ -100,6 +100,10 @@ Machina XXXVI is dated **1954**, whereas the fictional direct eight-bit **CVL-68
 - Packing four eight-bit values into one 36-bit word with 4 spare bits is a *possible later adapter trick*, not the original architecture, not a standard conversion and not evidence of native byte-addressability.
 - The historical reason newer machines favor bytes can be explored without retroactively installing 1968 hardware in 1954.
 
+## Phase XIII extension: native word-record input
+
+The new experimental `CAPTA` opcode (octal `0020`, decimal 16) reads **one 36-bit packed CVL-54/P0 word** from a host-mounted sequential input record into `M[EA]`. Each successful read advances the record cursor, and a missing or exhausted record faults without modifying CPU memory, PC, or input position. The monitor translates from an OMR1 CVL-68 logical text record using the [Ordo P1](ORDO-P1-DEVICE.md) adapter. The original P0 opcodes and word addressing remain unchanged.
+
 ## Validation boundaries
 
 See [worked programs](../docs/machina-xxxvi-programs.md) and [CVL-54/P0](CVL-54-P0.md). This document provides an **executable-style contract for ten opcodes**, but **not** a complete real machine: there are no defined interrupts, fault vectors, times, peripheral bus, magnetic-tape frames, signed/floating arithmetic or complete assembler language.
