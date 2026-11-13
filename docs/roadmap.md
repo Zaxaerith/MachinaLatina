@@ -131,6 +131,20 @@ See [Phase X report](phase-x-floating.md), [floating profile](../specifications/
 
 See [Phase XI](phase-xi-vectors.md) and [TRANFOR/P2](../specifications/TRANFOR-P2.md).
 
+## 1.2 — Phase XII: Ordo Operum/P0 batch jobs
+
+- [x] Define Latin LABOR/FONTE/IMAGO/EDE/LIMES/FINIS job-control deck
+- [x] Add host-side monitor routing TRANFOR/P2 sources to XXXVI/Nova native interpreters
+- [x] Load architecture-specific .m36/.nvi images without claiming binary compatibility
+- [x] Define OMR1 length-prefixed sequential CVL-68 spool and JSON job report
+- [x] Implement per-job instruction ceilings, source path confinement and continuation after failures
+- [x] Run 15 isolated local parser/archive/mock-executor tests (2026-11-13)
+- [ ] Run full four-job sample against exact committed CPU code in a clean checkout
+- [ ] Test archive and scheduler semantics in GitHub Actions
+- [ ] Research guest-level input device, record I/O, and resource protection separately
+
+See [Ordo Operum/P0](../specifications/ORDO-P0.md) and [Phase XII](phase-xii-batch.md).
+
 ## Later phases
 
 - [x] First experimental TRANFOR/P0 scientific language sketch and dual-target compiler (not a production compiler)
