@@ -1,0 +1,23 @@
+; One shared source, two native computer families, one ordered output spool
+LABOR PRIMA XXXVI TRANFOR
+FONTE portable_dot.trf
+EDE ACTA
+LIMES 1000
+FINIS
+
+LABOR SECVN NOVA TRANFOR
+FONTE portable_dot.trf
+EDE ACTA
+LIMES 1000
+FINIS
+
+; Execute actual existing machine images, each in its native format
+LABOR TERTIA XXXVI IMAGE
+IMAGO salve_logos.m36
+EDE PROBA
+FINIS
+
+LABOR QVARTA NOVA IMAGE
+IMAGO nova_salve_logos.nvi
+EDE PROBA
+FINIS
