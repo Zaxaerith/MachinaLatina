@@ -149,6 +149,11 @@ Old CVL/COS text requires explicit versioned decoding, preservation of original 
 
 A plausible NODVS/RATIO-inspired AI research workflow separates model-generated prose from actually retrieved, authorized and versioned references, independently executed numeric calculations, and human-accepted scientific results. A well-formed but fabricated citation is never evidence. No research manifest protocol, model or proof engine has been implemented. [AI provenance study](ai-provenance-and-numerics-2015-2026.md).
 
+## D035 — Phase XX history integrates but does not freeze proposal timelines
+**State:** CANON as editorial / evidence classification policy (2026-11-23)
+
+The [1954–2026 narrative history](historia-machinae-latinae-1954-2026.md) and [clean chronology](chronology.md) collect previous **DRAFT** periods in reading order. Their publication does **not** promote Sextaria-S0, COS/NODVS, TABVLA, ORDO-N/PARTES/CVSTOS, MODVLA/SERMO/RATIO, fictional institutional names or imagined 2026 AI products to CANON. Each requires an explicit subsequent technical and institutional decision; real Python experiments are preserved as separate research artifacts. See [institutions](institutions-and-lineages.md) and [continuity audit](continuity-audit.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

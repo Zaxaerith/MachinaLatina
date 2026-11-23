@@ -18,40 +18,21 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
-## Current focus / 当前研究方向（2026-11-23）
+## Current entry point / 当前阅读入口 · Phase XX
 
-**Phase XV returns to alternate-history writing and standards research.** The project retains its earlier Python experiments as historical research aids but will **not expand CI, CPU emulators or new test suites by default**. The automatic Python conformance workflow was removed on 2026-11-23; old unsuccessful historical workflow runs may remain visible in GitHub's run history.
+The primary reading path is now the **[1954–2026 Computer Civilization History](docs/historia-machinae-latinae-1954-2026.md)**. It integrates earlier period studies without upgrading fictional **DRAFT** hardware, languages, companies or protocols to **CANON**. Read the [institution/technology genealogy](docs/institutions-and-lineages.md) alongside the [continuity audit](docs/continuity-audit.md).
 
-The new [1973–1985 architecture-war essay](docs/de-bello-verborum-et-machinarum-1973-1985.md) and [Sextaria 48-bit proposal](specifications/Sextaria-S0-study.md) examine why a 36-bit legacy line, a 32-bit byte-addressed commercial line, and a possible 48-bit scientific line might coexist. **Sextaria, MODVLA, RATIO, their dates, and their fictional vendors remain DRAFT**, not immutable world canon. This documentation-only phase adds no executable ISA or virtual machine.
+**Phases XV–XIX** remain independent supporting essays, linked from the history. They examine the 1973–1985 word-length conflict, 1981–1995 personal computing, 1995–2005 worldwide scripts and hypertext, 2005–2015 software freedom, and 2015–2026 AI/accelerators.
 
-## Phase XVI — The Bilingual Personal Computer Era (1981–1995)
-
-The **documentation-only** 1981–1995 study explores inexpensive Nova-derived microcomputers, a proposed TABVLA bilingual GUI, and specialist Sextaria workstations. It distinguishes **stored CVL-68 character identity** from keyboard input, composed Greek typography, and reliable print output. All machines and launch dates are **DRAFT scenarios**, not canonized historical products.
-
-See [Phase XVI narrative](docs/de-revolutione-machinarum-domesticarum-1981-1995.md), [Nova PC architecture study](specifications/Nova-personal-computer-study.md) and [CVL desktop typography](specifications/CVL-desktop-typography-study.md). No emulator, font, GUI, CI, Tag or Release was added.
-
-## Phase XVII — The Global Script and Internet Conflict (1995–2005)
-
-The documentation-only [Phase XVII narrative](docs/de-bello-scripturarum-et-retis-1995-2005.md) asks how a successful **CVL-68 Latin–Greek eight-bit ecosystem** could become a worldwide encoding obstacle. The candidate **COS** global character registry deliberately separates abstract character identity from byte encodings; **NODVS/LIGAMEN** are provisional typed-record hypertext and link concepts. Latin/Greek are no longer treated as sufficient for global communications.
-
-Read the [COS encoding study](specifications/COS-universal-character-registry-study.md) and [NODVS/RETE study](docs/network-document-protocols-1995-2005.md). All names, years, technical standards, and internet institutions are **DRAFT**, not approved world canon. No CI, emulator, parser, browser, server, Tag or Release was introduced.
-
-## Phase XVIII — Free Software, Operating Systems and Mobile Computing (2005–2015)
-
-The [Phase XVIII historical study](docs/de-libertate-codicum-et-imperio-systematum-2005-2015.md) asks how preservation of CVL-68/COS historical documents and multi-architecture scientific software could lead to a free-software movement with its **own motivations** rather than merely a Latin-name GNU/Linux. Three provisional OS families — **ORDO-N** (Nova-derived general computing), **PARTES** (scientific record/service systems) and **CVSTOS** (mobile/embedded devices) — compete over files, typed records, capabilities and device control. **MODVLA**, **SERMO**, **RATIO** and **LIBERTAS CODICVM** remain DRAFT genealogy/organizations, **not actual implemented products or licensing texts**.
-
-Read [OS architecture study](specifications/operating-system-families-2005-2015.md), [software freedom and distribution](docs/software-freedom-and-distribution-2005-2015.md), and [programming language ecosystems](docs/programming-ecosystem-2005-2015.md). Documentation only: no new code, compiler, kernel, CI, Tag or Release.
-
-## Phase XIX — AI, Global Scripts and Heterogeneous Computing (2015–2026)
-
-The [Phase XIX history](docs/de-machinis-cogitantibus-2015-2026.md) follows the possible **survival of ideas rather than obsolete CPUs**: a Nova-derived general computer, scientifically auditable numeric workloads inherited from Sextaria-style institutions, and separately designed high-throughput matrix accelerators. It studies why COS character identity does **not** equal model tokenization, and why a Latin–Greek academic tradition can generate data/assessment biases in a global language-model era.
-
-Related: [heterogeneous hardware study](specifications/heterogeneous-computing-2015-2026-study.md), [AI and multilingual COS](docs/ai-languages-and-cos-2015-2026.md), [scientific provenance and RATIO](docs/ai-provenance-and-numerics-2015-2026.md). These are speculative **DRAFT studies** only, not deployed models, standards or GPU specifications. No CI, simulators, training data or software were added.
+Project direction: **documentation-first, no automatic CI**. The previous experimental CPU/TRANFOR Python research remains preserved as a historical testbed, not proof that hypothetical hardware existed.
 
 ## Start here / 从这里开始
 
 | Document | Purpose |
 | --- | --- |
+| **[Historia Machinae Latinae / 1954–2026 通史](docs/historia-machinae-latinae-1954-2026.md)** | **Start here: integrated readable history / 首选主入口** |
+| [Institutions & lineages / 机构与技术谱系](docs/institutions-and-lineages.md) | Cross-era links among organizations, hardware, languages, documents |
+| [Continuity audit / 连续性审计](docs/continuity-audit.md) | Open conflicts, CANON/DRAFT boundaries and research priorities |
 | [Premise / 核心世界观](docs/premise.md) | Assumptions, boundaries and confidence levels / 前提与推演边界 |
 | [Chronology / 时间线](docs/chronology.md) | A speculative 1954–2026 chronology / 架空发展史 |
 | [Decisions / 设计决策](docs/decisions.md) | Chosen directions and unresolved alternatives / 已选方向与待决问题 |
@@ -227,7 +208,9 @@ Dates and abbreviations such as CVL-54, CVL-63 and CVL-68 are **fictional names*
 
 ## Status / 项目状态
 
-**2026-11-13 — Phase XIII native CAPTA input and Ordo Operum/P1 ACCIPE cross-machine replay committed. Full clean-checkout GitHub Actions verification: 97/97 tests PASS and all four native jobs PASS (run #43436209578).** All CVL mappings are **experimental drafts**. The hexadecimal entries are design proposals for the fictional world, not statements about actual ASCII, EBCDIC or Unicode. No binary compatibility is promised between CVL revisions.
+**2026-11-23 — Phase XX** integrated the 1954–2026 narrative, institution/technology lineage, chronological table and cross-phase continuity audit. No new code, emulator, test suite, CI, Tag or Release was added. Only the main bilingual premise and the 1960s eight-bit bilingual **direction** are CANON; specific CVL-68 byte assignments and most imagined historical products remain DRAFT.
+
+Older [Phase XIII CI acceptance](https://github.com/Zaxaerith/MachinaLatina/actions/runs/43436209578) documents **97 passing Python research tests at the time**, not historical proof. The workflow was retired on 2026-11-23 and should not be restarted as a requirement for documentation.
 
 ### A small thought experiment
 

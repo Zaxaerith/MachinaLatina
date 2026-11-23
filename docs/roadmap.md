@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.0 — Phase XX: integrated 1954–2026 history and continuity audit
+
+- [x] Assemble one readable [1954–2026 civilization history](historia-machinae-latinae-1954-2026.md) from the first nineteen research phases
+- [x] Organize candidate industries, academic groups, hardware families, writing systems and software languages in an [institution/technology genealogy](institutions-and-lineages.md)
+- [x] Audit cross-era consistency and explicitly mark open [continuity problems](continuity-audit.md)
+- [x] Rebuild [chronology](chronology.md) into one ordered index without duplicate/overlapping era table headings
+- [x] Restore README as a useful documentation entry point instead of continually stacking old phase announcements
+- [ ] Resolve the CVL-63 identity (separate code vs telecom profile), CVL-68 draft byte assignments, Sextaria physical/numeric ABI and global COS standard in separate future **documentation** decisions
+- [ ] Introduce only well-researched institutional continuity; avoid prematurely canonizing manufacturers and products
+
+**Scope:** documentation-only. No new simulator, tests, CI, compiler, kernel, model, Tag or Release. Old CI pending checkboxes in Phase XII/XIII are historical archives, **not** instructions to reactivate any workflows.
+
 ## 1.9 — Phase XIX: heterogeneous computing and AI civilization (documentation only)
 
 - [x] Write 2015–2026 alternate-history narrative from Sextaria numerical institutions to model accelerators
@@ -50,7 +62,7 @@ No code, CI, emulators, Tag or Release. See [1995–2005 narrative](de-bello-scr
 
 **No GUI software, CI, new fonts or simulators required.** See [history](de-revolutione-machinarum-domesticarum-1981-1995.md), [Nova PC study](../specifications/Nova-personal-computer-study.md) and [typography](../specifications/CVL-desktop-typography-study.md).
 
-## 1.5 — Phase XV: the word-length wars (documentation-only, current)
+## 1.5 — Phase XV: the word-length wars (historical research archive)
 
 - [x] Write the fictional 1973–1985 narrative of competition between XXXVI, Nova and the proposed 48-bit Sextaria
 - [x] Compare 48-bit packed character words with 32-bit byte-oriented designs without claiming free density/performance gains
@@ -63,7 +75,7 @@ No code, CI, emulators, Tag or Release. See [1995–2005 narrative](de-bello-scr
 
 **Scope:** No new executable CPU, tests, workflow or release. See [architecture war](de-bello-verborum-et-machinarum-1973-1985.md), [Sextaria study](../specifications/Sextaria-S0-study.md) and [language families](programming-languages-1974-1985.md).
 
-## 0.1 — Founding documentation (current)
+## 0.1 — Founding documentation (historical research archive)
 
 - [x] Bilingual Greco-Roman counterfactual and explicit evidence labels
 - [x] Draft chronology, architectural decision log

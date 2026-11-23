@@ -1,73 +1,59 @@
-# Speculative Chronology / 架空技术发展史
+# Speculative Chronology / 1954—2026 架空技术年表
 
-This is a **fictional timeline**, not a chronology of actual inventions. Years are narrative anchors, chosen to reflect realistic constraints, not claims that alternate-world products definitely existed.
+> **Phase XX 统一索引，2026-11-23。** 这是一条**架空历史的研究年表**，不是现实发明年代。历史事件和产品日期以 DRAFT 为主，不能仅因它们在同一表中出现而升格为 CANON。早期年代还包含真实比较锚点，明确标记 HIST。
 
-| Year | Status | Event | Engineering consequence |
+## 连续时间线
+
+| 年代（提议） | 等级 | 主要候选事件 | 导致的技术/制度问题 |
 | --- | --- | --- | --- |
-| 1954 | DRAFT | **CVL-54** six-bit Latin/Greek shift pages and experimental **Machina XXXVI/P0** | Six six-bit codes fit one 36-bit word; 15-bit word addresses and printer page state; [architecture](../specifications/Machina-XXXVI.md) |
-| 1957 | DRAFT | **TRANFOR** scientific formula language is adopted by research centers | Six-character identifiers and Greek mathematical labels emerge as design questions |
-| 1963 | DRAFT | **CVL-63** seven-bit communication code developed for terminals | Retains shift-state costs; needs a documented transition from CVL-54 |
-| 1964 | HIST anchor | Real-world System/360 helps demonstrate the relevance of 8-bit bytes | Our world need not have the same vendor; comparable byte-oriented pressures exist |
-| 1968 | CANON direction | **CVL-68** native eight-bit Latin–Greek code becomes mainline standard | Direct access to both scripts, unambiguous character identity, no page shift for core letters |
-| 1973–1975 | DRAFT | Scientific institutions dispute preservation of XXXVI software and tapes versus Nova's byte-oriented expansion | Text interchange, numeric interchange, and binary compatibility become separate procurement requirements |
-| 1976 | DRAFT | **Sextaria-S0** 48-bit scientific-computer proposal enters laboratory consideration | Six eight-bit CVL characters per word is convenient, but cost and high-precision numerical requirements must justify wide hardware |
-| 1979–1981 | DRAFT | TRANFOR source-sharing pressures motivate a proposed **MODVLA** structured-module language | Explicit record layouts, script profiles, target-specific binary objects |
-| 1981–1982 | DRAFT | Cheaper Nova-derived systems enter offices and education; a script-confusable identifier incident becomes a possible plot | Not all Nova-compatible systems need identical CPU word width; Latin/Greek glyph identities require editor policy |
-| 1983–1985 | DRAFT | **RATIO** numerical-contract language is proposed; three-machine coexistence considered as one ending | Auditability and explicit floating precision become more important than merely translating characters |
-| 1970s | DRAFT | Broader system languages and multiuser operating systems develop | Specific ISA, file and process standards remain unresolved |
+| 1954 | DRAFT | CVL-54 六位希腊/拉丁移位页；Machina XXXVI 36 位机器 | 6×6 位打包；字寻址与页状态 |
+| 1957 | DRAFT | 科学计算语言 TRANFOR 原型 | 公式表达、旧字符集与语言标识符 |
+| 1963 | DRAFT | CVL-63 七位通信过渡 | 独立代码还是传输配置仍未决 |
+| 1964 | HIST | 现实 IBM System/360 出现，仅作八位字节历史参照 | 不意味着架空世界有 IBM 相同的型号 |
+| 1968 | CANON *方向* | CVL-68 八位直接希腊—拉丁文字成为主流发展路线 | 字符不需反复页切换；具体字节表仍 DRAFT |
+| 1968—1973 | DRAFT | Nova 32 位字节寻址研究家族与 XXXVI 并存 | 共同文档不等于机器码、数据格式、浮点兼容 |
+| 1973—1975 | DRAFT | 科研档案与新机厂商围绕文字/数值互换争执 | 分离文本、记录、数值与程序兼容等级 |
+| 1976—1978 | DRAFT | Sextaria-S0 48 位科学机提案 | 六个八位字符成字，但不自动获得文本密度优势 |
+| 1979—1981 | DRAFT | MODVLA 模块/结构化记录语言候选 | 源码移植不等于 ABI 兼容 |
+| 1981—1983 | DRAFT | Nova Minor 廉价微机、希腊文 ROM 字形争执 | 能存储、能显示、能编辑、能打印是不同能力 |
+| 1983—1985 | DRAFT | RATIO 数值契约构想、三大架构可能共存 | 精度、舍入与可重复计算 |
+| 1984—1987 | DRAFT | TABVLA 双文字桌面及出版系统 | 重音、气音、字符簇、输入法和打印 |
+| 1987—1990 | DRAFT | Sextaria 科研工作站与大众 Nova 生态竞争 | 专业精度和成本、桌面 API 和软件市场 |
+| 1990—1992 | DRAFT | 全球字符身份讨论开始 | 八位 CVL-68 不足以覆盖世界文字 |
+| 1993—1995 | DRAFT | 语义文档与定版页面技术分歧 | 可编辑性、精确印刷和资料保存 |
+| 1995—1997 | DRAFT | COS 字符身份登记簿提案 | 抽象字符不等于网络字节 |
+| 1998—2000 | DRAFT | NODVS 类型化超文本、LIGAMEN 引用 | 复杂科研文献与廉价网页的取舍 |
+| 2001—2003 | DRAFT | 多文字域名与同形异码安全危机 | 展示名称、线路标签和脚本告警 |
+| 2004—2005 | DRAFT | 全球文字身份与旧 CVL 存储达成候选共存策略 | 显式编码声明、可审查转码 |
+| 2005—2007 | DRAFT | LIBERTAS CODICVM 自由软件/档案运动 | 公开可维护源码、文件格式和设备控制权 |
+| 2007—2009 | DRAFT | ORDO-N、PARTES、CVSTOS 三种系统家族构想 | 字节流、类型记录、移动权限、能耗 |
+| 2010—2012 | DRAFT | 多文字源码分发、跨架构包清单与版本控制 | COS 文件名与包名、来源和 ABI |
+| 2012—2014 | DRAFT | 云端科学计算与数值可复算性争论 | Sextaria 数学传统可脱离 48 位硬件存活 |
+| 2014—2015 | DRAFT | 开源许可与手机签名启动/应用分发矛盾 | 读源码的自由与安装修改软件的权利不同 |
+| 2015—2017 | DRAFT | 通用服务器与专用矩阵计算加速分化 | 混合精度、参考计算、并行归约 |
+| 2018—2020 | DRAFT | 历史 CVL/COS 文献进入 AI 训练语料 | 原始字节、字符身份和 token 分词不能混淆 |
+| 2021—2023 | DRAFT | 拉丁—希腊科研语料优势引发公平与引用争论 | 全球语言覆盖、资料来源和科学责任 |
+| 2024—2025 | DRAFT | 异构计算与可复核科研 AI 工作流候选 | 能耗、显存/互联、真正存在的文献引用 |
+| 2026 | DRAFT | Nova 后继 CPU、矩阵设备与 COS/NODVS/RATIO 理念可能汇合 | 不是已研发的统一 AI 系统 |
 
-| 1981–1983 | DRAFT | Nova Minor affordable microcomputers and disputed CVL-68 font-ROM support | Shared character files need not imply a shared 32-bit Nova-N1 binary |
-| 1984–1987 | DRAFT | TABVLA bilingual desktop concept and university printing procurement | Fonts, input, character clusters and printed page layout become distinct compatibility claims |
-| 1987–1990 | DRAFT | Sextaria specialist scientific workstations coexist with low-cost Nova desktops | Graphics/numerical needs versus manufacturing scale; visual GUI compatibility differs from binary ABI |
-| 1990–1992 | DRAFT | Universal character identity proposal addresses CVL-68 global repertoire limits | International text beyond first-class Latin/Greek; normalization and archives remain unresolved |
-| 1993–1995 | DRAFT | Semantic document interchange competes with page-faithful printing | Multiple desktop formats, script identity and layout interchange |
+## 本世界 CANON 与研究实现
 
-| 1995–1997 | DRAFT | Global archives question CVL-68's Latin/Greek priorities; COS identity registry proposed | Stable characters are not equivalent to bytes or rendered glyphs |
-| 1998–2000 | DRAFT | NODVS typed-record hypertext competes with lightweight documents | Semantic links, data attachments and a cheap-client fallback become web-design questions |
-| 2001–2003 | DRAFT | Multilingual domain names and Latin/Greek homoglyphs provoke new security policies | Display labels, reversible restricted wire labels and script checks diverge |
-| 2004–2005 | DRAFT | Internet character registry and historical byte-storage compromise considered | Explicit codec labels and strict transcodes; no automatic UTF-8 or Unicode replica |
-| 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
-| 2005–2007 | DRAFT | Historical document preservation and free-software advocacy become a common political cause | Source availability and archive access; fictional LIBERTAS CODICVM governance still unresolved |
-| 2007–2009 | DRAFT | ORDO-N, PARTES and CVSTOS system families diverge in desktop, science and mobile computing | Byte-stream versus typed-record services, device capabilities and energy needs |
-| 2010–2012 | DRAFT | International multi-script source repositories and architecture-aware software packages become contested | COS identity, homograph package names and portable sources ≠ identical binaries |
-| 2012–2014 | DRAFT | Cloud services and scientific numerical reproducibility debates grow | Legacy Sextaria ideas survive in numeric libraries/accelerators, not necessarily 48-bit CPUs |
-| 2014–2015 | DRAFT | App-store controls, free-code rights and document preservation drive new policy divisions | Open source ≠ ability to install a modified system image |
-| 2015–2017 | DRAFT | Sextaria scientific institutions move from specialist general-purpose CPU designs toward numeric services and accelerators | Wider scientific precision is not a 48-bit tensor instruction |
-| 2018–2020 | DRAFT | CVL-54/CVL-68 archive conversion meets global COS linguistic data and learned token vocabularies | Original bytes, decoded characters and ML tokenization must remain separate |
-| 2021–2023 | DRAFT | Latin/Greek academic language-model advantages provoke global representation and provenance disputes | Culture, corpus selection and evaluation are not language-intrinsic intelligence |
-| 2024–2025 | DRAFT | Nova successor servers and heterogeneous accelerators compete over energy, performance and verifiable science | Mixed precision, network bandwidth and real source citations |
-| 2026 | DRAFT | A Nova-derived system, matrix engines and COS/NODVS/RATIO research traditions coexist in imagined AI platforms | No fictional deployed products or ISA frozen |
+**已确定的世界前提**仍只有古典拉丁语持续活用、希腊语的制度性学术角色、23 字母核心、双文字原生设计要求以及 1960 年代后期八位直接双文字路线。**每项具体技术名称/发布日期/厂家是否成立，需要单独核准。**
 
-The 2015–2026 heterogeneous-computing/AI hypotheses are developed in [De Machinis Cogitantibus](de-machinis-cogitantibus-2015-2026.md). The accelerated science, AI institutions and model products are DRAFT, not validated or CANON.
+现实仓库研发（**不属于虚构年代**）：
+- 2026-10—11：XXXVI、Nova、TRANFOR 与 Ordo Operum 的 Python 研究实验陆续加入 GitHub。测试记录证明特定代码在当时可执行，不证明虚构设备实际出现在 1954/1968 年。
+- 2026-11-23：移除自动 CI 工作流，转向文档优先的世界观推演。
+- 2026-11-23：Phase XX 汇总七十余年叙事，保留不确定性、技术成本和原始研究记录。
 
-The 2005–2015 OS/free-software/mobility proposals are developed in [De Libertate Codicum et Imperio Systematum](de-libertate-codicum-et-imperio-systematum-2005-2015.md). ORDO-N, PARTES, CVSTOS, LIBERTAS CODICVM and their dates are DRAFT rather than CANON.
+## 分期研究与证据来源
 
-The 1995–2005 proposals are explored in [De Bello Scripturarum et Retis](de-bello-scripturarum-et-retis-1995-2005.md). COS, NODVS, LIGAMEN and their standards bodies are all DRAFT, not fixed historical events.
+| 时段 | 研究正文 |
+| --- | --- |
+| 1954—1968 | [编码之争](encoding-war-1963-1968.md)、[XXXVI 研究](../specifications/Machina-XXXVI.md) |
+| 1968—1985 | [三大架构之争](de-bello-verborum-et-machinarum-1973-1985.md)、[语言分叉](programming-languages-1974-1985.md) |
+| 1981—1995 | [个人计算机与双文字桌面](de-revolutione-machinarum-domesticarum-1981-1995.md) |
+| 1995—2005 | [全球字符与网络](de-bello-scripturarum-et-retis-1995-2005.md) |
+| 2005—2015 | [自由软件与操作系统](de-libertate-codicum-et-imperio-systematum-2005-2015.md) |
+| 2015—2026 | [异构计算与 AI](de-machinis-cogitantibus-2015-2026.md) |
 
-The 1981–1995 entries are further developed in [the personal computer revolution](de-revolutione-machinarum-domesticarum-1981-1995.md). All dates, models, events, and TABVLA are **DRAFT**.
-
-The 1973–1985 entries above are proposals developed in [De Bello Verborum et Machinarum](de-bello-verborum-et-machinarum-1973-1985.md), **not historical facts and not promoted to CANON**.
-
-## Modern research implementation (not an alternate-history event)
-
-On **2026-10-31 in our own world**, this repository added a Python reference emulator for the fictional 1954 Machina XXXVI/P0 instruction subset. See [Phase V report](phase-v-emulator.md). Source inclusion is not evidence that the fictional machine existed in 1954, or that the committed tests have passed.
-
-## Related narrative
-
-See [Controversia Codicum / Encoding War, 1963–1968](encoding-war-1963-1968.md). Its fictional factions and events are DRAFT, not real history.
-
-## Transition pressures / 为什么标准必须更换？
-
-**1954 → 1963:** Character-page switching works when uppercase terminals dominate but complicates recovery after transmission errors, indexing and embedded mathematical symbols.
-
-**1963 → 1968:** 7-bit direct encoding cannot comfortably represent Latin and Greek uppercase/lowercase alphabets, digits, punctuation and controls together. A new 8-bit direct standard eliminates alphabet page shifts.
-
-**1968 → 1990s:** 256 code points still cannot capture all world scripts and all polytonic Greek combinations as independent precomposed characters. A later universal standard needs canonical equivalence and legacy conversion rules.
-
-## Work to do
-
-- Identify what fictional industrial organization standardizes CVL and why.
-- Decide whether CVL-63 is a genuine seven-bit shift encoding or merely a terminal profile.
-- Describe how early packed six-bit tapes are transcoded to eight-bit files.
-- Examine whether Greek mathematical identifiers are permitted in the first major scientific language or only in its successor.
-- Separate *historical timing analogies* from the fictional brand and standard names.
+参阅：[《通史》](historia-machinae-latinae-1954-2026.md)、[机构与世系](institutions-and-lineages.md)、[连续性审计](continuity-audit.md)、[世界观前提](premise.md)、[现实史实参考](historical-sources.md)。
