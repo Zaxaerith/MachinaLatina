@@ -27,6 +27,16 @@ These entries are **real-world analogies**, not evidence of Sextaria, Machina No
 - **Desktop publishing and PostScript/LaserWriter (1985)** — historical page description and print technology comparisons. https://archive.computerhistory.org/resources/access/text/2012/10/102746510-05-01-acc.pdf
 - **Unicode Standard publication history** — historical 1990s text-standard chronology, *not* a fictional CVL successor by default. https://www.unicode.org/history/publicationdates.html
 
+## Internet and worldwide scripts (historical comparisons only)
+
+- **CERN and early Web:** real late-1980s/early-1990s hypertext/HTTP origins. https://home.cern/science/computing/the-birth-of-the-web/short-history-web/
+- **RFC 1866 (HTML 2.0, 1995):** real text-oriented hypertext design history, not the fictional NODVS grammar. https://www.rfc-editor.org/rfc/rfc1866
+- **RFC 2070 (1997):** real HTML internationalization. https://www.rfc-editor.org/rfc/rfc2070
+- **W3C XML 1.0 (1998):** real structured markup and character handling. https://www.w3.org/TR/1998/REC-xml-19980210/
+- **RFC 2044 / RFC 2279 / RFC 3629:** historical UTF-8 refinements; avoid anachronistically treating 2003 restrictions as original 1996 text. https://www.rfc-editor.org/rfc/rfc2044 https://www.rfc-editor.org/rfc/rfc2279 https://www.rfc-editor.org/rfc/rfc3629
+- **RFC 3490 / RFC 3492 (2003):** real IDNA/Punycode domain-name standards; no claim that fictitious CVL networks use them. https://www.rfc-editor.org/rfc/rfc3490 https://www.rfc-editor.org/rfc/rfc3492
+- **RFC 3986 (2005):** URI generic syntax and percent encoding, a technical comparator only. https://www.rfc-editor.org/rfc/rfc3986
+
 ## Greco-Roman culture
 
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.

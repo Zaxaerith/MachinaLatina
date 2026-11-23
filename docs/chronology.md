@@ -22,9 +22,14 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 1990–1992 | DRAFT | Universal character identity proposal addresses CVL-68 global repertoire limits | International text beyond first-class Latin/Greek; normalization and archives remain unresolved |
 | 1993–1995 | DRAFT | Semantic document interchange competes with page-faithful printing | Multiple desktop formats, script identity and layout interchange |
 
-| 1990s | DRAFT | Global text standard supersedes bilingual eight-bit ceilings | Polytonic Greek and world scripts require a coherent multibyte story |
+| 1995–1997 | DRAFT | Global archives question CVL-68's Latin/Greek priorities; COS identity registry proposed | Stable characters are not equivalent to bytes or rendered glyphs |
+| 1998–2000 | DRAFT | NODVS typed-record hypertext competes with lightweight documents | Semantic links, data attachments and a cheap-client fallback become web-design questions |
+| 2001–2003 | DRAFT | Multilingual domain names and Latin/Greek homoglyphs provoke new security policies | Display labels, reversible restricted wire labels and script checks diverge |
+| 2004–2005 | DRAFT | Internet character registry and historical byte-storage compromise considered | Explicit codec labels and strict transcodes; no automatic UTF-8 or Unicode replica |
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
+
+The 1995–2005 proposals are explored in [De Bello Scripturarum et Retis](de-bello-scripturarum-et-retis-1995-2005.md). COS, NODVS, LIGAMEN and their standards bodies are all DRAFT, not fixed historical events.
 
 The 1981–1995 entries are further developed in [the personal computer revolution](de-revolutione-machinarum-domesticarum-1981-1995.md). All dates, models, events, and TABVLA are **DRAFT**.
 

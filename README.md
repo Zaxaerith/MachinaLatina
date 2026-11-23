@@ -30,6 +30,12 @@ The **documentation-only** 1981–1995 study explores inexpensive Nova-derived m
 
 See [Phase XVI narrative](docs/de-revolutione-machinarum-domesticarum-1981-1995.md), [Nova PC architecture study](specifications/Nova-personal-computer-study.md) and [CVL desktop typography](specifications/CVL-desktop-typography-study.md). No emulator, font, GUI, CI, Tag or Release was added.
 
+## Phase XVII — The Global Script and Internet Conflict (1995–2005)
+
+The documentation-only [Phase XVII narrative](docs/de-bello-scripturarum-et-retis-1995-2005.md) asks how a successful **CVL-68 Latin–Greek eight-bit ecosystem** could become a worldwide encoding obstacle. The candidate **COS** global character registry deliberately separates abstract character identity from byte encodings; **NODVS/LIGAMEN** are provisional typed-record hypertext and link concepts. Latin/Greek are no longer treated as sufficient for global communications.
+
+Read the [COS encoding study](specifications/COS-universal-character-registry-study.md) and [NODVS/RETE study](docs/network-document-protocols-1995-2005.md). All names, years, technical standards, and internet institutions are **DRAFT**, not approved world canon. No CI, emulator, parser, browser, server, Tag or Release was introduced.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -72,6 +78,9 @@ See [Phase XVI narrative](docs/de-revolutione-machinarum-domesticarum-1981-1995.
 | [Personal computer revolution 1981–1995](docs/de-revolutione-machinarum-domesticarum-1981-1995.md) | Counterfactual Nova desktops, Sextaria workstations and document publishing |
 | [Nova personal computer design](specifications/Nova-personal-computer-study.md) | Cheap microprocessor tiers, graphics RAM and software compatibility |
 | [CVL bilingual desktop typography](specifications/CVL-desktop-typography-study.md) | Input modes, composition, glyphs, printing and polytonic Greek |
+| [Global script and Internet war, 1995–2005](docs/de-bello-scripturarum-et-retis-1995-2005.md) | Candidate history of character registry, hypertext and multilingual domains |
+| [COS character identity study](specifications/COS-universal-character-registry-study.md) | Why worldwide character identity must be distinct from CVL-68 byte storage |
+| [NODVS and RETE network documents](docs/network-document-protocols-1995-2005.md) | Typed hypertext, content records, name safety and browser divergence |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 

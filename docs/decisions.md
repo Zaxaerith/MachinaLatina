@@ -109,6 +109,16 @@ The proposed **Nova Minor / Media / Maior** personal-computer tiers may share CV
 
 The hypothetical **TABVLA** desktop family must distinguish four layers: encoded character identity, keyboard input state, editable character clusters, and print-quality glyph positioning. The proposed 1980s Greek manuscript tests include accents/breathings, case conversion, final sigma and Latin/Greek confusable glyphs. Neither TABVLA nor its dates are canonized or implemented. See [desktop study](../specifications/CVL-desktop-typography-study.md) and [Phase XVI history](de-revolutione-machinarum-domesticarum-1981-1995.md).
 
+## D027 — Worldwide character identity must be separate from CVL-68 bytes
+**State:** DRAFT / research proposal (2026-11-23)
+
+A candidate global registry called **COS (Codex Omnium Scripturarum)** could assign stable abstract identities for worldwide scripts. It **must not assume** CVL-68 bytes remain unchanged or that the actual world's ASCII-compatible UTF-8 history necessarily repeats. File encoding declarations, original byte archives, conversion diagnostics, composed Greek character clusters and fair representation of non-Latin/Greek communities remain central. Neither a 24-bit registry nor any byte transform is frozen. [COS study](../specifications/COS-universal-character-registry-study.md).
+
+## D028 — Typed hypertext is a plausible alternative network path
+**State:** DRAFT / research proposal (2026-11-23)
+
+The provisional **NODVS/LIGAMEN/RETE** vocabulary suggests typed content records, stable document identities and explicit links, drawing from TABVLA scholarly publication and Ordo sequential-record concepts. No actual wire format, server, parser, network name encoding, or standardization institution has been implemented or adopted. Multilingual domain security must distinguish Latin and Greek lookalikes. [Network format study](network-document-protocols-1995-2005.md); [Phase XVII](de-bello-scripturarum-et-retis-1995-2005.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

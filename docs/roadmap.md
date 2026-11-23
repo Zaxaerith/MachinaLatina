@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 1.7 — Phase XVII: global scripts and the internet (documentation only)
+
+- [x] Write 1995–2005 alternate-history account of multilingual institutional pressure on CVL-68
+- [x] Distinguish universal character identities from old bytes, composition, fonts and transport encodings
+- [x] Research COS registry candidates and lossless/diagnostic legacy migration paths
+- [x] Develop NODVS typed-record hypertext versus simplified text markup as competing formats
+- [x] Introduce multilingual domain wire-label, script-confusable and international governance pressures
+- [ ] Choose a concrete global character numbering and byte encoding design **on paper**, with a historical compatibility ledger
+- [ ] Research 2005–2015 networked software, browser and operating-system evolution
+
+No code, CI, emulators, Tag or Release. See [1995–2005 narrative](de-bello-scripturarum-et-retis-1995-2005.md), [COS](../specifications/COS-universal-character-registry-study.md) and [NODVS](network-document-protocols-1995-2005.md).
+
 ## 1.6 — Phase XVI: personal computing and bilingual desktop publishing
 
 - [x] Write the candidate 1981–1995 Nova microcomputer, Sextaria workstation and TABVLA desktop history
