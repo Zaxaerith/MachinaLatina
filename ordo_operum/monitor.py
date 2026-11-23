@@ -30,6 +30,8 @@ class Job:
     spool: str
     limit: int = 10_000
     input_spool: str | None = None
+    series_spool: str | None = None
+    series_count: int = 0
 
 
 @dataclass(frozen=True)
@@ -127,6 +129,15 @@ def parse_deck(deck: str) -> tuple[Job, ...]:
         else:
             if current is None:
                 raise OrdoError(f"line {lineno}: card outside LABOR")
+            if command == "SERIES":
+                if (len(args) != 2 or "series_spool" in current or
+                        "input_spool" in current or not NAME.fullmatch(args[0]) or
+                        not args[1].isascii() or not args[1].isdecimal() or
+                        not 1 <= int(args[1]) <= 32):
+                    raise OrdoError(f"line {lineno}: SERIES requires SPOOL COUNT (1..32)")
+                current["series_spool"] = args[0]
+                current["series_count"] = int(args[1])
+                continue
             if len(args) != 1:
                 raise OrdoError(f"line {lineno}: card requires one value")
             if command in ("FONTE", "IMAGO"):
@@ -139,7 +150,7 @@ def parse_deck(deck: str) -> tuple[Job, ...]:
                     raise OrdoError(f"line {lineno}: invalid or duplicate EDE spool")
                 current["spool"] = args[0]
             elif command == "ACCIPE":
-                if "input_spool" in current or not NAME.fullmatch(args[0]):
+                if "input_spool" in current or "series_spool" in current or not NAME.fullmatch(args[0]):
                     raise OrdoError(f"line {lineno}: invalid or duplicate ACCIPE input spool")
                 current["input_spool"] = args[0]
             elif command == "LIMES":
@@ -174,7 +185,8 @@ def _source_path(job: Job, root: Path) -> Path:
     return path
 
 
-def _run_native(job: Job, root: Path, input_record: bytes | None = None) -> Execution:
+def _run_native(job: Job, root: Path, input_record: bytes | None = None,
+                input_series: tuple[bytes, ...] | None = None) -> Execution:
     path = _source_path(job, root)
     image = None
     build = None
@@ -188,10 +200,15 @@ def _run_native(job: Job, root: Path, input_record: bytes | None = None) -> Exec
         from machina_xxxvi.floating import F36
         cpu = Machine()
         cpu.load(image.old_words if image is not None else load_image(path))
-        if input_record is not None:
+        if input_record is not None or input_series is not None:
             from .device import for_xxxvi
-            cpu.mount_input(for_xxxvi(input_record))
+            if input_series is not None:
+                cpu.mount_records(tuple(for_xxxvi(rec) for rec in input_series))
+            else:
+                cpu.mount_input(for_xxxvi(input_record))
         output = cpu.run(job.limit)
+        if input_series is not None and cpu.input_status != 2:
+            raise OrdoError("SERIES guest halted without reaching EOF")
         values: dict[str, str] = {}
         if build is not None:
             if output != image.expected_text:
@@ -212,10 +229,15 @@ def _run_native(job: Job, root: Path, input_record: bytes | None = None) -> Exec
     from machina_xxxvi.floating import F32
     cpu = NovaCPU()
     cpu.load_regions(image.nova_regions if image is not None else read_image(path))
-    if input_record is not None:
+    if input_record is not None or input_series is not None:
         from .device import for_nova
-        cpu.mount_input(for_nova(input_record))
+        if input_series is not None:
+            cpu.mount_records(tuple(for_nova(rec) for rec in input_series))
+        else:
+            cpu.mount_input(for_nova(input_record))
     output = decode_cvl68(cpu.run(job.limit))
+    if input_series is not None and cpu.input_status != 2:
+        raise OrdoError("SERIES guest halted without reaching EOF")
     values = {}
     if build is not None:
         if output != image.expected_text:
@@ -243,22 +265,29 @@ def run_deck(deck: str, root: Path,
     for job in jobs:
         try:
             record = None
-            if job.input_spool is not None:
-                index = read_positions.get(job.input_spool, 0)
-                available = archives.records.get(job.input_spool, [])
-                if index >= len(available):
-                    raise OrdoError(f"no unread record in spool {job.input_spool}")
-                record = available[index]
-            # Preserve existing two-argument mock executors for isolated
-            # monitor tests; native mode receives the actual selected record.
-            outcome = (_run_native(job, root, record) if execute is None
+            series: tuple[bytes, ...] | None = None
+            source_spool = job.input_spool or job.series_spool
+            if source_spool is not None:
+                index = read_positions.get(source_spool, 0)
+                available = archives.records.get(source_spool, [])
+                count = job.series_count if job.series_spool is not None else 1
+                if index + count > len(available):
+                    raise OrdoError(f"not enough unread records in spool {source_spool}")
+                selected = tuple(available[index:index + count])
+                if job.series_spool is not None:
+                    series = selected
+                else:
+                    record = selected[0]
+            # Existing two-argument mock executors preserve Phase XII tests.
+            outcome = (_run_native(job, root, record, series) if execute is None
                        else execute(job, root))
             if not isinstance(outcome, Execution) or not 0 <= outcome.steps <= job.limit:
                 raise OrdoError("invalid executor result")
             output_record = encode_cvl68(outcome.text)
             archives.append(job.spool, output_record)
-            if job.input_spool is not None:
-                read_positions[job.input_spool] = read_positions.get(job.input_spool, 0) + 1
+            if source_spool is not None:
+                read_positions[source_spool] = read_positions.get(source_spool, 0) + (
+                    job.series_count if job.series_spool is not None else 1)
             results.append(JobResult(job.name, job.target, job.mode, "FINIS",
                                      job.spool, outcome.steps, outcome.text, outcome.values))
         except Exception as exc:
