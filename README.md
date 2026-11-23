@@ -38,11 +38,20 @@ The proposed [CVL-63/TP1 seven-bit transport profile](specifications/CVL-63-TP1.
 
 No new emulators, codec software, automated tests or CI were added.
 
+## Latest institutional study — CCL / The standards council (1954–1972)
+
+[De Conciliis Codicum](docs/de-conciliis-codicum-1954-1972.md) develops a **fictional, voluntary industry–telecom–academic standards council** (Concilium Codicum et Litterarum, CCL), with a fifteen-seat [draft charter](specifications/CCL-charter-DRAFT.md) and [proposed 1961–1972 meeting records](docs/acta-concilii-codicum-1961-1972.md). The hypothetical 1963 TP1 and 1968 native eight-bit **recommendations** pass its fictional voting rules, without compelling deployment or approving the present-day CVL-68/RC1 byte assignments. All CCL organizations, votes and institutional timelines remain **DRAFT, not CANON**.
+
+Documentation-only change: no code, CI, simulators or releases.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
 | --- | --- |
 | **[Historia Machinae Latinae / 1954–2026 通史](docs/historia-machinae-latinae-1954-2026.md)** | **Start here: integrated readable history / 首选主入口** |
+| **[The standards council / 1954–1972 制度史](docs/de-conciliis-codicum-1954-1972.md)** | **Who wrote code and telecommunications recommendations; why they clashed** |
+| [CCL fictional charter / 委员会章程草案](specifications/CCL-charter-DRAFT.md) | Three five-seat chambers, procedures, limits and dissent rights |
+| [CCL fictional meeting records](docs/acta-concilii-codicum-1961-1972.md) | Proposed 1963/1968 votes and open objections |
 | [Institutions & lineages / 机构与技术谱系](docs/institutions-and-lineages.md) | Cross-era links among organizations, hardware, languages, documents |
 | [Continuity audit / 连续性审计](docs/continuity-audit.md) | Open conflicts, CANON/DRAFT boundaries and research priorities |
 | [Premise / 核心世界观](docs/premise.md) | Assumptions, boundaries and confidence levels / 前提与推演边界 |

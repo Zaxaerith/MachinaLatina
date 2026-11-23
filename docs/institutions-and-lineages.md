@@ -15,11 +15,14 @@
 
 ### 暂定的历史机构（DRAFT）
 
+**2026-11-23 补充研究：** CCL 的[章程](../specifications/CCL-charter-DRAFT.md)和[会议记录](acta-concilii-codicum-1961-1972.md)已经有具体的虚构投票模型，但这仍不等于已经正式存在的架空标准化机构。三个原有团体推荐其代表，CCL 不是它们的上级主管部门。
+
 | 名称 | 出处 / 时间 | 代表诉求 | 尚不能声称 |
 | --- | --- | --- | --- |
 | Officinae Telegraphicae | [1963—1968 编码之争](encoding-war-1963-1968.md) | 电传、六/七位线路成本、向后兼容 | 统一全球电信机构或已颁布 CVL-63 |
 | Collegium Machinarum | 1960 年代编码之争及 [1973—1985 机器字之争](de-bello-verborum-et-machinarum-1973-1985.md) | XXXVI 旧计算机、科研磁带、既有软件 | 单一制造商、独占企业或历史上的正式委员会 |
 | Consortium Scientiarum | 同上 | 大学、科研、希腊学术出版和数值精度 | 唯一 Sextaria 制造商、拥有世界性法规授权 |
+| Concilium Codicum et Litterarum (CCL) | [1954–1972 standards council study](de-conciliis-codicum-1954-1972.md) | Proposed voluntary coordination of telecom, machine/archive and academic/publishing constituencies | Actual legal establishment, 15-seat charter, 1963/1968 votes or global linguistic authority |
 | Nova 商业厂商联盟 | [1973—1985 提案](de-bello-verborum-et-machinarum-1973-1985.md) | CVL-68 终端与较廉价商业数据处理 | 官方全称、创办人、市场份额 |
 | TABVLA 学术/出版社团（未命名） | [1981—1995 桌面史](de-revolutione-machinarum-domesticarum-1981-1995.md) | 双文字字形、印刷和文档结构 | 已存在统一 GUI 标准机构 |
 | COS 全球文字标准共同体（未命名） | [1995—2005 网络史](de-bello-scripturarum-et-retis-1995-2005.md) | 全球文字身份、跨文化参与和旧文件可迁移 | COS 最终编号、协议或参与国家的已批准清单 |
@@ -61,7 +64,7 @@
 \`\`\`text
 CVL-54 6-bit 双页 (1954, DRAFT)
   |
-  +---- CVL-63 七位通信过渡? (1963, DRAFT / 定义未定)
+  +---- CVL-63/TP1 七位传输单元 (1963, 推荐 DRAFT: 6-bit payload + parity)
   |
   '-- CVL-68 八位原生双文字 (1968, 主流方向 CANON / 字节表 DRAFT)
          |

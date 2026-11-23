@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.3 — Phase XXII: the institutions behind the bilingual standards
+
+- [x] Develop [1954–1972 standards governance history](de-conciliis-codicum-1954-1972.md) from existing telecom/machine/science constituencies
+- [x] Draft [CCL charter](../specifications/CCL-charter-DRAFT.md) with membership, quorum, publishing rules and legal limits
+- [x] Provide [1963 and 1968 fictional vote records](acta-concilii-codicum-1961-1972.md) that satisfy the proposed chamber voting rules
+- [x] Separate publication of a fictional **recommendation** from present-day CANON ratification and real equipment interoperability
+- [x] Record old telecom/academic dissent and the late-century non-Latin/Greek governance representation problem
+- [ ] Decide if CCL becomes CANON; specify member institutions, actual technical review procedures and funding before doing so
+- [ ] Trace the possible 1990s transfer of repertoire authority to the COS global standards community
+
+Documentation-only work. No code, simulator, CI, Tag or Release.
+
 ## 2.2 — CVL-63/TP1 seven-bit communications study
 
 - [x] Compare a separate seven-bit coded alphabet with a six-bit CVL-54 payload + one check bit transport profile

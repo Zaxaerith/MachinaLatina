@@ -65,6 +65,15 @@ These are historical anchor sources only; the fictional 2015–2026 standardizat
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.
 7. **Greco-Roman bilingual inscriptions and educational scholarship** — examples showing Greek and Latin alongside each other, with attention to period, region and social class.
 
+## Governance analogies for the fictional CCL (1954–1972)
+
+- **ISO established in 1947:** real multi-national standards membership, not the source of a fictional Roman-world council charter. https://www.iso.org/about-iso.html
+- **CCITT from 1956:** real telecom standards coordination as described by the ITU historical records. https://www.itu.int/en/history/Pages/FocusOnStandardization.aspx
+- **ECMA established in 1961:** historical computer-manufacturer cooperation in Europe. https://ecma-international.org/history/
+- **IFIP established in 1960:** professional and academic international computing cooperation. https://www.ifip.org/about-ifip/
+
+These are four *different* governance traditions; the fictional three-chamber CCL takes inspiration from the conflicts among them but does not duplicate any real organization's voting rules.
+
 ## Standards-development comparisons
 
 8. **ITU-T International Telegraph Alphabet No. 2 (ITA2)** — letter/figure shift mechanisms offer a *real* precedent for fictional early page switching. Do not conflate ITA2's five-bit codes with CVL-54's invented six-bit codes.

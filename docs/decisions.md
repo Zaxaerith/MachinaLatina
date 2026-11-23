@@ -168,6 +168,13 @@ A [CVL-63/TP1 proposal](../specifications/CVL-63-TP1.md) recommends preserving t
 
 The [worked ledger](cvl63-transport-migration-ledger.md) shows `SALVE ΛΟΓΟΣ` across two XXXVI words, twelve seven-bit TP1 slots and eleven direct CVL-68 bytes. The recommendation is **not a ratification**; CVL-54 source-table CANON status, record framing, parity policy and formal fictional institution remain open. No code or CI.
 
+## D038 — Research a voluntary multi-chamber standards council
+**State:** DRAFT / fictional institutional study (2026-11-23), NOT CANON
+
+The [1954–1972 institutional history](de-conciliis-codicum-1954-1972.md) proposes a **Concilium Codicum et Litterarum (CCL)** formed around 1961, where telecommunications operators, machine/archive interests and scientific/publishing institutions each hold five voting seats. The [draft charter](../specifications/CCL-charter-DRAFT.md) distinguishes recommendations from state law and vendor adoption, requires cross-chamber agreement and preserves dissent. [Fictional meeting records](acta-concilii-codicum-1961-1972.md) suggest TP1's 1963 recommendation received 11/14 non-abstaining yes votes and the 1968 eight-bit *direction* 11/15; both meet the **fictional** two-thirds threshold. Neither fictional meeting ratifies the present-day CVL-63/TP1 or CVL-68/RC1 data assignments into project CANON.
+
+CCL's original chamber makeup **does not legitimately represent all global scripts**; future COS standardization likely demands institutional reform or a new body. None of the proposed councils, meeting minutes, voting rights, legal arrangements or historical dates are established fictional canon.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
