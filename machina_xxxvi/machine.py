@@ -12,7 +12,7 @@ MEMORY_WORDS = 1 << 15
 OPCODES = {
     0: "FIN", 1: "LEGE", 2: "PONE", 3: "ADDE", 4: "SVBT",
     5: "SALTA", 6: "SI0", 7: "PONX", 8: "EMIT", 9: "NVM",
-    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON", 14: "FMVL", 15: "FDIV", 16: "CAPTA",
+    10: "FLEG", 11: "FADD", 12: "FSVB", 13: "FPON", 14: "FMVL", 15: "FDIV", 16: "CAPTA", 17: "STAT", 18: "PROX",
 }
 
 
@@ -42,16 +42,37 @@ class Machine:
         self.halted = False
         self.steps = 0
         self.input_words: tuple[int, ...] | None = None
+        self.input_records: tuple[tuple[int, ...], ...] | None = None
+        self.input_record_index = 0
         self.input_position = 0
 
     def mount_input(self, words: tuple[int, ...]) -> None:
-        """Mount one record of 36-bit input words before executing a job."""
-        if not isinstance(words, tuple) or any(type(w) is not int or not 0 <= w <= WORD_MASK for w in words):
-            raise ValueError("input requires a tuple of unsigned 36-bit words")
+        """Legacy single-record mount; CAPTA behavior is preserved."""
+        self.mount_records((words,))
+
+    def mount_records(self, records: tuple[tuple[int, ...], ...]) -> None:
+        """Mount a sequence of 36-bit packed word records before execution."""
+        if (type(records) is not tuple or
+                any(type(r) is not tuple or
+                    any(type(w) is not int or not 0 <= w <= WORD_MASK for w in r)
+                    for r in records)):
+            raise ValueError("input requires a tuple of 36-bit word-record tuples")
         if self.steps:
             raise ValueError("cannot mount input after execution starts")
-        self.input_words = words
+        self.input_records = records
+        self.input_record_index = 0
+        self.input_words = records[0] if records else None
         self.input_position = 0
+
+    @property
+    def input_status(self) -> int:
+        """0 DATA, 1 EOR, 2 EOF, 3 OFFLINE. Never advances input."""
+        if self.input_records is None:
+            return 3
+        if self.input_record_index >= len(self.input_records):
+            return 2
+        assert self.input_words is not None
+        return 0 if self.input_position < len(self.input_words) else 1
 
     @property
     def z(self) -> bool:
@@ -88,6 +109,8 @@ class Machine:
             raise MachineFault(f"FIN must be all zero at {at:05o}")
         if op == 9 and tag:
             raise MachineFault(f"NVM cannot use an index at {at:05o}")
+        if op in (17, 18) and (tag or adr):
+            raise MachineFault(f"{OPCODES[op]} requires zero operand and TAG at {at:05o}")
         if op == 7 and tag == 0:
             raise MachineFault(f"PONX requires X1, X2 or X3 at {at:05o}")
 
@@ -116,12 +139,27 @@ class Machine:
         elif op == 9:
             self.a = adr
         elif op == 16:
-            if self.input_words is None:
+            if self.input_status == 3:
                 raise MachineFault(f"CAPTA without attached record at {at:05o}")
-            if self.input_position >= len(self.input_words):
-                raise MachineFault(f"CAPTA end of input record at {at:05o}")
+            if self.input_status != 0:
+                raise MachineFault(f"CAPTA end of input record or stream at {at:05o}")
+            assert self.input_words is not None
             self.memory[ea] = self.input_words[self.input_position]
             self.input_position += 1
+        elif op == 17:
+            self.a = self.input_status
+        elif op == 18:
+            state = self.input_status
+            if state == 3:
+                raise MachineFault(f"PROX without attached records at {at:05o}")
+            if state == 0:
+                raise MachineFault(f"PROX before input record ends at {at:05o}")
+            if state == 1:
+                assert self.input_records is not None
+                self.input_record_index += 1
+                self.input_words = (self.input_records[self.input_record_index]
+                                    if self.input_record_index < len(self.input_records) else None)
+                self.input_position = 0
         elif op in (10, 11, 12, 13, 14, 15):
             try:
                 if op == 10:
