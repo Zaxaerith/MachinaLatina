@@ -2,6 +2,10 @@
 
 **Status: DRAFT · fictional · provisional existence**
 
+## 2026-11-23 editorial recommendation
+
+The separate [CVL-63/TP1 proposal](CVL-63-TP1.md) recommends the original **Candidate B** as a **seven-bit transmission unit containing six CVL-54/P0 code bits and one even-parity check bit**. It does NOT establish a new seven-bit character code or a standalone serial framing protocol. The earlier Candidate A remains an alternative considered in this historical document. **Status stays DRAFT; no CANON ratification has been granted.** [History](../docs/de-transmissione-codicum-1963-1968.md) · [worked parity ledger](../docs/cvl63-transport-migration-ledger.md).
+
 ## Purpose
 
 A plausible transition from six-bit packed scientific-machine text to seven-bit communications networks while preserving Latin and Greek requirements.

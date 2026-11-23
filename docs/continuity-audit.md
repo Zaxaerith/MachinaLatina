@@ -42,6 +42,10 @@
 
 A [complete 256-position RC1 review ledger](../specifications/CVL-68-RC1-ledger.md) and [strict profile](../specifications/CVL-68-RC1.md) have now been proposed without changing earlier byte assignments. The ledger contains 33 controls, 136 glyph slots, 11 combining signs and 76 RESERVED positions. **This resolves the missing complete proposal/strict decoding documentation, not the CANON ratification.** CVL-63, scholarly mark validation, normalization-to-modern-Unicode round-trips and historical committee approval remain open. The original C04 remains a ratification blocker.
 
+## 2026-11-23 update: CVL-63/TP1 transmission recommendation
+
+The separate [TP1 study](../specifications/CVL-63-TP1.md) recommends carrying original six-bit CVL-54/P0 symbols inside seven-bit parity-checked transmission units, **not** defining a third character codebook. The recommendation clarifies the story's preferred 1963 transition but **does not CANON-ratify it**. Seven-bit physical framing, failed-record retransmission, full source code tables and old tape archival handling are still open. See [worked example](cvl63-transport-migration-ledger.md). Continuity item C04 is still a pending ratification issue for CVL-68.
+
 ## 优先处理的技术空白（由重要到次要）
 
 1. **CVL-68**：冻结可核查的直接编码与组合规范前，不能保证世界范围的标准互通。

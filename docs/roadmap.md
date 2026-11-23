@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.2 — CVL-63/TP1 seven-bit communications study
+
+- [x] Compare a separate seven-bit coded alphabet with a six-bit CVL-54 payload + one check bit transport profile
+- [x] Recommend parity-bearing [CVL-63/TP1](../specifications/CVL-63-TP1.md) while keeping it **DRAFT, NOT CANON**
+- [x] Define logical seven-bit slot, parity check, page-state semantics and external record-boundary requirement
+- [x] Document an exact [two-word mixed Greek/Latin conversion example](cvl63-transport-migration-ledger.md) without changing old XXXVI/CVL-68 values
+- [x] Describe undetected even-number bit flips and lost/duplicated shift symbols as real integrity limitations
+- [ ] Specify physical serial/tape framing, error recovery and retransmission before asserting any interoperable link standard
+- [ ] Resolve institutional approval and CVL-54/P0 source profile ratification before CANON elevation
+
+**Documentation only:** no additional programs, automated tests, CI, Tag or Release. See [historical narrative](de-transmissione-codicum-1963-1968.md) and [technical TP1](../specifications/CVL-63-TP1.md).
+
 ## 2.1 — CVL-68/RC1 eight-bit bilingual standard review
 
 - [x] Reconcile earlier CVL-68 Ledger A with the existing Latin/Greek machine and document examples

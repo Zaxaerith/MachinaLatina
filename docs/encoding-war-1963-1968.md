@@ -3,6 +3,10 @@
 > **Status: DRAFT NARRATIVE · fictional historiography / 架空历史叙事草案**  
 > The people, committees, debates, document titles and institutional positions below are invented. **No quotations are attributed to real historical figures.** The engineering constraints are informed by real-world history, with references at the end.
 
+## Later focused research — CVL-63/TP1
+
+The [CVL-63/TP1 proposal](../specifications/CVL-63-TP1.md) now **recommends** the transmission-profile side of the open 1963 choice: 6 bits of the existing CVL-54/P0 symbol plus 1 even parity bit in each seven-unit channel slot. This resolves the *preferred research direction*, not the final CANON decision and **not** real serial framing/track specifications. The original alternative of an independent seven-bit code remains here as a historical faction's proposal. See [1963–1968 follow-up](de-transmissione-codicum-1963-1968.md).
+
 ## The historical problem in this world / 争论的起点
 
 The scientific community of Machina Latina writes ordinary administration in a continuing Classical Latin tradition, while Greek remains prestigious in mathematics and learned discourse. Scientists want to type `Α`, `α`, `π`, `λόγος` and Latin prose **within the same electronic document** without changing alphabets by hand or losing information.

@@ -32,6 +32,12 @@ Project direction: **documentation-first, no automatic CI**. The previous experi
 
 No CI, tests, emulator, Tag or Release were added.
 
+## Current research — CVL-63/TP1 communications (2026-11-23)
+
+The proposed [CVL-63/TP1 seven-bit transport profile](specifications/CVL-63-TP1.md) recommends a **seven-bit transmission unit carrying the original CVL-54 six-bit character plus one even-parity check bit**, *not* a third independent character set. See the [fictional 1963–1968 standardization history](docs/de-transmissione-codicum-1963-1968.md) and [worked migration/parity ledger](docs/cvl63-transport-migration-ledger.md). The original 36-bit XXXVI storage and six-bit script-shift codes remain in the model, with the 1968 CVL-68 eight-bit native alphabet representing the real proposed character-identity transition. **TP1 is a recommended DRAFT, not a canonized standard, and physical transport framing remains unresolved.**
+
+No new emulators, codec software, automated tests or CI were added.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -43,6 +49,9 @@ No CI, tests, emulator, Tag or Release were added.
 | [Chronology / 时间线](docs/chronology.md) | A speculative 1954–2026 chronology / 架空发展史 |
 | [Decisions / 设计决策](docs/decisions.md) | Chosen directions and unresolved alternatives / 已选方向与待决问题 |
 | [CVL-54](specifications/CVL-54.md) | Six-bit Latin–Greek shift encoding; predecessor draft |
+| **[CVL-63/TP1 seven-bit transport](specifications/CVL-63-TP1.md)** | **Recommended draft: six data bits + one even-parity check bit, not a new alphabet** |
+| [1963–1968 transmission history](docs/de-transmissione-codicum-1963-1968.md) | Why the telecom layer diverges from character-identity reform |
+| [CVL-63 parity/migration ledger](docs/cvl63-transport-migration-ledger.md) | Worked XXXVI → TP1 → CVL-68 text and corruption cases |
 | [CVL-63](specifications/CVL-63.md) | Transitional seven-bit communications proposal |
 | [CVL-68](specifications/CVL-68.md) | Eight-bit bilingual character encoding; principal draft |
 | **[CVL-68/RC1 proposed full standard](specifications/CVL-68-RC1.md)** | **Review candidate: byte rules, validity, combining marks, history** |

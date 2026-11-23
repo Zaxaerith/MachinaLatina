@@ -7,6 +7,10 @@
 
 The [CVL-68/RC1 proposal](CVL-68-RC1.md) adds strict target-text record validity, profile tags, and C0–C2 scholarly sign candidates. This legacy migration document deliberately remains a DRAFT because **CVL-54 source page mappings and CVL-63 status are not canonically frozen**. No bit-perfect migration guarantee is introduced by the existence of a completed CVL-68 byte ledger.
 
+## CVL-63 intermediate communications hypothesis
+
+A [seven-unit CVL-63/TP1 transport layer](CVL-63-TP1.md) has been proposed as a **DRAFT** intermediary. Its seventh bit is **even parity, not a character bit**; a valid gateway must verify parity, recover the source six-bit symbol, interpret CVL-54/P0 shifts under known record framing, then map character identities to CVL-68/RC1. An example is recorded in the [TP1 parity and conversion ledger](../docs/cvl63-transport-migration-ledger.md). The original word/tape's bit-exact round trip still requires raw archival sidecars, since physical framing and PAD may have been omitted.
+
 ## Scope
 
 CVL-54: **six-bit code units** packed into **36-bit machine words**, interpreted under an active LATINA or GRAECA page.

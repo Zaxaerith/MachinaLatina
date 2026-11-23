@@ -161,6 +161,13 @@ The [CVL-68/RC1 proposed standard](../specifications/CVL-68-RC1.md) provides a c
 
 This decision **records publication for review**; it does not approve the byte map, validate every Greek philological form, guarantee Unicode-lossless punctuation conversion, change emulator code, or reinstate CI. Explicit approval is required before CANON promotion. Review [continuity audit](continuity-audit.md).
 
+## D037 — Prefer CVL-63 as a seven-unit parity transport, not another alphabet
+**State:** RECOMMENDED DRAFT / NOT CANON (2026-11-23)
+
+A [CVL-63/TP1 proposal](../specifications/CVL-63-TP1.md) recommends preserving the CVL-54/P0 six-bit LATINA/GRAECA page-state codes in each seven-bit transmission **slot**, with the seventh bit for even parity. The valid transmitted units are **64 parity-consistent seven-bit patterns**, not 128 independent characters. This reduces needless re-encoding of stored XXXVI words between 1954 and the 1968 CVL-68 direct-byte transition, but does **not** eliminate lost-SHIFT errors, reject all multi-bit corruption, define a physical network frame, or guarantee archival tape restoration. The prior full seven-bit Candidate A is retained as an alternative.
+
+The [worked ledger](cvl63-transport-migration-ledger.md) shows `SALVE ΛΟΓΟΣ` across two XXXVI words, twelve seven-bit TP1 slots and eleven direct CVL-68 bytes. The recommendation is **not a ratification**; CVL-54 source-table CANON status, record framing, parity policy and formal fictional institution remain open. No code or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
