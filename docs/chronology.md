@@ -32,7 +32,13 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 2010–2012 | DRAFT | International multi-script source repositories and architecture-aware software packages become contested | COS identity, homograph package names and portable sources ≠ identical binaries |
 | 2012–2014 | DRAFT | Cloud services and scientific numerical reproducibility debates grow | Legacy Sextaria ideas survive in numeric libraries/accelerators, not necessarily 48-bit CPUs |
 | 2014–2015 | DRAFT | App-store controls, free-code rights and document preservation drive new policy divisions | Open source ≠ ability to install a modified system image |
-| 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
+| 2015–2017 | DRAFT | Sextaria scientific institutions move from specialist general-purpose CPU designs toward numeric services and accelerators | Wider scientific precision is not a 48-bit tensor instruction |
+| 2018–2020 | DRAFT | CVL-54/CVL-68 archive conversion meets global COS linguistic data and learned token vocabularies | Original bytes, decoded characters and ML tokenization must remain separate |
+| 2021–2023 | DRAFT | Latin/Greek academic language-model advantages provoke global representation and provenance disputes | Culture, corpus selection and evaluation are not language-intrinsic intelligence |
+| 2024–2025 | DRAFT | Nova successor servers and heterogeneous accelerators compete over energy, performance and verifiable science | Mixed precision, network bandwidth and real source citations |
+| 2026 | DRAFT | A Nova-derived system, matrix engines and COS/NODVS/RATIO research traditions coexist in imagined AI platforms | No fictional deployed products or ISA frozen |
+
+The 2015–2026 heterogeneous-computing/AI hypotheses are developed in [De Machinis Cogitantibus](de-machinis-cogitantibus-2015-2026.md). The accelerated science, AI institutions and model products are DRAFT, not validated or CANON.
 
 The 2005–2015 OS/free-software/mobility proposals are developed in [De Libertate Codicum et Imperio Systematum](de-libertate-codicum-et-imperio-systematum-2005-2015.md). ORDO-N, PARTES, CVSTOS, LIBERTAS CODICVM and their dates are DRAFT rather than CANON.
 

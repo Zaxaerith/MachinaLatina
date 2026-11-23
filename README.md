@@ -42,6 +42,12 @@ The [Phase XVIII historical study](docs/de-libertate-codicum-et-imperio-systemat
 
 Read [OS architecture study](specifications/operating-system-families-2005-2015.md), [software freedom and distribution](docs/software-freedom-and-distribution-2005-2015.md), and [programming language ecosystems](docs/programming-ecosystem-2005-2015.md). Documentation only: no new code, compiler, kernel, CI, Tag or Release.
 
+## Phase XIX — AI, Global Scripts and Heterogeneous Computing (2015–2026)
+
+The [Phase XIX history](docs/de-machinis-cogitantibus-2015-2026.md) follows the possible **survival of ideas rather than obsolete CPUs**: a Nova-derived general computer, scientifically auditable numeric workloads inherited from Sextaria-style institutions, and separately designed high-throughput matrix accelerators. It studies why COS character identity does **not** equal model tokenization, and why a Latin–Greek academic tradition can generate data/assessment biases in a global language-model era.
+
+Related: [heterogeneous hardware study](specifications/heterogeneous-computing-2015-2026-study.md), [AI and multilingual COS](docs/ai-languages-and-cos-2015-2026.md), [scientific provenance and RATIO](docs/ai-provenance-and-numerics-2015-2026.md). These are speculative **DRAFT studies** only, not deployed models, standards or GPU specifications. No CI, simulators, training data or software were added.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -91,6 +97,10 @@ Read [OS architecture study](specifications/operating-system-families-2005-2015.
 | [Three operating-system families](specifications/operating-system-families-2005-2015.md) | ORDO-N / PARTES / CVSTOS architecture tradeoffs |
 | [Software freedom and distribution](docs/software-freedom-and-distribution-2005-2015.md) | Preservation, licensing, device rights, architecture-aware packages |
 | [Programming ecosystems 2005–2015](docs/programming-ecosystem-2005-2015.md) | MODVLA, SERMO, RATIO motivations and non-goals |
+| [AI and heterogeneous computation 2015–2026](docs/de-machinis-cogitantibus-2015-2026.md) | The imagined 2026 computer civilization and its inherited computing philosophies |
+| [Heterogeneous computing study](specifications/heterogeneous-computing-2015-2026-study.md) | Scientific numeric contracts and accelerator design without inventing 48-bit GPUs |
+| [AI, COS and multilingual text](docs/ai-languages-and-cos-2015-2026.md) | Encoding, tokenization, language distribution and evaluation |
+| [AI provenance and numerical contracts](docs/ai-provenance-and-numerics-2015-2026.md) | Research citations, independent calculation and data lineage |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 

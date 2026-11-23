@@ -48,6 +48,18 @@ These entries are **real-world analogies**, not evidence of Sextaria, Machina No
 
 All comparisons are **real-world anchors**, not claims that GNU, Linux, Git, iOS or Android historically existed under these names in the invented CVL ecosystem.
 
+## Heterogeneous computing, AI and multilingual ethics (real comparisons)
+
+- **AlphaGo / Lee Sedol, 2016:** real milestone for neural-network-assisted game AI. https://deepmind.google/research/alphago/
+- **Attention Is All You Need, 2017:** real Transformer paper. https://research.google/pubs/attention-is-all-you-need/
+- **NVIDIA Tesla V100, 2017:** real Tensor Core and HPC/AI hardware lineage; not fictional Sextaria silicon. https://nvidianews.nvidia.com/news/nvidia-launches-revolutionary-volta-gpu-platform-fueling-next-era-of-ai-and-high-performance-computing
+- **UNESCO 2021 Recommendation on AI Ethics:** real international ethical reference, not the alternate world's adopted law. https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence
+- **ChatGPT launched 2022-11-30:** real-world public conversational AI reference. https://openai.com/index/chatgpt/
+- **NVIDIA Blackwell 2024:** real accelerator/interconnect platform. https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Blackwell-Platform-Arrives-to-Power-a-New-Era-of-Computing/
+- **Unicode UTS #39:** real confusable-script security reference, not a COS normative standard. https://www.unicode.org/reports/tr39/
+
+These are historical anchor sources only; the fictional 2015–2026 standardization and AI product trajectory remains DRAFT.
+
 ## Greco-Roman culture
 
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.

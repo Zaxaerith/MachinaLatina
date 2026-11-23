@@ -134,6 +134,21 @@ A hypothetical **LIBERTAS CODICVM** movement could emerge from institutional nee
 
 Proposed **MODVLA** can express abstract text vs raw bytes vs numeric records and platform ABI differences; **SERMO** could manipulate COS/NODVS text/network objects; **RATIO** could express numerical precision and reproducibility. None is a completed executable language. Source repositories must distinguish COS character identities, original CVL bytes, machine binaries and build provenance; this does not automatically reproduce real-world Git object or package formats. [Language study](programming-ecosystem-2005-2015.md).
 
+## D032 — Scientific numerical tradition may outlive Sextaria CPU hardware
+**State:** DRAFT / 2015–2026 historical design (2026-11-23)
+
+Study Nova-derived general-purpose CPUs, independent matrix acceleration and scientifically auditable higher-precision numerical tools. A Sextaria-inspired verification discipline is plausible even if the original 48-bit computers fade; this **does not** define an F48 numeric standard or assert any 48-bit tensor hardware was invented. [Heterogeneous computing study](../specifications/heterogeneous-computing-2015-2026-study.md).
+
+## D033 — COS characters are neither ML tokens nor model understanding
+**State:** DRAFT / multilingual AI design (2026-11-23)
+
+Old CVL/COS text requires explicit versioned decoding, preservation of original source bytes and script identity. Model tokens have separate vocabulary/segmentation semantics; a global character registry does not guarantee linguistic comprehension or equal token cost. Training corpus imbalance may perpetuate Greek–Latin institutional privilege. [Language model study](ai-languages-and-cos-2015-2026.md).
+
+## D034 — Model output must separate citation, calculation and adjudication
+**State:** DRAFT / scientific provenance design (2026-11-23)
+
+A plausible NODVS/RATIO-inspired AI research workflow separates model-generated prose from actually retrieved, authorized and versioned references, independently executed numeric calculations, and human-accepted scientific results. A well-formed but fabricated citation is never evidence. No research manifest protocol, model or proof engine has been implemented. [AI provenance study](ai-provenance-and-numerics-2015-2026.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

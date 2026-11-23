@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 1.9 — Phase XIX: heterogeneous computing and AI civilization (documentation only)
+
+- [x] Write 2015–2026 alternate-history narrative from Sextaria numerical institutions to model accelerators
+- [x] Distinguish scientific precision heritage from unsupported fictional 48-bit GPU claims
+- [x] Study CVL/COS conversion, text identity and model tokenization as separate layers
+- [x] Research multilingual evaluation, historical corpus privilege and the politics of AI language coverage
+- [x] Specify a conceptual separation among AI narration, real NODVS source citations, independent computation and human review
+- [ ] Reconcile cross-era timeline, institution genealogy and terminology in one compact 1954–2026 reference index
+- [ ] Explore future (2027+) political, hardware and software paths without presenting predictions as established history
+
+**Scope:** documents only. No new models, accelerators, compilers, test suites, CI, tags or releases. See [historical narrative](de-machinis-cogitantibus-2015-2026.md), [accelerator study](../specifications/heterogeneous-computing-2015-2026-study.md), [COS AI study](ai-languages-and-cos-2015-2026.md) and [provenance](ai-provenance-and-numerics-2015-2026.md).
+
 ## 1.8 — Phase XVIII: free software, OS families and mobile computing (documentation only)
 
 - [x] Write 2005–2015 counterfactual history of archival freedom, source code, mobile software and cloud science
