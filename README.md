@@ -24,6 +24,12 @@ Instead of translating modern English keywords after the fact, this project asks
 
 The new [1973–1985 architecture-war essay](docs/de-bello-verborum-et-machinarum-1973-1985.md) and [Sextaria 48-bit proposal](specifications/Sextaria-S0-study.md) examine why a 36-bit legacy line, a 32-bit byte-addressed commercial line, and a possible 48-bit scientific line might coexist. **Sextaria, MODVLA, RATIO, their dates, and their fictional vendors remain DRAFT**, not immutable world canon. This documentation-only phase adds no executable ISA or virtual machine.
 
+## Phase XVI — The Bilingual Personal Computer Era (1981–1995)
+
+The **documentation-only** 1981–1995 study explores inexpensive Nova-derived microcomputers, a proposed TABVLA bilingual GUI, and specialist Sextaria workstations. It distinguishes **stored CVL-68 character identity** from keyboard input, composed Greek typography, and reliable print output. All machines and launch dates are **DRAFT scenarios**, not canonized historical products.
+
+See [Phase XVI narrative](docs/de-revolutione-machinarum-domesticarum-1981-1995.md), [Nova PC architecture study](specifications/Nova-personal-computer-study.md) and [CVL desktop typography](specifications/CVL-desktop-typography-study.md). No emulator, font, GUI, CI, Tag or Release was added.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -63,6 +69,9 @@ The new [1973–1985 architecture-war essay](docs/de-bello-verborum-et-machinaru
 | [The Word-Length Wars, 1973–1985](docs/de-bello-verborum-et-machinarum-1973-1985.md) | Narrative research on XXXVI, Nova and 48-bit Sextaria |
 | [Sextaria-S0 architecture study](specifications/Sextaria-S0-study.md) | 48-bit scientific computer tradeoffs; no ISA or simulator |
 | [Programming-language lineages, 1974–1985](docs/programming-languages-1974-1985.md) | TRANFOR, MODVLA and RATIO as competing historical ideas |
+| [Personal computer revolution 1981–1995](docs/de-revolutione-machinarum-domesticarum-1981-1995.md) | Counterfactual Nova desktops, Sextaria workstations and document publishing |
+| [Nova personal computer design](specifications/Nova-personal-computer-study.md) | Cheap microprocessor tiers, graphics RAM and software compatibility |
+| [CVL bilingual desktop typography](specifications/CVL-desktop-typography-study.md) | Input modes, composition, glyphs, printing and polytonic Greek |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 

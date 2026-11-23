@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 1.6 — Phase XVI: personal computing and bilingual desktop publishing
+
+- [x] Write the candidate 1981–1995 Nova microcomputer, Sextaria workstation and TABVLA desktop history
+- [x] Separate CVL-68 byte exchange, source/API compatibility and direct binary execution
+- [x] Document the physical framebuffer/font memory costs of early low-cost GUI systems
+- [x] Study Greek combining marks, text clusters, keyboard modes and printed document fidelity
+- [x] Record candidate multilingual and semantic-versus-page-document standards disputes for 1990–1995
+- [ ] Decide whether TABVLA is an industry-wide GUI convention or one vendor's desktop
+- [ ] Design a 1995–2005 global encoding/networking history independently of Unicode/HTTP naming
+
+**No GUI software, CI, new fonts or simulators required.** See [history](de-revolutione-machinarum-domesticarum-1981-1995.md), [Nova PC study](../specifications/Nova-personal-computer-study.md) and [typography](../specifications/CVL-desktop-typography-study.md).
+
 ## 1.5 — Phase XV: the word-length wars (documentation-only, current)
 
 - [x] Write the fictional 1973–1985 narrative of competition between XXXVI, Nova and the proposed 48-bit Sextaria

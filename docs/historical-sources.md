@@ -19,6 +19,14 @@ This bibliography identifies **real** references that constrain or inspire the a
 
 These entries are **real-world analogies**, not evidence of Sextaria, Machina Nova or invented Latin language vendors.
 
+## Personal computing and desktop publishing (real history analogies)
+
+- **Xerox Alto and Xerox Star** — bitmap displays and document-oriented GUI research; chronology does not imply an identical TABVLA system existed. https://computerhistory.org/press-releases/xerox-alto/
+- **IBM PC 1981** — IBM's PC history, relevant to affordable personal hardware and the 8088's bus/architectural distinctions. https://www.ibm.com/history/personal-computer
+- **Macintosh 1984** — Smithsonian collection for early Macintosh memory and GUI context. https://americanhistory.si.edu/collections/object/nmah_334371
+- **Desktop publishing and PostScript/LaserWriter (1985)** — historical page description and print technology comparisons. https://archive.computerhistory.org/resources/access/text/2012/10/102746510-05-01-acc.pdf
+- **Unicode Standard publication history** — historical 1990s text-standard chronology, *not* a fictional CVL successor by default. https://www.unicode.org/history/publicationdates.html
+
 ## Greco-Roman culture
 
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.

@@ -16,10 +16,17 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 1983–1985 | DRAFT | **RATIO** numerical-contract language is proposed; three-machine coexistence considered as one ending | Auditability and explicit floating precision become more important than merely translating characters |
 | 1970s | DRAFT | Broader system languages and multiuser operating systems develop | Specific ISA, file and process standards remain unresolved |
 
-| 1980s | DRAFT | Widespread personal terminals with Latin/Greek input | Fonts, keyboards and cross-script confusables become everyday concerns |
+| 1981–1983 | DRAFT | Nova Minor affordable microcomputers and disputed CVL-68 font-ROM support | Shared character files need not imply a shared 32-bit Nova-N1 binary |
+| 1984–1987 | DRAFT | TABVLA bilingual desktop concept and university printing procurement | Fonts, input, character clusters and printed page layout become distinct compatibility claims |
+| 1987–1990 | DRAFT | Sextaria specialist scientific workstations coexist with low-cost Nova desktops | Graphics/numerical needs versus manufacturing scale; visual GUI compatibility differs from binary ABI |
+| 1990–1992 | DRAFT | Universal character identity proposal addresses CVL-68 global repertoire limits | International text beyond first-class Latin/Greek; normalization and archives remain unresolved |
+| 1993–1995 | DRAFT | Semantic document interchange competes with page-faithful printing | Multiple desktop formats, script identity and layout interchange |
+
 | 1990s | DRAFT | Global text standard supersedes bilingual eight-bit ceilings | Polytonic Greek and world scripts require a coherent multibyte story |
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
+
+The 1981–1995 entries are further developed in [the personal computer revolution](de-revolutione-machinarum-domesticarum-1981-1995.md). All dates, models, events, and TABVLA are **DRAFT**.
 
 The 1973–1985 entries above are proposals developed in [De Bello Verborum et Machinarum](de-bello-verborum-et-machinarum-1973-1985.md), **not historical facts and not promoted to CANON**.
 

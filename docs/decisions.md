@@ -99,6 +99,16 @@ Explore coexistence of the XXXVI 36-bit scientific legacy, Nova byte-addressed c
 
 The project emphasizes **counterfactual technical historiography and standards design**. Existing Python experiments are retained but no new CI, emulator milestone or automatic testing is required by default. The automatic `.github/workflows/ci.yml` workflow was removed to avoid noisy checks for a speculative documentation project. Future code experiments may be proposed explicitly and validated proportionately; this does not invalidate recorded historical test results.
 
+## D025 — Distinguish Nova PC lineage from Nova-N1 binary compatibility
+**State:** DRAFT / research hypothesis (2026-11-23)
+
+The proposed **Nova Minor / Media / Maior** personal-computer tiers may share CVL-68 text storage, interchange formats and selected source APIs without all executing the experimental 1968 **Nova-N1** 32-bit fixed-width machine code. Inexpensive early machines may use eight- or sixteen-bit datapaths and narrow external buses, without claims of instruction-set compatibility. See [Nova PC study](../specifications/Nova-personal-computer-study.md).
+
+## D026 — Native bilingual desktop does not imply correct typography
+**State:** DRAFT / design question (2026-11-23)
+
+The hypothetical **TABVLA** desktop family must distinguish four layers: encoded character identity, keyboard input state, editable character clusters, and print-quality glyph positioning. The proposed 1980s Greek manuscript tests include accents/breathings, case conversion, final sigma and Latin/Greek confusable glyphs. Neither TABVLA nor its dates are canonized or implemented. See [desktop study](../specifications/CVL-desktop-typography-study.md) and [Phase XVI history](de-revolutione-machinarum-domesticarum-1981-1995.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
