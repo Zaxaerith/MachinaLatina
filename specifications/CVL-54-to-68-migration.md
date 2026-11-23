@@ -3,6 +3,10 @@
 > **Status: DRAFT MIGRATION CONTRACT · fictional**  
 > No normative 64-entry CVL-54 page table exists yet. This document specifies constraints and a candidate algorithm, **not a completed byte-perfect transcoder**.
 
+## Review-candidate extension
+
+The [CVL-68/RC1 proposal](CVL-68-RC1.md) adds strict target-text record validity, profile tags, and C0–C2 scholarly sign candidates. This legacy migration document deliberately remains a DRAFT because **CVL-54 source page mappings and CVL-63 status are not canonically frozen**. No bit-perfect migration guarantee is introduced by the existence of a completed CVL-68 byte ledger.
+
 ## Scope
 
 CVL-54: **six-bit code units** packed into **36-bit machine words**, interpreted under an active LATINA or GRAECA page.

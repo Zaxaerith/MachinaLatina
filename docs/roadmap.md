@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.1 — CVL-68/RC1 eight-bit bilingual standard review
+
+- [x] Reconcile earlier CVL-68 Ledger A with the existing Latin/Greek machine and document examples
+- [x] Publish full [CVL-68/RC1 byte map](../specifications/CVL-68-RC1-ledger.md) with **all 256 entries**, including 76 reserved slots
+- [x] Preserve every earlier assigned byte and document the three new P1 C0–C2 scholarly symbols
+- [x] Specify strict [text/combining/line-ending/error profile](../specifications/CVL-68-RC1.md) and legacy migration boundaries
+- [ ] Request philological review of combination restrictions and historically plausible upper-case Greek typography
+- [ ] Decide whether CVL-63 is an independent standard or a transmission profile before freezing migration history
+- [ ] Explicitly authorize any CANON elevation; **currently REVIEW CANDIDATE ONLY**
+
+**Scope:** documents only. No new emulator, coding tests, CI, Tag or Release.
+
 ## 2.0 — Phase XX: integrated 1954–2026 history and continuity audit
 
 - [x] Assemble one readable [1954–2026 civilization history](historia-machinae-latinae-1954-2026.md) from the first nineteen research phases

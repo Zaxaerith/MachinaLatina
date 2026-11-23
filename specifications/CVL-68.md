@@ -4,6 +4,10 @@
 
 CVL-68 is the planned mainstream eight-bit bilingual character set of Machina Latina's late-1960s computing world. The **decision to adopt direct 8-bit bilingual encoding is canon**; no complete mapping is canon yet.
 
+## Latest candidate for review
+
+**[CVL-68/RC1](CVL-68-RC1.md)** now proposes a precise byte-interchange contract, with a [256-entry reviewed ledger](CVL-68-RC1-ledger.md). It preserves the earlier Latin/Greek byte assignments and tentatively assigns three previously reserved positions (C0–C2) to scholarly marks. RC1 also specifies strict text control handling and a constrained combination grammar. **It remains a REVIEW CANDIDATE, NOT CANON; the design direction alone is canonical.** This original page remains the prior broad design sketch and historical context.
+
 ## Capacity calculation
 
 | Set | Code positions |

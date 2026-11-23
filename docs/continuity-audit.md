@@ -38,6 +38,10 @@
 
 **2015–2026 的 AI** 由数据、训练、加速器和评价共同决定；拉丁语/希腊语的文化地位不会使模型天然更智能。
 
+## 2026-11-23 update: CVL-68/RC1 review candidate
+
+A [complete 256-position RC1 review ledger](../specifications/CVL-68-RC1-ledger.md) and [strict profile](../specifications/CVL-68-RC1.md) have now been proposed without changing earlier byte assignments. The ledger contains 33 controls, 136 glyph slots, 11 combining signs and 76 RESERVED positions. **This resolves the missing complete proposal/strict decoding documentation, not the CANON ratification.** CVL-63, scholarly mark validation, normalization-to-modern-Unicode round-trips and historical committee approval remain open. The original C04 remains a ratification blocker.
+
 ## 优先处理的技术空白（由重要到次要）
 
 1. **CVL-68**：冻结可核查的直接编码与组合规范前，不能保证世界范围的标准互通。

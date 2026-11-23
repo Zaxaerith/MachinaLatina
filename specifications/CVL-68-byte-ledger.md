@@ -4,6 +4,10 @@
 
 This ledger proposes **one possible full accounting of the 256 byte positions** of the fictional CVL-68 standard. `RESERVED` means **unassigned**, not a printable character or a guaranteed decoding result. No software should present this as the final interoperable mapping.
 
+## Later review candidate
+
+A newer **[CVL-68/RC1 full ledger](CVL-68-RC1-ledger.md)** and [interpretation profile](CVL-68-RC1.md) retain this Ledger A intact as a historical design snapshot. RC1 proposes additions at C0–C2 and stricter text/malformed-input rules. This older Ledger A remains **DRAFT**, and its 79 reserved slots/8 combining slots are correct **for this original 0.2 study**, not a counting error.
+
 ## Chosen tradeoffs
 
 - Keep `0x00–0x1F` as 32 conventional terminal **control roles**. The ASCII-derived labels in this document are modern explanatory glosses, not necessarily the fictional Latin names.

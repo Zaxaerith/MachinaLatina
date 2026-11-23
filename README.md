@@ -26,6 +26,12 @@ The primary reading path is now the **[1954–2026 Computer Civilization History
 
 Project direction: **documentation-first, no automatic CI**. The previous experimental CPU/TRANFOR Python research remains preserved as a historical testbed, not proof that hypothetical hardware existed.
 
+## Current standards study — CVL-68/RC1 (2026-11-23)
+
+**[CVL-68/RC1 review candidate](specifications/CVL-68-RC1.md)** is now a documentation-only draft for the eight-bit Latin–Greek standard. It contains an [exhaustive 256-byte ledger](specifications/CVL-68-RC1-ledger.md), explicit RESERVED/control handling, constrained polytonic combining order, text line-break rules and CVL-54 migration boundaries. Existing letter codes and the older `SALVE ΛΟΓΟΣ` vectors remain unchanged; the only new byte allocations are three proposed scholarly combining marks, C0–C2, from previously RESERVED space. **RC1 is a proposal for review, not CANON, not a legally registered standard and not yet implemented in software.**
+
+No CI, tests, emulator, Tag or Release were added.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -39,6 +45,8 @@ Project direction: **documentation-first, no automatic CI**. The previous experi
 | [CVL-54](specifications/CVL-54.md) | Six-bit Latin–Greek shift encoding; predecessor draft |
 | [CVL-63](specifications/CVL-63.md) | Transitional seven-bit communications proposal |
 | [CVL-68](specifications/CVL-68.md) | Eight-bit bilingual character encoding; principal draft |
+| **[CVL-68/RC1 proposed full standard](specifications/CVL-68-RC1.md)** | **Review candidate: byte rules, validity, combining marks, history** |
+| [CVL-68/RC1 full 256-byte ledger](specifications/CVL-68-RC1-ledger.md) | Every value assigned or explicitly reserved; three new P1 marks |
 | [CVL-68 byte ledger](specifications/CVL-68-byte-ledger.md) | All 256 positions accounted for; non-normative test vectors and reserved positions |
 | [Encoding War / 编码战争](docs/encoding-war-1963-1968.md) | Fictional 1963–1968 standards conflict |
 | [Polytonic Greek P1](specifications/CVL-68-polytonic.md) | Candidate accent, breathing, sigma and normalization rules |

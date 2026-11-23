@@ -154,6 +154,13 @@ A plausible NODVS/RATIO-inspired AI research workflow separates model-generated 
 
 The [1954–2026 narrative history](historia-machinae-latinae-1954-2026.md) and [clean chronology](chronology.md) collect previous **DRAFT** periods in reading order. Their publication does **not** promote Sextaria-S0, COS/NODVS, TABVLA, ORDO-N/PARTES/CVSTOS, MODVLA/SERMO/RATIO, fictional institutional names or imagined 2026 AI products to CANON. Each requires an explicit subsequent technical and institutional decision; real Python experiments are preserved as separate research artifacts. See [institutions](institutions-and-lineages.md) and [continuity audit](continuity-audit.md).
 
+## D036 — CVL-68/RC1 is ready for review, not ratified
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-23)
+
+The [CVL-68/RC1 proposed standard](../specifications/CVL-68-RC1.md) provides a complete [256-position ledger](../specifications/CVL-68-RC1-ledger.md), strict text controls/RESERVED rejection, a canonical-order *limited* polytonic grammar, distinct Latin/Greek character identities and explicit legacy migration boundaries. **33 control + 136 glyph + 11 combining + 76 RESERVED = 256.** Previous byte assignments, including `SALVE ΛΟΓΟΣ`, are unchanged. Compared with Ledger A, only three previously reserved positions (C0–C2) are newly proposed as scholarly breve/underdot/overline. Distinguish fictional 1968 core encoding from the proposed later P1 scholarly profile.
+
+This decision **records publication for review**; it does not approve the byte map, validate every Greek philological form, guarantee Unicode-lossless punctuation conversion, change emulator code, or reinstate CI. Explicit approval is required before CANON promotion. Review [continuity audit](continuity-audit.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

@@ -3,6 +3,10 @@
 > **Status: DRAFT PROFILE, not normative · fictional computing system**  
 > This document supplements [CVL-68](CVL-68.md) and its [256-position candidate ledger](CVL-68-byte-ledger.md). It does **not** claim complete ancient Greek orthographic coverage.
 
+## Later scholarly profile draft
+
+A proposed [CVL-68/RC1 strict profile](CVL-68-RC1.md) builds on this original P1 study, retains B8–BF marks and proposes three additional values C0–C2 (breve, underdot, overline). It also constrains mark order and base-letter eligibility. **Neither document has been formally ratified; this page remains the earlier P1 snapshot.**
+
 ## Problem / 问题
 
 Twenty-four Greek alphabetic letters are **not** a complete encoding of written Greek. Ancient and scholarly spelling may require acute, grave, circumflex/perispomeni, smooth and rough breathing marks, diaeresis, vowel quantity marks, iota subscript and special letterforms such as final sigma.
