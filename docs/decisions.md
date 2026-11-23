@@ -84,6 +84,21 @@ Two experimental finite binary formats, [XXXVI-F36 and Nova-F32](../specificatio
 
 The [Ordo Operum/P1 device interface](../specifications/ORDO-P1-DEVICE.md) assigns **CAPTA** to each existing fictional CPU: XXXVI reads one packed 36-bit CVL-54 word into word-addressed memory, and Nova reads one native CVL-68 byte into byte-addressed memory. A host `ACCIPE` job card consumes exactly one prior output spool record after successful guest execution, translating text strictly when necessary. Failed jobs do not consume the record. This establishes **input I/O**, not a guest kernel, physical tape transport or recoverable EOF status. [Phase XIII report](phase-xiii-device-io.md).
 
+## D022 — Study a three-family 1973–1985 architecture ecology
+**State:** DRAFT / research direction (2026-11-23), NOT CANON
+
+Explore coexistence of the XXXVI 36-bit scientific legacy, Nova byte-addressed commercial family, and possible **Sextaria-S0 48-bit scientific family**. Six 8-bit characters fit a 48-bit word, but this gives **no intrinsic improvement in bits per character** over Nova. Justification must come from workload, numeric precision, data-movement granularity, institutional lock-in and realistic hardware cost, not linguistic determinism. Sextaria's pointer model, ISA, exact numeric format, vendors, and 1976 release remain unsettled. [Architecture-war narrative](de-bello-verborum-et-machinarum-1973-1985.md); [Sextaria study](../specifications/Sextaria-S0-study.md).
+
+## D023 — Language history must follow technical pressures
+**State:** DRAFT (2026-11-23)
+
+**MODVLA** is a candidate structured-module language emerging from TRANFOR, record schemas, CVL-script distinctions and differing ABIs; **RATIO** is a candidate language for numerical contracts and auditable precision. These are not existing implementations, nor renamed C/Pascal/Rust. Their dates, names and grammar remain provisional. [Language genealogy](programming-languages-1974-1985.md).
+
+## D024 — Documentation-first workflow; automated conformance retired
+**State:** CANON as repository-workflow choice (2026-11-23)
+
+The project emphasizes **counterfactual technical historiography and standards design**. Existing Python experiments are retained but no new CI, emulator milestone or automatic testing is required by default. The automatic `.github/workflows/ci.yml` workflow was removed to avoid noisy checks for a speculative documentation project. Future code experiments may be proposed explicitly and validated proportionately; this does not invalidate recorded historical test results.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

@@ -9,11 +9,19 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 1963 | DRAFT | **CVL-63** seven-bit communication code developed for terminals | Retains shift-state costs; needs a documented transition from CVL-54 |
 | 1964 | HIST anchor | Real-world System/360 helps demonstrate the relevance of 8-bit bytes | Our world need not have the same vendor; comparable byte-oriented pressures exist |
 | 1968 | CANON direction | **CVL-68** native eight-bit Latin–Greek code becomes mainline standard | Direct access to both scripts, unambiguous character identity, no page shift for core letters |
-| 1970s | DRAFT | System language, assembler and multiuser OS develop | Latin-language system APIs, Greek-friendly scientific symbols, transition from legacy packed text |
+| 1973–1975 | DRAFT | Scientific institutions dispute preservation of XXXVI software and tapes versus Nova's byte-oriented expansion | Text interchange, numeric interchange, and binary compatibility become separate procurement requirements |
+| 1976 | DRAFT | **Sextaria-S0** 48-bit scientific-computer proposal enters laboratory consideration | Six eight-bit CVL characters per word is convenient, but cost and high-precision numerical requirements must justify wide hardware |
+| 1979–1981 | DRAFT | TRANFOR source-sharing pressures motivate a proposed **MODVLA** structured-module language | Explicit record layouts, script profiles, target-specific binary objects |
+| 1981–1982 | DRAFT | Cheaper Nova-derived systems enter offices and education; a script-confusable identifier incident becomes a possible plot | Not all Nova-compatible systems need identical CPU word width; Latin/Greek glyph identities require editor policy |
+| 1983–1985 | DRAFT | **RATIO** numerical-contract language is proposed; three-machine coexistence considered as one ending | Auditability and explicit floating precision become more important than merely translating characters |
+| 1970s | DRAFT | Broader system languages and multiuser operating systems develop | Specific ISA, file and process standards remain unresolved |
+
 | 1980s | DRAFT | Widespread personal terminals with Latin/Greek input | Fonts, keyboards and cross-script confusables become everyday concerns |
 | 1990s | DRAFT | Global text standard supersedes bilingual eight-bit ceilings | Polytonic Greek and world scripts require a coherent multibyte story |
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
+
+The 1973–1985 entries above are proposals developed in [De Bello Verborum et Machinarum](de-bello-verborum-et-machinarum-1973-1985.md), **not historical facts and not promoted to CANON**.
 
 ## Modern research implementation (not an alternate-history event)
 

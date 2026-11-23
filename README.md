@@ -18,6 +18,12 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Current focus / 当前研究方向（2026-11-23）
+
+**Phase XV returns to alternate-history writing and standards research.** The project retains its earlier Python experiments as historical research aids but will **not expand CI, CPU emulators or new test suites by default**. The automatic Python conformance workflow was removed on 2026-11-23; old unsuccessful historical workflow runs may remain visible in GitHub's run history.
+
+The new [1973–1985 architecture-war essay](docs/de-bello-verborum-et-machinarum-1973-1985.md) and [Sextaria 48-bit proposal](specifications/Sextaria-S0-study.md) examine why a 36-bit legacy line, a 32-bit byte-addressed commercial line, and a possible 48-bit scientific line might coexist. **Sextaria, MODVLA, RATIO, their dates, and their fictional vendors remain DRAFT**, not immutable world canon. This documentation-only phase adds no executable ISA or virtual machine.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -54,6 +60,9 @@ Instead of translating modern English keywords after the fact, this project asks
 | [Phase XII: batch monitor](docs/phase-xii-batch.md) | Fictional 1970s batch-processing research and validation scope |
 | [Ordo Operum/P1 input device](specifications/ORDO-P1-DEVICE.md) | Native word/byte record CAPTA instructions and ACCIPE job-card extension |
 | [Phase XIII: guest record input](docs/phase-xiii-device-io.md) | Four-job XXXVI/Nova cross-machine record replay and CI validation plan |
+| [The Word-Length Wars, 1973–1985](docs/de-bello-verborum-et-machinarum-1973-1985.md) | Narrative research on XXXVI, Nova and 48-bit Sextaria |
+| [Sextaria-S0 architecture study](specifications/Sextaria-S0-study.md) | 48-bit scientific computer tradeoffs; no ISA or simulator |
+| [Programming-language lineages, 1974–1985](docs/programming-languages-1974-1985.md) | TRANFOR, MODVLA and RATIO as competing historical ideas |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 

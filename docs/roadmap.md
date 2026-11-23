@@ -1,6 +1,19 @@
 # Roadmap / 项目路线图
 
-**Approach:** literature and design first; small prototypes later. No large speculative compiler or OS project until there is an internally consistent character and machine model.
+**Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
+
+## 1.5 — Phase XV: the word-length wars (documentation-only, current)
+
+- [x] Write the fictional 1973–1985 narrative of competition between XXXVI, Nova and the proposed 48-bit Sextaria
+- [x] Compare 48-bit packed character words with 32-bit byte-oriented designs without claiming free density/performance gains
+- [x] Explain hardware feasibility, memory and bus costs, archival migration, compatibility and scientific floating-point motives
+- [x] Sketch TRANFOR-derived MODVLA and RATIO with explicit DRAFT provenance, **not** imaginary existing compilers
+- [x] Record proposals in chronology/decisions and maintain historical source references
+- [ ] Research Sextaria instruction format, data addressing, vendors and specific economic tradeoffs **on paper**
+- [ ] Study 1980s Nova-derived personal computer and terminal ecosystem
+- [ ] Explore a genuinely divergent history of systems languages and file/OS conventions
+
+**Scope:** No new executable CPU, tests, workflow or release. See [architecture war](de-bello-verborum-et-machinarum-1973-1985.md), [Sextaria study](../specifications/Sextaria-S0-study.md) and [language families](programming-languages-1974-1985.md).
 
 ## 0.1 — Founding documentation (current)
 

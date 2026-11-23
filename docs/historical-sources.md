@@ -10,6 +10,15 @@ This bibliography identifies **real** references that constrain or inspire the a
 4. **RFC 3629 — UTF-8, a transformation format of ISO 10646**, November 2003. Useful for studying byte compatibility and encoded text—not a source for our fictional CVL mappings. https://www.rfc-editor.org/rfc/rfc3629
 5. **The Unicode Standard — Greek and Coptic / Greek Extended**. Relevant to Greek final sigma, combining accents, and the distinction between code points and glyphs. https://www.unicode.org/charts/
 
+## Word lengths and competing architectures
+
+- **DEC PDP-10 / 36-bit family:** historical precedent for 36-bit machines persisting into time-sharing decades. https://nssdc.gsfc.nasa.gov/nssdc/formats/PDP-10.html
+- **Burroughs B5000:** 48-bit machine data word and a different architecture philosophy, **not** a six-byte CVL-68 machine. https://www.cs.uaf.edu/2010/fall/cs441/proj1/b5000/
+- **CDC 6600:** 60-bit scientific-computing precedent; never equate word width to actual workload performance. https://www.cisl.ucar.edu/ncar-supercomputing-history/cdc6600
+- **IBM System/360:** 1964 compatible byte-oriented machine family; a useful counterexample to assumptions of mandatory fixed science-computer word length. https://www.ibm.com/history/system-360
+
+These entries are **real-world analogies**, not evidence of Sextaria, Machina Nova or invented Latin language vendors.
+
 ## Greco-Roman culture
 
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.
