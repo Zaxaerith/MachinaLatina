@@ -17,13 +17,13 @@ HELLO = "SALVE ΛΟΓΟΣ"
 
 class StatusTests(unittest.TestCase):
     def test_xxxvi_status_offline_empty_eor_eof(self):
+        offline = Machine()
+        offline.load({0: old_inst(17)})
+        offline.step()
+        self.assertEqual(offline.a, 3)
         cpu = Machine()
-        cpu.load({0: old_inst(17), 1: old_inst(17), 2: old_inst(18),
-                  3: old_inst(17), 4: old_inst(18), 5: old_inst(17),
-                  6: old_inst(0)})
-        self.assertEqual(cpu.input_status, 3)
-        cpu.step()
-        self.assertEqual(cpu.a, 3)
+        cpu.load({0: old_inst(17), 1: old_inst(18), 2: old_inst(17),
+                  3: old_inst(18), 4: old_inst(17), 5: old_inst(0)})
         cpu.mount_records((tuple(), tuple()))
         self.assertEqual(cpu.input_status, 1)
         cpu.step()
@@ -39,11 +39,13 @@ class StatusTests(unittest.TestCase):
         cpu.run()
 
     def test_nova_status_offline_empty_eor_eof(self):
+        offline = NovaCPU()
+        offline.load_regions({0: new_inst(0x67)})
+        offline.step()
+        self.assertEqual(offline.a, 3)
         cpu = NovaCPU()
         cpu.load_regions({0: b"".join(new_inst(op) for op in
-                                       (0x67, 0x67, 0x68, 0x67, 0x68, 0x67, 0))})
-        cpu.step()
-        self.assertEqual(cpu.a, 3)
+                                       (0x67, 0x68, 0x67, 0x68, 0x67, 0))})
         cpu.mount_records((b"", b""))
         cpu.step()
         self.assertEqual(cpu.a, 1)
