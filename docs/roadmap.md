@@ -2,6 +2,18 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 1.8 — Phase XVIII: free software, OS families and mobile computing (documentation only)
+
+- [x] Write 2005–2015 counterfactual history of archival freedom, source code, mobile software and cloud science
+- [x] Research candidate ORDO-N, PARTES, CVSTOS architectures as distinct software traditions, not historic running kernels
+- [x] Distinguish free source rights, permissive/copyleft incentives, hardware installation control and package distribution
+- [x] Trace MODVLA, SERMO and RATIO language roles from records, international text and numerical reproducibility
+- [x] Record multinational source naming, CVL/COS migration, ABI and reproducible scientific computing tensions
+- [ ] Explore 2015–2026 heterogeneous acceleration, AI and computing standards evolution
+- [ ] Study a possible late divergence where 48-bit CPU hardware fades but Sextaria numerical traditions persist
+
+**Scope:** documentation only, without new software, CI or real license changes. See [historical narrative](de-libertate-codicum-et-imperio-systematum-2005-2015.md), [OS study](../specifications/operating-system-families-2005-2015.md), [software rights](software-freedom-and-distribution-2005-2015.md) and [language genealogy](programming-ecosystem-2005-2015.md).
+
 ## 1.7 — Phase XVII: global scripts and the internet (documentation only)
 
 - [x] Write 1995–2005 alternate-history account of multilingual institutional pressure on CVL-68

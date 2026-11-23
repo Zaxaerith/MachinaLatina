@@ -119,6 +119,21 @@ A candidate global registry called **COS (Codex Omnium Scripturarum)** could ass
 
 The provisional **NODVS/LIGAMEN/RETE** vocabulary suggests typed content records, stable document identities and explicit links, drawing from TABVLA scholarly publication and Ordo sequential-record concepts. No actual wire format, server, parser, network name encoding, or standardization institution has been implemented or adopted. Multilingual domain security must distinguish Latin and Greek lookalikes. [Network format study](network-document-protocols-1995-2005.md); [Phase XVII](de-bello-scripturarum-et-retis-1995-2005.md).
 
+## D029 — Software freedom may originate in archival and numerical reproducibility
+**State:** DRAFT / alternative-history institution study (2026-11-23)
+
+A hypothetical **LIBERTAS CODICVM** movement could emerge from institutional need to restore historical CVL-68 documents, scientific data and obsolete system software. Source rights, open interchange formats, device boot rights and legally enforceable copyleft are distinct. No fictional free-software license has been drafted; the repository's real MIT code / CC BY 4.0 document licenses stay unchanged. [Software freedom study](software-freedom-and-distribution-2005-2015.md).
+
+## D030 — ORDO-N, PARTES and CVSTOS are separate OS design candidates
+**State:** DRAFT / conceptual architectures (2026-11-23)
+
+**ORDO-N** studies byte-stream general-purpose process systems; **PARTES** studies typed scientific records and separable user-space services; **CVSTOS** studies mobile device capability isolation, low power, fonts and distribution control. These OS lineages do **not** imply real runnable kernels, shared ISA compatibility, a shipping 48-bit CPU, or that the Python host-side Ordo Operum emulator is a historic guest OS. [Architecture study](../specifications/operating-system-families-2005-2015.md).
+
+## D031 — Language lineage and package identity follow format and ABI constraints
+**State:** DRAFT (2026-11-23)
+
+Proposed **MODVLA** can express abstract text vs raw bytes vs numeric records and platform ABI differences; **SERMO** could manipulate COS/NODVS text/network objects; **RATIO** could express numerical precision and reproducibility. None is a completed executable language. Source repositories must distinguish COS character identities, original CVL bytes, machine binaries and build provenance; this does not automatically reproduce real-world Git object or package formats. [Language study](programming-ecosystem-2005-2015.md).
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

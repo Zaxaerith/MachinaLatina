@@ -27,7 +27,14 @@ This is a **fictional timeline**, not a chronology of actual inventions. Years a
 | 2001–2003 | DRAFT | Multilingual domain names and Latin/Greek homoglyphs provoke new security policies | Display labels, reversible restricted wire labels and script checks diverge |
 | 2004–2005 | DRAFT | Internet character registry and historical byte-storage compromise considered | Explicit codec labels and strict transcodes; no automatic UTF-8 or Unicode replica |
 | 2000s | DRAFT | Network standards and programming ecosystems mature | Protocol bytes and older storage formats carry CVL legacy |
+| 2005–2007 | DRAFT | Historical document preservation and free-software advocacy become a common political cause | Source availability and archive access; fictional LIBERTAS CODICVM governance still unresolved |
+| 2007–2009 | DRAFT | ORDO-N, PARTES and CVSTOS system families diverge in desktop, science and mobile computing | Byte-stream versus typed-record services, device capabilities and energy needs |
+| 2010–2012 | DRAFT | International multi-script source repositories and architecture-aware software packages become contested | COS identity, homograph package names and portable sources ≠ identical binaries |
+| 2012–2014 | DRAFT | Cloud services and scientific numerical reproducibility debates grow | Legacy Sextaria ideas survive in numeric libraries/accelerators, not necessarily 48-bit CPUs |
+| 2014–2015 | DRAFT | App-store controls, free-code rights and document preservation drive new policy divisions | Open source ≠ ability to install a modified system image |
 | 2026 | DRAFT | Modern accelerators, operating systems and AI coexist with the inherited standards | Native classical-language terminology; legacy encoding vulnerabilities may persist |
+
+The 2005–2015 OS/free-software/mobility proposals are developed in [De Libertate Codicum et Imperio Systematum](de-libertate-codicum-et-imperio-systematum-2005-2015.md). ORDO-N, PARTES, CVSTOS, LIBERTAS CODICVM and their dates are DRAFT rather than CANON.
 
 The 1995–2005 proposals are explored in [De Bello Scripturarum et Retis](de-bello-scripturarum-et-retis-1995-2005.md). COS, NODVS, LIGAMEN and their standards bodies are all DRAFT, not fixed historical events.
 

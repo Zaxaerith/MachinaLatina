@@ -37,6 +37,17 @@ These entries are **real-world analogies**, not evidence of Sextaria, Machina No
 - **RFC 3490 / RFC 3492 (2003):** real IDNA/Punycode domain-name standards; no claim that fictitious CVL networks use them. https://www.rfc-editor.org/rfc/rfc3490 https://www.rfc-editor.org/rfc/rfc3492
 - **RFC 3986 (2005):** URI generic syntax and percent encoding, a technical comparator only. https://www.rfc-editor.org/rfc/rfc3986
 
+## Free software, source control and mobile platforms (real historical analogies)
+
+- **GNU project founded in 1983 and FSF in 1985:** dates to prevent treating the imaginary 2005 movement as a claim that real software freedom began then. https://www.gnu.org/gnu/about-gnu.html https://www.fsf.org/history/
+- **GNU and Linux history:** real GNU project and 1991 Linux kernel beginnings. https://www.gnu.org/gnu/the-gnu-project.en.html
+- **Git history (2005):** real history of version control and distributed development, not a fictional repository object-format proposal. https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git
+- **GPLv3 (2007):** real license event, not a fictional Latin license text. https://www.fsf.org/news/gplv3_launched
+- **iPhone (2007) and App Store (2008):** actual mobile hardware and distribution shifts. https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/ https://www.apple.com/newsroom/2008/07/14iPhone-App-Store-Downloads-Top-10-Million-in-First-Weekend/
+- **Android code release (2008):** real open mobile software development. https://opensource.googleblog.com/2008/10/android-open-source-cell-phone.html
+
+All comparisons are **real-world anchors**, not claims that GNU, Linux, Git, iOS or Android historically existed under these names in the invented CVL ecosystem.
+
 ## Greco-Roman culture
 
 6. **Quintilian, Institutio Oratoria 1.1** — Roman discussion of early Greek and Latin education. Use a critical translation and context when citing this; it does not imply all Romans shared a single view.

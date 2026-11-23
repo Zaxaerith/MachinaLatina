@@ -36,6 +36,12 @@ The documentation-only [Phase XVII narrative](docs/de-bello-scripturarum-et-reti
 
 Read the [COS encoding study](specifications/COS-universal-character-registry-study.md) and [NODVS/RETE study](docs/network-document-protocols-1995-2005.md). All names, years, technical standards, and internet institutions are **DRAFT**, not approved world canon. No CI, emulator, parser, browser, server, Tag or Release was introduced.
 
+## Phase XVIII — Free Software, Operating Systems and Mobile Computing (2005–2015)
+
+The [Phase XVIII historical study](docs/de-libertate-codicum-et-imperio-systematum-2005-2015.md) asks how preservation of CVL-68/COS historical documents and multi-architecture scientific software could lead to a free-software movement with its **own motivations** rather than merely a Latin-name GNU/Linux. Three provisional OS families — **ORDO-N** (Nova-derived general computing), **PARTES** (scientific record/service systems) and **CVSTOS** (mobile/embedded devices) — compete over files, typed records, capabilities and device control. **MODVLA**, **SERMO**, **RATIO** and **LIBERTAS CODICVM** remain DRAFT genealogy/organizations, **not actual implemented products or licensing texts**.
+
+Read [OS architecture study](specifications/operating-system-families-2005-2015.md), [software freedom and distribution](docs/software-freedom-and-distribution-2005-2015.md), and [programming language ecosystems](docs/programming-ecosystem-2005-2015.md). Documentation only: no new code, compiler, kernel, CI, Tag or Release.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -81,6 +87,10 @@ Read the [COS encoding study](specifications/COS-universal-character-registry-st
 | [Global script and Internet war, 1995–2005](docs/de-bello-scripturarum-et-retis-1995-2005.md) | Candidate history of character registry, hypertext and multilingual domains |
 | [COS character identity study](specifications/COS-universal-character-registry-study.md) | Why worldwide character identity must be distinct from CVL-68 byte storage |
 | [NODVS and RETE network documents](docs/network-document-protocols-1995-2005.md) | Typed hypertext, content records, name safety and browser divergence |
+| [Free software and system competition 2005–2015](docs/de-libertate-codicum-et-imperio-systematum-2005-2015.md) | Alternate-history software freedom, operating systems and mobile platforms |
+| [Three operating-system families](specifications/operating-system-families-2005-2015.md) | ORDO-N / PARTES / CVSTOS architecture tradeoffs |
+| [Software freedom and distribution](docs/software-freedom-and-distribution-2005-2015.md) | Preservation, licensing, device rights, architecture-aware packages |
+| [Programming ecosystems 2005–2015](docs/programming-ecosystem-2005-2015.md) | MODVLA, SERMO, RATIO motivations and non-goals |
 | [Historical sources / 史实依据](docs/historical-sources.md) | Verifiable reality used to constrain the counterfactual |
 | [Roadmap / 路线图](docs/roadmap.md) | Documentary milestones before any emulator or compiler |
 
