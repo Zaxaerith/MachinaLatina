@@ -272,6 +272,8 @@ def run_deck(deck: str, root: Path,
                 available = archives.records.get(source_spool, [])
                 count = job.series_count if job.series_spool is not None else 1
                 if index + count > len(available):
+                    if job.series_spool is None:
+                        raise OrdoError(f"no unread record in spool {source_spool}")
                     raise OrdoError(f"not enough unread records in spool {source_spool}")
                 selected = tuple(available[index:index + count])
                 if job.series_spool is not None:
