@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.4 — Phase XXIII: global writing-system governance (1985–2005)
+
+- [x] Write [1985–2005 CCL-to-CSM authority history](de-potestate-scripturarum-1985-2005.md)
+- [x] Design the [CSM charter](../specifications/CSM-charter-DRAFT.md) with 8/6/6 seats and affected-community review
+- [x] Document [fictional 1991 and 1997 votes](acta-translationis-auctoritatis-1988-2005.md)
+- [x] Separate old CVL codebooks, COS abstract identity, strict conversion, typography, network bytes and names
+- [ ] Decide fictional institution CANON, funding, electoral rules and detailed representation
+- [ ] Research concrete COS numbering and data interchange without copying UTF-8's ASCII compatibility
+
+Documentation only. No software or CI.
+
 ## 2.3 — Phase XXII: the institutions behind the bilingual standards
 
 - [x] Develop [1954–1972 standards governance history](de-conciliis-codicum-1954-1972.md) from existing telecom/machine/science constituencies

@@ -44,6 +44,10 @@ No new emulators, codec software, automated tests or CI were added.
 
 Documentation-only change: no code, CI, simulators or releases.
 
+## Phase XXIII — Global scripts and standards authority (1985–2005)
+
+The new [CCL-to-CSM history](docs/de-potestate-scripturarum-1985-2005.md) proposes dividing legacy and global responsibilities: **CCL** retains old CVL codebook/archive expertise, **CSM (Conventus Scripturarum Mundi)** oversees the proposed **COS** global character identity registry, and independent network bodies handle wire formats and international domain names. See the [CSM charter](specifications/CSM-charter-DRAFT.md) and [fictional 1988–2005 records](docs/acta-translationis-auctoritatis-1988-2005.md). **Institution names, years, voting and all COS code values remain DRAFT, NOT CANON.** No CI, emulators or code changes.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
@@ -52,6 +56,9 @@ Documentation-only change: no code, CI, simulators or releases.
 | **[The standards council / 1954–1972 制度史](docs/de-conciliis-codicum-1954-1972.md)** | **Who wrote code and telecommunications recommendations; why they clashed** |
 | [CCL fictional charter / 委员会章程草案](specifications/CCL-charter-DRAFT.md) | Three five-seat chambers, procedures, limits and dissent rights |
 | [CCL fictional meeting records](docs/acta-concilii-codicum-1961-1972.md) | Proposed 1963/1968 votes and open objections |
+| **[CCL-to-CSM authority transition (1985–2005)](docs/de-potestate-scripturarum-1985-2005.md)** | **How global script governance separates from old CVL maintenance** |
+| [CSM governance charter (DRAFT)](specifications/CSM-charter-DRAFT.md) | 20-member structure, proposal review, rights and constraints |
+| [Fictional CCL/CSM meeting records](docs/acta-translationis-auctoritatis-1988-2005.md) | 1991/1997 votes and migration principles |
 | [Institutions & lineages / 机构与技术谱系](docs/institutions-and-lineages.md) | Cross-era links among organizations, hardware, languages, documents |
 | [Continuity audit / 连续性审计](docs/continuity-audit.md) | Open conflicts, CANON/DRAFT boundaries and research priorities |
 | [Premise / 核心世界观](docs/premise.md) | Assumptions, boundaries and confidence levels / 前提与推演边界 |

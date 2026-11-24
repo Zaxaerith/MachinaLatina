@@ -175,6 +175,13 @@ The [1954–1972 institutional history](de-conciliis-codicum-1954-1972.md) propo
 
 CCL's original chamber makeup **does not legitimately represent all global scripts**; future COS standardization likely demands institutional reform or a new body. None of the proposed councils, meeting minutes, voting rights, legal arrangements or historical dates are established fictional canon.
 
+## D039 — Separate CCL legacy stewardship from global CSM/COS governance
+**State:** RECOMMENDED DRAFT / NOT CANON (2026-11-24)
+
+The [institutional history](de-potestate-scripturarum-1985-2005.md) proposes a **CSM (Conventus Scripturarum Mundi)** global writing-system organization governing **COS (Codex Omnium Scripturarum)** abstract character registration. CSM (organization) and COS (registry) are different. Older **CCL** retains CVL-54, CVL-63/TP1, CVL-68 legacy archive expertise. The [CSM charter](../specifications/CSM-charter-DRAFT.md) proposes A/B/C representation of 8/6/6 voting seats and explicit affected-community consultation; its [fictional minutes](acta-translationis-auctoritatis-1988-2005.md) include a 1991 CCL 12/15 recommendation and a 1997 CSM 15/19 effective-yes recommendation. Neither vote ratifies modern CVL-68/RC1 byte values, COS numbering, actual networking formats or institutional existence into CANON.
+
+CCL/CSM joint conversion work must preserve original bytes and declare losses; separate NODVS/RETE groups govern wire encoding and domain labels. Eight script-community seats cannot legitimately represent all scripts without separate consultations and appeals.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
