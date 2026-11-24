@@ -189,6 +189,11 @@ CCL/CSM joint conversion work must preserve original bytes and declare losses; s
 
 Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A0 BB BA); rough-breathing ἇ is A0 BC BA. Existing byte assignments unchanged.
 
+## D041 — Typed NODVS documents, revisioned LIGAMEN references and RETE exchange
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-24)
+
+[NODVS-98/R1](../specifications/NODVS-98-R1.md) proposes a 28-octet header and 12-octet typed record headers, COS/W1 or C24 payloads, explicit length and unknown-record rules. [LIGAMEN-99/R1](../specifications/LIGAMEN-99-R1.md) uses opaque authority/resource IDs, pinned revisions and CID source spans. [RETE-00/R1](../specifications/RETE-00-R1.md) proposes a bounded request/response layer over an externally established reliable stream. [Paper vectors](nodvs-rete-1998-2005.md) use sandbox registry FFFF and no approved nonlegacy character assignments. R1 is not a directory, authenticated transport, complete browser or script runtime. No code or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

@@ -3,6 +3,10 @@
 
 > **DRAFT / 非规范架空技术研究。** NODVS、LIGAMEN、RETE 均为暂用拉丁技术词。不是已发布协议、实际 HTTP/HTML/XML 替身，也没有实现浏览器或服务器。
 
+## 2026-11-24 concrete candidates
+
+[NODVS-98/R1](../specifications/NODVS-98-R1.md), [LIGAMEN-99/R1](../specifications/LIGAMEN-99-R1.md) and [RETE-00/R1](../specifications/RETE-00-R1.md) now propose specific binary contracts; see [paper vectors](nodvs-rete-1998-2005.md). The earlier open questions below are the original design study, not statements that the new proposals are absent. None is ratified or implemented.
+
 ## 从 TABVLA 与 Ordo 继承了什么？
 
 1980 年代的 TABVLA 候选文档系统重视页面结构，Ordo Operum 的研究性批处理协议强调带长度的记录。它们提供了一条可能不同于纯标记文本的互联网路线：

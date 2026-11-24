@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.6 — Phase XXV: the typed-record internet
+
+- [x] Propose NODVS binary document layout and strict bounded parsing
+- [x] Define LIGAMEN resource/revision/record identities and CID spans
+- [x] Propose RETE application-layer fetch/result envelopes
+- [x] Document mixed-script paper vectors and fictional 1998–2005 development
+- [ ] Design human-readable authoring notation and SERMO dynamic document model
+- [ ] Resolve authority directory, international names, secure transport, accessibility and rich attachments
+
+Documentation only. No implementation, CI or CANON ratification.
+
 ## 2.5 — Phase XXIV: COS-97/R1 global character numbering
 
 - [x] Propose 24-bit character identity space, permanent exclusions and allocation policy

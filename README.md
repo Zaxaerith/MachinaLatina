@@ -52,6 +52,10 @@ The new [CCL-to-CSM history](docs/de-potestate-scripturarum-1985-2005.md) propos
 
 [**COS-97/R1**](specifications/COS-97-R1.md) proposes 24-bit abstract character IDs, C24 fixed three-byte serialization and W1 one-to-four-byte CVL-compatible interchange. The [256-slot migration ledger](specifications/COS-97-CVL-mapping.md) accounts for 150 mapped legacy text IDs and 106 holes. [Worked vectors and historical study](docs/cos-97-interchange-1997-2005.md) explain compatibility, short-code bank costs and W1's lack of self-synchronization. This is a **review candidate, not CANON**, not a complete global repertoire or implementation. No CI or code changes.
 
+## Phase XXV — NODVS / LIGAMEN / RETE (1998–2005)
+
+The candidate [NODVS-98/R1](specifications/NODVS-98-R1.md) defines typed document records with explicit lengths, [LIGAMEN-99/R1](specifications/LIGAMEN-99-R1.md) defines revisioned resource/object references and [RETE-00/R1](specifications/RETE-00-R1.md) defines a bounded application-layer fetch protocol. [Worked example and fictional history](docs/nodvs-rete-1998-2005.md) show a 111-byte W1 document and its exchange. All are DRAFT, not implemented or CANON; directory, authentication, rich layout and scripting remain open. Documentation only.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
