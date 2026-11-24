@@ -74,6 +74,13 @@ These are historical anchor sources only; the fictional 2015–2026 standardizat
 
 These are four *different* governance traditions; the fictional three-chamber CCL takes inspiration from the conflicts among them but does not duplicate any real organization's voting rules.
 
+## 1990s global character governance (real-world comparators)
+
+- Unicode effort dates to 1988; the Consortium incorporated in 1991. This is **not** fictional CSM. https://home.unicode.org/about-unicode/
+- Unicode and ISO/IEC 10646 harmonized work in 1991–1993, an example of two standardization routes coordinating character identities. https://www.unicode.org/faq/unicode_iso.html
+- ISO/IEC JTC1/SC2 character-set standards remit, a real-world comparison, not a fictional voting model. https://jtc1info.org/sd-2-history/jtc1-subcommittees/sc-2/
+- IETF IDNA RFC 3490 (2003) is a real-world internet domain standard, not a COS wire encoding. https://www.rfc-editor.org/rfc/rfc3490
+
 ## Standards-development comparisons
 
 8. **ITU-T International Telegraph Alphabet No. 2 (ITA2)** — letter/figure shift mechanisms offer a *real* precedent for fictional early page switching. Do not conflate ITA2's five-bit codes with CVL-54's invented six-bit codes.

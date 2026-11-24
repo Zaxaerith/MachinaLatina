@@ -60,6 +60,10 @@
 
 延伸：[家庭计算机革命](de-revolutione-machinarum-domesticarum-1981-1995.md)、[双文字桌面排版](../specifications/CVL-desktop-typography-study.md)。
 
+### 1985—2005 制度桥梁（DRAFT）
+
+[全球文字权力交接](de-potestate-scripturarum-1985-2005.md)提议 CCL 在 1991 年前后承认自己不具备全部世界文字的代表权，于 1990 年代与新成立的 CSM 合作：CCL 保留旧 CVL 代码与档案转码职责；CSM 研究 COS 字符身份；NODVS/RETE 网络团体负责线上字节和域名。这个分工不冻结 COS 码位，也不将现代 CVL-68/RC1 候选表视作 1968 年已逐字批准的标准。组织、表决和时期依然 DRAFT。
+
 ## 五、1995—2005：CVL-68 的成功成为世界互联网的阻碍
 
 **DRAFT 1995—1997。** 进入全球网络时代，八位拉丁—希腊主流标准已经不够容纳世界其他书写系统。候选 COS（Codex Omnium Scripturarum）提出独立于传输字节的**全球字符身份注册**，但登记号、编码形式、归一化政策和国际机构均未定案。

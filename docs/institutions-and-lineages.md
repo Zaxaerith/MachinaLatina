@@ -23,6 +23,7 @@
 | Collegium Machinarum | 1960 年代编码之争及 [1973—1985 机器字之争](de-bello-verborum-et-machinarum-1973-1985.md) | XXXVI 旧计算机、科研磁带、既有软件 | 单一制造商、独占企业或历史上的正式委员会 |
 | Consortium Scientiarum | 同上 | 大学、科研、希腊学术出版和数值精度 | 唯一 Sextaria 制造商、拥有世界性法规授权 |
 | Concilium Codicum et Litterarum (CCL) | [1954–1972 standards council study](de-conciliis-codicum-1954-1972.md) | Proposed voluntary coordination of telecom, machine/archive and academic/publishing constituencies | Actual legal establishment, 15-seat charter, 1963/1968 votes or global linguistic authority |
+| Conventus Scripturarum Mundi (CSM) | [1985–2005 authority transition](de-potestate-scripturarum-1985-2005.md) | Proposed global writing-system organization governing COS abstract identities | Existence, regional legitimacy, finalized registry, network authority |
 | Nova 商业厂商联盟 | [1973—1985 提案](de-bello-verborum-et-machinarum-1973-1985.md) | CVL-68 终端与较廉价商业数据处理 | 官方全称、创办人、市场份额 |
 | TABVLA 学术/出版社团（未命名） | [1981—1995 桌面史](de-revolutione-machinarum-domesticarum-1981-1995.md) | 双文字字形、印刷和文档结构 | 已存在统一 GUI 标准机构 |
 | COS 全球文字标准共同体（未命名） | [1995—2005 网络史](de-bello-scripturarum-et-retis-1995-2005.md) | 全球文字身份、跨文化参与和旧文件可迁移 | COS 最终编号、协议或参与国家的已批准清单 |
@@ -30,6 +31,10 @@
 | AI/科学来源审查联盟（未命名） | [2015—2026 AI](de-machinis-cogitantibus-2015-2026.md) | 语料来源、COS 多语言代表性、数值可复核性 | 实际 AI 监管机关、强制约束或商用模型 |
 
 这些机构与思想可长期并存、分裂或合并，但目前**不得把相同名称出现于两篇故事视为组织已被确证连续存在**。
+
+### 后期制度分工（DRAFT，2026-11-24）
+
+候选 [CCL→CSM 权力交接](de-potestate-scripturarum-1985-2005.md)：CCL 保留 CVL 历史字节及档案解释，CSM 提议负责 COS 全球抽象字符身份，联合组负责严格转码，网络协会自行规定字节线路和域名。**CSM 是机构、COS 是登记体系，均未成为 CANON**。参见[候选章程](../specifications/CSM-charter-DRAFT.md)与[虚构会议记录](acta-translationis-auctoritatis-1988-2005.md)。
 
 ## 二、计算机与操作系统之间的继承线
 
