@@ -48,6 +48,10 @@ Documentation-only change: no code, CI, simulators or releases.
 
 The new [CCL-to-CSM history](docs/de-potestate-scripturarum-1985-2005.md) proposes dividing legacy and global responsibilities: **CCL** retains old CVL codebook/archive expertise, **CSM (Conventus Scripturarum Mundi)** oversees the proposed **COS** global character identity registry, and independent network bodies handle wire formats and international domain names. See the [CSM charter](specifications/CSM-charter-DRAFT.md) and [fictional 1988–2005 records](docs/acta-translationis-auctoritatis-1988-2005.md). **Institution names, years, voting and all COS code values remain DRAFT, NOT CANON.** No CI, emulators or code changes.
 
+## Phase XXIV — COS-97/R1 global character standard candidate
+
+[**COS-97/R1**](specifications/COS-97-R1.md) proposes 24-bit abstract character IDs, C24 fixed three-byte serialization and W1 one-to-four-byte CVL-compatible interchange. The [256-slot migration ledger](specifications/COS-97-CVL-mapping.md) accounts for 150 mapped legacy text IDs and 106 holes. [Worked vectors and historical study](docs/cos-97-interchange-1997-2005.md) explain compatibility, short-code bank costs and W1's lack of self-synchronization. This is a **review candidate, not CANON**, not a complete global repertoire or implementation. No CI or code changes.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

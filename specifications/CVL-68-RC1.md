@@ -60,7 +60,8 @@ Not assigned: separate coronis, archaic digamma/qoppa/sampi, every Greek editori
 | ΛΟΓΟΣ | 8A 8E 82 8E 91 |
 | λόγος | AA AE B8 A2 AE 98 |
 | ἄ | A0 BB B8 |
-| ἇ | A0 BB BA |
+| ἆ | A0 BB BA |
+| ἇ | A0 BC BA |
 | ᾰ | A0 C0 |
 | SALVE ΛΟΓΟΣ | 52 41 4B 54 45 20 8A 8E 82 8E 91 |
 

@@ -7,6 +7,10 @@
 
 [1985—2005 年 CCL→CSM 权力交接研究](../docs/de-potestate-scripturarum-1985-2005.md)建议由新的 CSM 世界书写系统共同体负责 COS 抽象字符身份登记，老 CCL 保留 CVL 字节与旧档案技术职责，联合小组处理严格转换；网络工作组独立管理线路格式和域名。**CSM（组织）不等于 COS（字符注册规范）**，具体编号和存储编码仍全部未决。参见[CSM 章程草案](CSM-charter-DRAFT.md)。
 
+## 2026-11-24: concrete review candidate
+
+[COS-97/R1](COS-97-R1.md) now recommends 24-bit IDs with C24 and W1 serialization, subject to review. The [legacy mapping](COS-97-CVL-mapping.md) accounts for 150 text identities and 106 unmapped legacy slots. Earlier alternatives below remain historical research; the actual worldwide repertoire and CANON ratification are still open.
+
 ## 字符身份不是编码字节
 
 项目原有 CVL-68 账本把古典拉丁 A 记为十六进制 41，把希腊 Α 记为 80。看似相同的字形具有不同身份；但单字节只能容纳 256 个位置。一个用于全球的字符身份登记簿应先决定有哪些字符，再独立决定如何把身份放入磁盘文件和网络报文。

@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.5 — Phase XXIV: COS-97/R1 global character numbering
+
+- [x] Propose 24-bit character identity space, permanent exclusions and allocation policy
+- [x] Document C24 fixed-width and W1 variable-width serialization, canonical forms and failure semantics
+- [x] Account for all 256 CVL-68/RC1 source positions in the migration ledger
+- [x] Provide worked paper examples, boundary vectors and historical tradeoffs
+- [ ] Ratify actual world-script entries, normalization, short-bank allocation and registry governance
+- [ ] Specify external network framing and a competing self-synchronizing stream codec
+
+Documentation-only research; no code, CI, tests or releases. See [COS-97/R1](../specifications/COS-97-R1.md).
+
 ## 2.4 — Phase XXIII: global writing-system governance (1985–2005)
 
 - [x] Write [1985–2005 CCL-to-CSM authority history](de-potestate-scripturarum-1985-2005.md)

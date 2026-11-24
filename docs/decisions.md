@@ -182,6 +182,13 @@ The [institutional history](de-potestate-scripturarum-1985-2005.md) proposes a *
 
 CCL/CSM joint conversion work must preserve original bytes and declare losses; separate NODVS/RETE groups govern wire encoding and domain labels. Eight script-community seats cannot legitimately represent all scripts without separate consultations and appeals.
 
+## D040 — COS-97/R1 24-bit identities and C24/W1 serialization
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-24)
+
+[Candidate COS-97/R1](../specifications/COS-97-R1.md) defines a 24-bit numerical namespace, 150 explicit legacy text mappings (CID = 010000 + source byte), 106 permanent legacy holes and two invalid sentinels. [Full migration ledger](../specifications/COS-97-CVL-mapping.md). C24 stores every permitted CID as three big-endian octets; W1 preserves legacy byte sequences for valid unnormalized CVL-68/RC1-L records and uses D0–EF, F0 and F1 for two-, three- and four-byte sequences respectively. W1 is not self-synchronizing; record framing, validation, and byte scanning must respect decoded boundaries. The international short banks are capacity reservations, not completed assignments. Nonlegacy example IDs are trial fixtures only. [History and vectors](cos-97-interchange-1997-2005.md). Actual global repertoire, normalization, registry release, physical network framing and CANON approval remain open.
+
+Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A0 BB BA); rough-breathing ἇ is A0 BC BA. Existing byte assignments unchanged.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
