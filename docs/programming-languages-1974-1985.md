@@ -70,6 +70,10 @@ In the CVL-68 candidate byte ledger they occupy distinct values (Latin A = 0x41;
 
 A code-review system that merely renders glyphs without exposing their script origin could mislead a reviewer into approving a reference to the wrong variable. The plausible institutional response is an **explicit script annotation / confusable-warning profile**, not an ahistorical copy of today's Unicode security rules. Case folding, final sigma and polytonic accents must be designed, not assumed solved.
 
+## 2026-11-25 RATIO follow-up
+
+[RATIO-I/R1](../specifications/RATIO-I-R1.md) now proposes a small dimensional scalar contract language. [Paper numerical audit](../specifications/RATIO-numeric-audit-study.md) distinguishes exact rational reference, format rounding and measurement uncertainty. No implementation or F48 specification.
+
 ## RATIO should not become a retroactive Rust clone
 
 **Candidate role:** verification-friendly numerical and engineering specifications around 1983–1985.

@@ -81,3 +81,7 @@ Relevant *actual-world* comparisons (not sources of our invented encoding):
 - [IBM 704 and early scientific arithmetic](https://www.ibm.com/history/704)
 - [IBM System/360](https://www.ibm.com/history/system-360) — short hexadecimal floating-point format is a materially different real-world solution.
 - [IEEE 754 historical overview](https://standards.ieee.org/ieee/754/6210/) — 1985 standardization, later developments.
+
+## RATIO follow-up (2026-11-25)
+
+[RATIO-I/R1](RATIO-I-R1.md) uses these existing F36/F32 semantics as declared execution profiles and compares results against an exact-rational reference in a paper-level tolerance contract. [Audit study](RATIO-numeric-audit-study.md) includes a coordinate-cancellation example. Neither FLOAT-P0 bit assignments nor machine instructions are changed; F48 is still undefined.

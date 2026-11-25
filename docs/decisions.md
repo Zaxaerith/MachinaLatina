@@ -204,6 +204,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [MODVLA-I/R1](../specifications/MODVLA-I-R1.md) proposes a bounded module/record syntax, fixed-width logical integers, checked addition and explicitly octet-indexed external schemas. [Layout and ABI study](../specifications/MODVLA-layout-and-abi-study.md) illustrates one 48-bit external record on proposed XXXVI/Nova/Sextaria storage profiles; these are not actual native ABIs or new ISA assignments. Local typed references, bounded views and opaque service handles remain later design concepts. Existing P0/N1 instruction profiles do not define a general calling convention, and Sextaria-S0 lacks a complete ISA. [1979–2015 history](de-modvlis-1979-2015.md) keeps COS integration and OS adapters as later developments. No compiler, code, tests or CI.
 
+## D044 — RATIO declares scientific numerical acceptance conditions
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-25)
+
+[RATIO-I/R1](../specifications/RATIO-I-R1.md) proposes bounded dimensional scalar expressions with explicit FLOAT-P0 F32/F36, round-to-nearest ties-to-even, source order, exact rational reference and exact absolute tolerance. [Audit examples](../specifications/RATIO-numeric-audit-study.md) derive a 1/32 m coordinate difference retained in F36 but lost on F32 input rounding. Tolerance failure is distinct from incorrect format execution, and numerical tolerance is distinct from physical measurement/model uncertainty. F48 remains undefined. [Historical study](de-ratione-1983-2026.md) treats later interval, vector and AI audit mechanisms as proposals, not implemented features. No compiler, test suite or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

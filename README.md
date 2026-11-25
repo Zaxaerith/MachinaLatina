@@ -64,6 +64,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [MODVLA-I/R1](specifications/MODVLA-I-R1.md) proposes separate module interfaces/bodies, fixed-width logical types and explicit external record schemas. The [layout and ABI study](specifications/MODVLA-layout-and-abi-study.md) compares three hypothetical compiler layouts for one six-octet external record without asserting a working XXXVI/Nova/Sextaria ABI. [History](docs/de-modvlis-1979-2015.md) traces system-language and OS service evolution. **DRAFT, not CANON or implemented.** Documentation only.
 
+## Phase XXVIII — RATIO scientific language (1983–2026)
+
+[RATIO-I/R1](specifications/RATIO-I-R1.md) proposes dimensional quantities, explicit F32/F36 rounding, exact-rational reference and absolute numerical error contracts. The [audit study](specifications/RATIO-numeric-audit-study.md) derives a surveying-coordinate cancellation example and separates numerical error from physical uncertainty. [History](docs/de-ratione-1983-2026.md) traces scientific verification through later heterogeneous computing. DRAFT / not CANON or implemented. F48 remains open. Documentation only.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

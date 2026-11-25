@@ -44,6 +44,10 @@ The [SERMO-I/R1 paper subset](../specifications/SERMO-I-R1.md) now proposes a co
 
 到 2010 年代，浏览器客户端是否也获得 SERMO 运行时仍未决定。假如移动端资源紧张，系统可能更倾向服务器端脚本和带权限的轻量客户端，而不是所有网页都默认执行同等强大的代码。
 
+## 2026-11-25 RATIO follow-up
+
+See [RATIO-I/R1](../specifications/RATIO-I-R1.md), [audit study](../specifications/RATIO-numeric-audit-study.md) and [historical narrative](de-ratione-1983-2026.md) for the bounded candidate contract subset; later scientific service and heterogeneous audit models remain DRAFT.
+
 ## RATIO：科学可复算性而非字节相同
 
 RATIO 可以规定数值算法的舍入顺序、误差上界、单位约束和输入数据版本。若一个数值模型在 F36 和 F32 上得到不同中间结果，不能简单写成“错误”，而应给出允许范围与研究理由。

@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.9 — Phase XXVIII: RATIO numerical contracts
+
+- [x] Describe [RATIO-I/R1](../specifications/RATIO-I-R1.md) scalar dimensional types and exact numerical acceptance contracts
+- [x] Preserve existing FLOAT-P0 F36/F32 semantics and document a paper surveying example
+- [x] Separate numerical error, source uncertainty and model validity in the [audit study](../specifications/RATIO-numeric-audit-study.md)
+- [x] Write [1983–2026 scientific language history](de-ratione-1983-2026.md)
+- [ ] Specify F48 independently; later interval/vector, relative tolerance and parallel reduction profiles remain open
+- [ ] Explore Sextaria architecture and/or OS service interfaces
+
+Documentation only. No code, CI, compiler or CANON promotion.
+
 ## 2.8 — Phase XXVII: MODVLA systems interfaces and data representation
 
 - [x] Describe [MODVLA-I/R1](../specifications/MODVLA-I-R1.md) module/interface, logical record and external schema subset
