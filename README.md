@@ -60,6 +60,10 @@ The candidate [NODVS-98/R1](specifications/NODVS-98-R1.md) defines typed documen
 
 The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed document-construction language with explicit COS identities, octets, references, pure operations and FORMA declarations. [SERMO III runtime study](specifications/SERMO-III-runtime-study.md) develops later server/client profiles, scoped capabilities, asynchronous tasks and transient views, without making passive NODVS R1 documents executable. [Historical narrative and paper vectors](docs/de-sermone-1999-2015.md) illustrate a 115-byte W1 and 139-byte C24 document. **DRAFT, not CANON or implemented.** No CI, compiler or interpreter.
 
+## Phase XXVII — MODVLA systems-language study (1979–2015)
+
+[MODVLA-I/R1](specifications/MODVLA-I-R1.md) proposes separate module interfaces/bodies, fixed-width logical types and explicit external record schemas. The [layout and ABI study](specifications/MODVLA-layout-and-abi-study.md) compares three hypothetical compiler layouts for one six-octet external record without asserting a working XXXVI/Nova/Sextaria ABI. [History](docs/de-modvlis-1979-2015.md) traces system-language and OS service evolution. **DRAFT, not CANON or implemented.** Documentation only.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

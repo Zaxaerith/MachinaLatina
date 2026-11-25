@@ -32,6 +32,10 @@ An alternative history that merely renames FORTRAN, C, Pascal and Modula is cosm
 
 Dates, names and genealogy are hypotheses.
 
+## 2026-11-25 MODVLA follow-up
+
+[MODVLA-I/R1](../specifications/MODVLA-I-R1.md) proposes a bounded concrete source subset; the [layout and ABI study](../specifications/MODVLA-layout-and-abi-study.md) gives illustrative native layouts and an invariant external record. The original open grammar sketch below remains historical context. No compiler or native ABI has been implemented.
+
 ## MODVLA should solve a specific problem
 
 **Candidate role:** writing large system software whose data declarations are explicit enough to cross byte-oriented Nova and word-oriented scientific machines.

@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.8 — Phase XXVII: MODVLA systems interfaces and data representation
+
+- [x] Describe [MODVLA-I/R1](../specifications/MODVLA-I-R1.md) module/interface, logical record and external schema subset
+- [x] Document [three native layout proposals and identical six-octet external representation](../specifications/MODVLA-layout-and-abi-study.md)
+- [x] Distinguish local references, external records, calling ABI and OS adapters
+- [x] Write [1979–2015 historical language evolution](de-modvlis-1979-2015.md)
+- [ ] Define full systems-language grammar, native ABI, memory/lifetime rules, interrupts and OS interfaces
+- [ ] Develop RATIO numeric contracts and scientific language design
+
+Documentation only. No code, CI or CANON promotion.
+
 ## 2.7 — Phase XXVI: SERMO language genealogy and typed document construction
 
 - [x] Propose the bounded [SERMO-I/R1](../specifications/SERMO-I-R1.md) lexical/type/grammar subset and document validation semantics

@@ -84,3 +84,7 @@ Sextaria 的 F48 精度与指令集从未在前十五阶段完成；本研究不
 - 手机离线 NODVS 缓存如何处理权限和跨平台签名？
 
 See [Phase XVIII historical narrative](../docs/de-libertate-codicum-et-imperio-systematum-2005-2015.md), [software freedom study](../docs/software-freedom-and-distribution-2005-2015.md), [Sextaria study](Sextaria-S0-study.md).
+
+## MODVLA follow-up (2026-11-25)
+
+[MODVLA-I/R1](MODVLA-I-R1.md) and [layout/ABI study](MODVLA-layout-and-abi-study.md) now propose a logical interface and explicit external-record contract. Native calling conventions and service adapters are still open; the three OS families do not acquire a common kernel, binary ABI or implemented service API by using the same source-language concept.

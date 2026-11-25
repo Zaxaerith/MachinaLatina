@@ -15,6 +15,10 @@
 | **SERMO** | NODVS 应用、网络、文本转换 | 以 COS 字符身份为中心的文本对象和带类型文档节点 | JavaScript 或 Python 改关键字 |
 | **RATIO** | 科学计算、数值审计、可复现研究 | 精度和误差契约、数学单位、编译目标与数据来源声明 | 一套现代 Rust borrow checker |
 
+## 2026-11-25 MODVLA follow-up
+
+[MODVLA-I/R1](../specifications/MODVLA-I-R1.md), [layout and ABI study](../specifications/MODVLA-layout-and-abi-study.md), and [language history](de-modvlis-1979-2015.md) distinguish interface, native layout and external record encoding. Later reference/handle semantics and OS adapters remain design studies, not implemented toolchains.
+
 ## MODVLA：模块不是“放在文件里的函数集合”
 
 当两个系统的字节顺序、浮点格式、数据指针和调用约定可能不同，MODVLA 模块首先需要描述“什么是接口”。

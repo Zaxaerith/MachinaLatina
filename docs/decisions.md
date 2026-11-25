@@ -199,6 +199,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [SERMO-I/R1](../specifications/SERMO-I-R1.md) proposes a bounded pure source subset (FORMA, OPVS, immutable typed text and octets, checked NAT, explicit references and record constructors). Logical NODVS bodies acquire resource/revision identity only through authorized host publication; output that changes content cannot reuse an immutable revision. [SERMO III runtime](../specifications/SERMO-III-runtime-study.md) proposes later server and optional client profiles with explicit capabilities, tasks, error handling and transient view state, not inline scripts in passive NODVS R1. RETE R1 remains read-only and one outstanding request per connection. [History and worked example](de-sermone-1999-2015.md) remain paper designs. The later runtime syntax, VM, module packaging, permissions and secure network protocols are unimplemented and unresolved.
 
+## D043 — MODVLA separates logical values, native layouts and external representations
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-25)
+
+[MODVLA-I/R1](../specifications/MODVLA-I-R1.md) proposes a bounded module/record syntax, fixed-width logical integers, checked addition and explicitly octet-indexed external schemas. [Layout and ABI study](../specifications/MODVLA-layout-and-abi-study.md) illustrates one 48-bit external record on proposed XXXVI/Nova/Sextaria storage profiles; these are not actual native ABIs or new ISA assignments. Local typed references, bounded views and opaque service handles remain later design concepts. Existing P0/N1 instruction profiles do not define a general calling convention, and Sextaria-S0 lacks a complete ISA. [1979–2015 history](de-modvlis-1979-2015.md) keeps COS integration and OS adapters as later developments. No compiler, code, tests or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior
