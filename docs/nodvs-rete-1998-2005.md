@@ -79,3 +79,7 @@ Request 40 bytes; result 131 bytes; response payload length 115 (0x73). C24 resu
 Typed records make stable scientific references, multilingual text boundaries and opaque attachments natural, but require authoring tools and careful binary parsing. A basic reader cannot claim perfect GIS or mathematical display merely because it can skip attachments. RETE is an application layer, with routing, DNS-like directory, authentication and secure transport left independent. The next major question is how ordinary programmers produce dynamic NODVS documents: a readable authoring notation, SERMO's type semantics, forms, event handling and security.
 
 Related: [NODVS](../specifications/NODVS-98-R1.md), [LIGAMEN](../specifications/LIGAMEN-99-R1.md), [RETE](../specifications/RETE-00-R1.md), [prior network study](network-document-protocols-1995-2005.md).
+
+## Follow-up: the SERMO language
+
+[SERMO-I/R1](../specifications/SERMO-I-R1.md) proposes pure typed document construction and [SERMO III](../specifications/SERMO-III-runtime-study.md) sketches subsequent optional event/runtime profiles. Passive NODVS R1 and read-only RETE R1 remain unchanged. See [historical development and paper vectors](de-sermone-1999-2015.md).

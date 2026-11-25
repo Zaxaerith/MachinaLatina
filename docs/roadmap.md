@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 2.7 — Phase XXVI: SERMO language genealogy and typed document construction
+
+- [x] Propose the bounded [SERMO-I/R1](../specifications/SERMO-I-R1.md) lexical/type/grammar subset and document validation semantics
+- [x] Preserve COS CID vs octet identity and NODVS immutable revision semantics
+- [x] Develop [server/client runtime concepts](../specifications/SERMO-III-runtime-study.md), task lifecycle and explicit capability boundaries
+- [x] Write [1999–2015 history and manual document size example](de-sermone-1999-2015.md)
+- [ ] Design complete modules, structured query syntax, client manifest, event grammar, layout and security protocols
+- [ ] Explore independent MODVLA system-interface and RATIO numeric-language design
+
+Documentation only. No code, interpreter, compiler, CI or CANON promotion.
+
 ## 2.6 — Phase XXV: the typed-record internet
 
 - [x] Propose NODVS binary document layout and strict bounded parsing

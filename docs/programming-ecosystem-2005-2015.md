@@ -23,6 +23,10 @@
 
 研究议题包括可选安全引用、序列化的显式长度、文件编码标签、可读错误类型、操作系统服务能力；不要求所有功能在 1980 年代一次性发明。
 
+## 2026-11-24 SERMO follow-up
+
+The [SERMO-I/R1 paper subset](../specifications/SERMO-I-R1.md) now proposes a concrete core syntax and type semantics; the [later runtime study](../specifications/SERMO-III-runtime-study.md) proposes optional client/server execution profiles. The older statement that no formal syntax had been proposed describes the original study; no interpreter, complete language or runtime has been implemented. See [history](de-sermone-1999-2015.md).
+
 ## SERMO：为什么 NODVS 使它与 JavaScript 不同？
 
 如果网页先以内容类型和结构化节点为核心，那么 SERMO 早期可能更擅长解析、查询和转换学术文献及数据记录，而不一定先服务于浏览器动画。

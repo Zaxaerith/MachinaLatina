@@ -194,6 +194,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [NODVS-98/R1](../specifications/NODVS-98-R1.md) proposes a 28-octet header and 12-octet typed record headers, COS/W1 or C24 payloads, explicit length and unknown-record rules. [LIGAMEN-99/R1](../specifications/LIGAMEN-99-R1.md) uses opaque authority/resource IDs, pinned revisions and CID source spans. [RETE-00/R1](../specifications/RETE-00-R1.md) proposes a bounded request/response layer over an externally established reliable stream. [Paper vectors](nodvs-rete-1998-2005.md) use sandbox registry FFFF and no approved nonlegacy character assignments. R1 is not a directory, authenticated transport, complete browser or script runtime. No code or CI.
 
+## D042 — SERMO begins as a typed document-construction language
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-24)
+
+[SERMO-I/R1](../specifications/SERMO-I-R1.md) proposes a bounded pure source subset (FORMA, OPVS, immutable typed text and octets, checked NAT, explicit references and record constructors). Logical NODVS bodies acquire resource/revision identity only through authorized host publication; output that changes content cannot reuse an immutable revision. [SERMO III runtime](../specifications/SERMO-III-runtime-study.md) proposes later server and optional client profiles with explicit capabilities, tasks, error handling and transient view state, not inline scripts in passive NODVS R1. RETE R1 remains read-only and one outstanding request per connection. [History and worked example](de-sermone-1999-2015.md) remain paper designs. The later runtime syntax, VM, module packaging, permissions and secure network protocols are unimplemented and unresolved.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

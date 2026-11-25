@@ -56,6 +56,10 @@ The new [CCL-to-CSM history](docs/de-potestate-scripturarum-1985-2005.md) propos
 
 The candidate [NODVS-98/R1](specifications/NODVS-98-R1.md) defines typed document records with explicit lengths, [LIGAMEN-99/R1](specifications/LIGAMEN-99-R1.md) defines revisioned resource/object references and [RETE-00/R1](specifications/RETE-00-R1.md) defines a bounded application-layer fetch protocol. [Worked example and fictional history](docs/nodvs-rete-1998-2005.md) show a 111-byte W1 document and its exchange. All are DRAFT, not implemented or CANON; directory, authentication, rich layout and scripting remain open. Documentation only.
 
+## Phase XXVI — SERMO language and dynamic document culture (1999–2015)
+
+The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed document-construction language with explicit COS identities, octets, references, pure operations and FORMA declarations. [SERMO III runtime study](specifications/SERMO-III-runtime-study.md) develops later server/client profiles, scoped capabilities, asynchronous tasks and transient views, without making passive NODVS R1 documents executable. [Historical narrative and paper vectors](docs/de-sermone-1999-2015.md) illustrate a 115-byte W1 and 139-byte C24 document. **DRAFT, not CANON or implemented.** No CI, compiler or interpreter.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
