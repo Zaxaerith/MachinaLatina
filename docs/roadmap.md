@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.1 — Phase XXX: Nova from personal computers to heterogeneous systems
+
+- [x] Propose [Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) common encoding and explicit execution modes
+- [x] Develop [family study](../specifications/Nova-family-evolution-study.md) for Minor/Media/Mobilis and compatibility
+- [x] Write [1981–2026 history](de-nova-1981-2026.md)
+- [ ] Design privileged extensions, OS service interfaces, ABI and independent F64 profile
+- [ ] Specify multicore memory model, device interfaces and accelerators
+
+Documentation only. No code, CI or CANON promotion.
+
 ## 3.0 — Phase XXIX: Sextaria architecture
 
 - [x] Propose [S1/R1](../specifications/Sextaria-S1-R1.md) mixed addressing and 26 opcodes

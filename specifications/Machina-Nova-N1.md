@@ -72,3 +72,7 @@ The new experimental opcode `66 CAPTA` (hexadecimal) transfers **one eight-bit v
 N1 has no assembler, signed integer arithmetic, floating multiply/divide, interrupts, DMA, protection, real terminal timing, file system or system-call ABI. CVL-68 is not frozen and does not define complete Unicode-equivalent polytonic Greek text. Textual output equivalence with XXXVI does not imply executable compatibility or equal efficiency: this deliberately naive Nova greeting uses 48 code bytes to emit 11 text bytes.
 
 More context: [Phase VIII](../docs/phase-viii-nova-n1.md), [Nova-N0](Machina-Nova-N0.md), [Phase VII](../docs/phase-vii-architecture-fork.md).
+
+## 2026-11-25 Nova family follow-up
+
+[Maior/Magna R1](Nova-Maior-Magna-R1.md) and [Nova family evolution](Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.

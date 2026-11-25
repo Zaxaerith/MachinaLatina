@@ -89,3 +89,7 @@ Sextaria 的商业地位仍是 DRAFT。若科学用户采购它，合理原因�
 这可能是比简单重命名 HTTP、HTML 和 Unicode 更独特的平行互联网发展史。
 
 Related: [Nova PC hardware study](../specifications/Nova-personal-computer-study.md), [CVL desktop typography](../specifications/CVL-desktop-typography-study.md), [1985 architecture war](de-bello-verborum-et-machinarum-1973-1985.md).
+
+## 2026-11-25 Nova family follow-up
+
+[Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) and [Nova family evolution](../specifications/Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.

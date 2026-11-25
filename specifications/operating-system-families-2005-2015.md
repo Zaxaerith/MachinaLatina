@@ -88,3 +88,7 @@ See [Phase XVIII historical narrative](../docs/de-libertate-codicum-et-imperio-s
 ## MODVLA follow-up (2026-11-25)
 
 [MODVLA-I/R1](MODVLA-I-R1.md) and [layout/ABI study](MODVLA-layout-and-abi-study.md) now propose a logical interface and explicit external-record contract. Native calling conventions and service adapters are still open; the three OS families do not acquire a common kernel, binary ABI or implemented service API by using the same source-language concept.
+
+## 2026-11-25 Nova family follow-up
+
+[Maior/Magna R1](Nova-Maior-Magna-R1.md) and [Nova family evolution](Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.

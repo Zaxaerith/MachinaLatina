@@ -27,3 +27,7 @@ S2 可考虑虚拟内存、中断、设备控制、图形缓冲与联网。S1 �
 | 1993–2005 | 生态收缩、数值和档案遗产延续 |
 
 参见 [S1](../specifications/Sextaria-S1-R1.md)、[F48](../specifications/Sextaria-F48-R1.md)、[S0](../specifications/Sextaria-S0-study.md)、[早期架构史](de-bello-verborum-et-machinarum-1973-1985.md)。
+
+## 2026-11-25 Nova family follow-up
+
+[Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) and [Nova family evolution](../specifications/Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.

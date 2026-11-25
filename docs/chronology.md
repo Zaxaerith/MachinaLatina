@@ -22,6 +22,8 @@
 | 1981—1983 | DRAFT | Nova Minor 廉价微机、希腊文 ROM 字形争执 | 能存储、能显示、能编辑、能打印是不同能力 |
 | 1983—1985 | DRAFT (RATIO-I/R1 候选) | 科学计算契约语言：单位、明确 F36/F32、精确参考与绝对容差 | 数值正确舍入不等于通过误差验收；F48 候选另见 S1，RATIO I 未接纳 |
 | 1984—1987 | DRAFT | TABVLA 双文字桌面及出版系统 | 重音、气音、字符簇、输入法和打印 |
+| 1984–1989 | DRAFT (Media) | 16 位程序员模型、24 位线性字节地址 | 图形内存与办公生态；ISA 未定 |
+| 1988–1995 | DRAFT (Maior R1) | 32 位寄存器机、固定四字节指令 | 与 N1 二进制不兼容 |
 | 1988–1991 | DRAFT | 其他书写社群质疑 CCL 的旧席位；1991 年虚构权限范围声明 | CCL 继续管理 CVL 历史码，不再假设有权单独登记全世界字符 |
 | 1987—1990 | DRAFT | Sextaria 科研工作站与大众 Nova 生态竞争 | 专业精度和成本、桌面 API 和软件市场 |
 | 1990—1992 | DRAFT | 全球字符身份讨论开始 | 八位 CVL-68 不足以覆盖世界文字 |
@@ -32,12 +34,14 @@
 | 1998—2000 | DRAFT | NODVS 类型化超文本、LIGAMEN 引用 | 复杂科研文献与廉价网页的取舍 |
 | 1998–2001 | DRAFT (COS-97/R1 候选) | 24 位字符身份、C24 固定三字节与 W1 变长交换方案 | 旧 CVL 文本可保留字节；全球字符分配与网络帧仍未批准 |
 | 1998–2005 | DRAFT (network R1 candidates) | NODVS typed document records, LIGAMEN revisioned references and RETE application-layer exchange | Explicit COS encoding, bounded framing; directory, security and dynamic applications unresolved |
+| 1998–2005 | DRAFT (Magna R1) | 64 位寄存器、48 位地址、可选 M32 模式 | 同指令格式不等于同 ABI；F64 未定 |
 | 2001—2003 | DRAFT | 多文字域名与同形异码安全危机 | 展示名称、线路标签和脚本告警 |
 | 2000–2003 | DRAFT | CCL/CSM 历史档案保存与国际域名分权争论 | CVL 转码、COS 字符登记、域名线路编码由不同机构协同 |
 | 2004—2005 | DRAFT | 全球文字身份与旧 CVL 存储达成候选共存策略 | 显式编码声明、可审查转码 |
 | 1999–2004 | DRAFT (SERMO I candidate) | 文献脚本演化为 FORMA 类型化文档构造语言 | COS 字符身份与原始字节分离，文档体与发布身份分开 |
 | 2005—2007 | DRAFT | LIBERTAS CODICVM 自由软件/档案运动 | 公开可维护源码、文件格式和设备控制权 |
 | 2007—2009 | DRAFT | ORDO-N、PARTES、CVSTOS 三种系统家族构想 | 字节流、类型记录、移动权限、能耗 |
+| 2007–2026 | DRAFT (Mobilis) | Nova 低功耗衍生、多核心与独立加速设备 | 共同 ISA 子集、不同设备/系统接口；具体扩展未定 |
 | 2010—2012 | DRAFT | 多文字源码分发、跨架构包清单与版本控制 | COS 文件名与包名、来源和 ABI |
 | 2005–2015 | DRAFT (SERMO II–IV candidates) | 服务器服务、可选客户端、能力句柄与异步任务的候选演化 | 被动 NODVS 不自动执行脚本，RETE R1 无写入或安全握手 |
 | 2012—2014 | DRAFT | 云端科学计算与数值可复算性争论 | Sextaria 数学传统可脱离 48 位硬件存活 |

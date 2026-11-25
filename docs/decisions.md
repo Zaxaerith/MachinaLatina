@@ -214,6 +214,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [S1/R1](../specifications/Sextaria-S1-R1.md) proposes 16 writable 48-bit registers, 24-bit word addressing, distinct 27-bit byte pointers, 26 assigned opcodes and base fault semantics. [F48/R1](../specifications/Sextaria-F48-R1.md) defines candidate 1/9/38 fields, bias 256 and finite nearest-even arithmetic. Existing F32/F36 and RATIO-I accepted formats are unchanged. [History](de-sextaria-1976-2005.md) proposes a workstation niche and later decline, not market evidence. Devices, privileged ISA, ABI, S2 and implementation remain open.
 
+## D046 — Nova family evolution and Maior/Magna register architecture
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-25)
+
+[Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) proposes 16 general registers, fixed 32-bit instructions, 16 assigned opcodes, distinct 32/64-bit arithmetic/address profiles and optional M32 execution on Magna. It does not preserve N1 binary encoding or imply a common OS ABI. [Family study](../specifications/Nova-family-evolution-study.md) proposes Minor banked memory, Media linear addressing, and low-power Mobilis descendants with a shared-subset industry path rather than necessarily unrelated dominant ISAs. [1981–2026 narrative](de-nova-1981-2026.md) remains DRAFT. F64, full ISA, privilege, concurrency, accelerator interfaces and operating systems remain open. No implementation or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

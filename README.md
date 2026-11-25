@@ -72,6 +72,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [S1/R1](specifications/Sextaria-S1-R1.md) proposes 16 writable registers, 24-bit word addresses, six-lane byte pointers and 26 fixed-word opcodes. [F48/R1](specifications/Sextaria-F48-R1.md) proposes 1/9/38-bit finite floating point. [History](docs/de-sextaria-1976-2005.md) explores scientific workstations and possible decline. DRAFT, not implemented or CANON. Documentation only.
 
+## Phase XXX — Nova family evolution (1981–2026)
+
+[Nova Maior/Magna R1](specifications/Nova-Maior-Magna-R1.md) proposes a common 32-bit instruction envelope, 16 registers, distinct M32/M64 semantics and optional M32 execution on Magna. [Family study](specifications/Nova-family-evolution-study.md) specifies candidate Minor bank mapping, Media direction and Mobilis/heterogeneous profiles. [History](docs/de-nova-1981-2026.md) traces the mass-market transition. DRAFT, not CANON or implemented. No CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

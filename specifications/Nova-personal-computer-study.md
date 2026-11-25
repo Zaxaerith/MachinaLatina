@@ -49,3 +49,7 @@
 具体微机 ISA、引导 ROM、操作系统 API、磁盘格式、可执行文件加载、语言字体 ROM 和 1995 年前的网络接口仍未确定，不在本章偷偷确认为标准。尤其不允许把真实 IBM PC 或 Macintosh 的指令集直接换个名字。
 
 See [Phase XVI narrative](../docs/de-revolutione-machinarum-domesticarum-1981-1995.md), [existing Nova N1 profile](Machina-Nova-N1.md), [Sextaria study](Sextaria-S0-study.md).
+
+## 2026-11-25 Nova family follow-up
+
+[Maior/Magna R1](Nova-Maior-Magna-R1.md) and [Nova family evolution](Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.
