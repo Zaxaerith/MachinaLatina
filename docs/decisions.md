@@ -209,6 +209,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [RATIO-I/R1](../specifications/RATIO-I-R1.md) proposes bounded dimensional scalar expressions with explicit FLOAT-P0 F32/F36, round-to-nearest ties-to-even, source order, exact rational reference and exact absolute tolerance. [Audit examples](../specifications/RATIO-numeric-audit-study.md) derive a 1/32 m coordinate difference retained in F36 but lost on F32 input rounding. Tolerance failure is distinct from incorrect format execution, and numerical tolerance is distinct from physical measurement/model uncertainty. F48 remains undefined. [Historical study](de-ratione-1983-2026.md) treats later interval, vector and AI audit mechanisms as proposals, not implemented features. No compiler, test suite or CI.
 
+## D045 — Sextaria S1 and F48 candidates
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-25)
+
+[S1/R1](../specifications/Sextaria-S1-R1.md) proposes 16 writable 48-bit registers, 24-bit word addressing, distinct 27-bit byte pointers, 26 assigned opcodes and base fault semantics. [F48/R1](../specifications/Sextaria-F48-R1.md) defines candidate 1/9/38 fields, bias 256 and finite nearest-even arithmetic. Existing F32/F36 and RATIO-I accepted formats are unchanged. [History](de-sextaria-1976-2005.md) proposes a workstation niche and later decline, not market evidence. Devices, privileged ISA, ABI, S2 and implementation remain open.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

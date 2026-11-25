@@ -85,3 +85,7 @@ Relevant *actual-world* comparisons (not sources of our invented encoding):
 ## RATIO follow-up (2026-11-25)
 
 [RATIO-I/R1](RATIO-I-R1.md) uses these existing F36/F32 semantics as declared execution profiles and compares results against an exact-rational reference in a paper-level tolerance contract. [Audit study](RATIO-numeric-audit-study.md) includes a coordinate-cancellation example. Neither FLOAT-P0 bit assignments nor machine instructions are changed; F48 is still undefined.
+
+## 2026-11-25 Sextaria follow-up
+
+[S1/R1](Sextaria-S1-R1.md) and [F48/R1](Sextaria-F48-R1.md) are subsequent paper candidates, not CANON or implementation. Earlier statements about undefined F48 describe the original study. Existing F32/F36 and RATIO-I accepted execution formats remain unchanged.

@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.0 — Phase XXIX: Sextaria architecture
+
+- [x] Propose [S1/R1](../specifications/Sextaria-S1-R1.md) mixed addressing and 26 opcodes
+- [x] Propose [F48/R1](../specifications/Sextaria-F48-R1.md) and paper vectors
+- [x] Develop [1976–2005 history](de-sextaria-1976-2005.md)
+- [ ] Design S2, devices, privileged facilities and ABI
+- [ ] Research Nova successor and operating systems
+
+Documentation only. No implementation, CI, release or CANON promotion.
+
 ## 2.9 — Phase XXVIII: RATIO numerical contracts
 
 - [x] Describe [RATIO-I/R1](../specifications/RATIO-I-R1.md) scalar dimensional types and exact numerical acceptance contracts

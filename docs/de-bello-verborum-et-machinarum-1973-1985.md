@@ -123,3 +123,7 @@
 - **尚待研究：** 48 位的数值格式与寄存器；内存的六槽字节指针；硬件成套成本；与 TRANFOR 的语言兼容；1980 年代图形工作站；来自世界其他文字的标准化压力。
 
 Related: [Sextaria architectural tradeoffs](../specifications/Sextaria-S0-study.md), [1970s–1980s language families](programming-languages-1974-1985.md), [1968 fork](phase-vii-architecture-fork.md), [Encoding War](encoding-war-1963-1968.md).
+
+## 2026-11-25 Sextaria follow-up
+
+[S1/R1](../specifications/Sextaria-S1-R1.md) and [F48/R1](../specifications/Sextaria-F48-R1.md) are subsequent paper candidates, not CANON or implementation. Earlier statements about undefined F48 describe the original study. Existing F32/F36 and RATIO-I accepted execution formats remain unchanged.

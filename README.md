@@ -68,6 +68,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [RATIO-I/R1](specifications/RATIO-I-R1.md) proposes dimensional quantities, explicit F32/F36 rounding, exact-rational reference and absolute numerical error contracts. The [audit study](specifications/RATIO-numeric-audit-study.md) derives a surveying-coordinate cancellation example and separates numerical error from physical uncertainty. [History](docs/de-ratione-1983-2026.md) traces scientific verification through later heterogeneous computing. DRAFT / not CANON or implemented. F48 remains open. Documentation only.
 
+## Phase XXIX — Sextaria 48-bit scientific architecture
+
+[S1/R1](specifications/Sextaria-S1-R1.md) proposes 16 writable registers, 24-bit word addresses, six-lane byte pointers and 26 fixed-word opcodes. [F48/R1](specifications/Sextaria-F48-R1.md) proposes 1/9/38-bit finite floating point. [History](docs/de-sextaria-1976-2005.md) explores scientific workstations and possible decline. DRAFT, not implemented or CANON. Documentation only.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

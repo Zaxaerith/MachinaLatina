@@ -72,3 +72,7 @@ Source compatibility ≠ numeric reproducibility ≠ byte-format compatibility �
 - The cost and market share necessary for Sextaria survival beyond 1985.
 
 See [the 1973–1985 architecture war](../docs/de-bello-verborum-et-machinarum-1973-1985.md) and [existing XXXVI/Nova split](../docs/phase-vii-architecture-fork.md).
+
+## 2026-11-25 Sextaria follow-up
+
+[S1/R1](Sextaria-S1-R1.md) and [F48/R1](Sextaria-F48-R1.md) are subsequent paper candidates, not CANON or implementation. Earlier statements about undefined F48 describe the original study. Existing F32/F36 and RATIO-I accepted execution formats remain unchanged.

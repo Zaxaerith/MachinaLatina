@@ -76,3 +76,7 @@ Numerical error against exact declared inputs is not measurement error. A separa
 A run record should name the source revision, input values and provenance, units, selected arithmetic profile and revision, backend/toolchain, native versus emulated execution, operation/reduction order, result representation, exact reference if available, error and tolerance outcome. Old archival storage is not made reproducible by recording a CPU name alone. No historical binary report format, cryptographic scheme or automatic proof engine is specified.
 
 Related: [FLOAT-P0](FLOAT-P0.md), [TRANFOR/P2](TRANFOR-P2.md), [MODVLA](MODVLA-I-R1.md), [RATIO audit](RATIO-numeric-audit-study.md), [history](../docs/de-ratione-1983-2026.md).
+
+## 2026-11-25 Sextaria follow-up
+
+[S1/R1](Sextaria-S1-R1.md) and [F48/R1](Sextaria-F48-R1.md) are subsequent paper candidates, not CANON or implementation. Earlier statements about undefined F48 describe the original study. Existing F32/F36 and RATIO-I accepted execution formats remain unchanged.
