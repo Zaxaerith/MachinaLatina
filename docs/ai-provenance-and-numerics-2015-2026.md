@@ -56,3 +56,7 @@ A deterministic build reproduces identical binary artifacts given defined inputs
 HIST comparisons: [UNESCO 2021 AI ethics](https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence), [Attention Is All You Need](https://research.google/pubs/attention-is-all-you-need/).
 
 Related: [Phase XIX](de-machinis-cogitantibus-2015-2026.md), [COS and language models](ai-languages-and-cos-2015-2026.md), [RATIO research](programming-ecosystem-2005-2015.md).
+
+## 2026-11-26 MENTIS follow-up
+
+[Matrices R1](../specifications/MENTIS-matrix-R1.md), [tokenizer R1](../specifications/MENTIS-tokenizer-R1.md) and [evidence R1](../specifications/MENTIS-evidence-R1.md) are later paper candidates. F48/R1 was separately proposed in Phase XXIX; no accelerator implementation or RATIO matrix grammar follows. Earlier unselected-format statements describe the original study. No trained model, benchmark or deployed assistant.

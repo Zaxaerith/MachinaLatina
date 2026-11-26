@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.7 — Phase XXXVI: MENTIS
+
+- [x] Propose [mixed-precision matrix contract](../specifications/MENTIS-matrix-R1.md)
+- [x] Propose [COS-native tokenization](../specifications/MENTIS-tokenizer-R1.md)
+- [x] Propose [scientific assistant evidence boundary](../specifications/MENTIS-evidence-R1.md)
+- [x] Write [1965–2026 AI history](de-mente-1965-2026.md)
+- [ ] Model architecture, training, device ABI and expanded numerical profiles
+- [ ] Consolidate chronology, lineages and continuity audit across phases
+
+Documentation only; no implementation, CI or CANON promotion.
+
 ## 3.6 — Phase XXXV: graphics and games
 
 - [x] Propose [IMAGO 2D surfaces](../specifications/IMAGO-86-R1.md)

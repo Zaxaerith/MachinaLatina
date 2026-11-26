@@ -37,3 +37,7 @@ Real Tensor Cores debuted in NVIDIA's 2017 Volta platform; the 2024 Blackwell ar
 Sources: [NVIDIA Volta](https://nvidianews.nvidia.com/news/nvidia-launches-revolutionary-volta-gpu-platform-fueling-next-era-of-ai-and-high-performance-computing), [NVIDIA Blackwell](https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Blackwell-Platform-Arrives-to-Power-a-New-Era-of-Computing/).
 
 Related: [Phase XIX](../docs/de-machinis-cogitantibus-2015-2026.md), [Sextaria-S0](Sextaria-S0-study.md), [FLOAT-P0](FLOAT-P0.md).
+
+## 2026-11-26 MENTIS follow-up
+
+[Matrices R1](MENTIS-matrix-R1.md), [tokenizer R1](MENTIS-tokenizer-R1.md) and [evidence R1](MENTIS-evidence-R1.md) are later paper candidates. F48/R1 was separately proposed in Phase XXIX; no accelerator implementation or RATIO matrix grammar follows. Earlier unselected-format statements describe the original study. No trained model, benchmark or deployed assistant.

@@ -244,6 +244,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [IMAGO](../specifications/IMAGO-86-R1.md) proposes explicit pixel formats and bounded 2D fill/copy records. [FIGVRA](../specifications/FIGVRA-95-R1.md) defines fixed-point screen-space coverage, affine depth and flat color, not a complete 3D pipeline. [LVDVS](../specifications/LVDVS-console-study.md) proposes a 10144-octet tile/sprite snapshot and provisional console genealogy. [History](de-imaginibus-1975-2026.md) separates graphics, scientific precision, game portability and matrix devices. All names/dates and industry outcomes remain candidates. No implementation, CI or license change.
 
+## D052 — MENTIS mixed precision, COS tokenization and evidence
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-26)
+
+[Matrices R1](../specifications/MENTIS-matrix-R1.md) proposes M16 sign/exponent/fraction 1/5/10 and ordered F32 accumulation. [Tokenizer R1](../specifications/MENTIS-tokenizer-R1.md) proposes a versioned exact-CID greedy vocabulary with singleton coverage. [Evidence R1](../specifications/MENTIS-evidence-R1.md) separates generated claims, pinned retrieval, executed calculations and human review. [History](de-mente-1965-2026.md) proposes symbolic/statistical/neural development. No trained model, benchmark, hardware, runtime, RATIO grammar change or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

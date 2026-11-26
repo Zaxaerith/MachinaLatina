@@ -42,3 +42,7 @@ A machine can converse in Classical Latin, handle Greek variables and communicat
 Real-world comparisons: [Unicode UTS #39](https://www.unicode.org/reports/tr39/), [UNESCO AI ethics](https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence).
 
 Related: [Phase XIX](de-machinis-cogitantibus-2015-2026.md), [scientific provenance](ai-provenance-and-numerics-2015-2026.md), [COS study](../specifications/COS-universal-character-registry-study.md).
+
+## 2026-11-26 MENTIS follow-up
+
+[Matrices R1](../specifications/MENTIS-matrix-R1.md), [tokenizer R1](../specifications/MENTIS-tokenizer-R1.md) and [evidence R1](../specifications/MENTIS-evidence-R1.md) are later paper candidates. F48/R1 was separately proposed in Phase XXIX; no accelerator implementation or RATIO matrix grammar follows. Earlier unselected-format statements describe the original study. No trained model, benchmark or deployed assistant.

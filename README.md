@@ -96,6 +96,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [IMAGO-86/R1](specifications/IMAGO-86-R1.md) proposes bounded 2D surfaces and drawing commands. [FIGVRA-95/R1](specifications/FIGVRA-95-R1.md) proposes exact screen-space triangle coverage and depth tests. [LVDVS](specifications/LVDVS-console-study.md) studies tile/sprite hardware and later console families. [History](docs/de-imaginibus-1975-2026.md) links TABVLA, scientific workstations, games and heterogeneous devices. DRAFT, not CANON or implemented. No CI.
 
+## Phase XXXVI — MENTIS artificial intelligence (1965–2026)
+
+[Matrices](specifications/MENTIS-matrix-R1.md) proposes M16 finite operands with ordered F32 accumulation. [Tokenizer](specifications/MENTIS-tokenizer-R1.md) proposes exact-CID greedy segmentation; [Evidence](specifications/MENTIS-evidence-R1.md) separates generated claims, retrieved records, executed calculations and human review. [History](docs/de-mente-1965-2026.md) traces symbolic AI to multilingual assistants. DRAFT, not CANON or implemented. No CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

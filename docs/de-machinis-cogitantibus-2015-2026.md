@@ -92,3 +92,7 @@ Nova 的后代可能演化为通用 64 位服务器；XXXVI 只剩科学档案�
 ## 2026-11-26 graphics follow-up
 
 [IMAGO](../specifications/IMAGO-86-R1.md), [FIGVRA](../specifications/FIGVRA-95-R1.md) and [LVDVS](../specifications/LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.
+
+## 2026-11-26 MENTIS follow-up
+
+[Matrices R1](../specifications/MENTIS-matrix-R1.md), [tokenizer R1](../specifications/MENTIS-tokenizer-R1.md) and [evidence R1](../specifications/MENTIS-evidence-R1.md) are later paper candidates. F48/R1 was separately proposed in Phase XXIX; no accelerator implementation or RATIO matrix grammar follows. Earlier unselected-format statements describe the original study. No trained model, benchmark or deployed assistant.
