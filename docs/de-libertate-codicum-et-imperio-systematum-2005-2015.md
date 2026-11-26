@@ -127,3 +127,7 @@ See [candidate OS families](../specifications/operating-system-families-2005-201
 ## 2026-11-26 CVSTOS follow-up
 
 [CVSTOS I/R1](../specifications/CVSTOS-I-R1.md) and [distribution/energy policy](../specifications/CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.
+
+## 2026-11-26 developer ecosystem follow-up
+
+[STEMMA R1](../specifications/STEMMA-R1.md) and [FASCICVLVS R1](../specifications/FASCICVLVS-R1.md) are subsequent paper candidates for source identity and target-specific package distribution. No real license, trust roots, boot policy or native ABI changed; signature serialization and digest suites remain open.

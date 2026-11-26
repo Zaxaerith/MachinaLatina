@@ -23,3 +23,7 @@ Example background task uses 1.5 CPU-seconds, 192 KiB and three activations. Rem
 An offline NODVS cache is scoped to installation/user and authorization context; cached content is not automatically eligible for a new principal. Revocation denies later broker reads, not already exported copies. Offline validity/expiry and sync conflict policy need a later standard. In 2021–2026 candidate devices, local inference may operate on user-selected documents under separate model/accelerator grants; uploading document data is a separate network decision. NODVS is not executable model instructions; model output does not inherit source authority. No asserted local model performance, token efficiency or energy benchmark.
 
 Related: [CVSTOS I](CVSTOS-I-R1.md), [history](../docs/de-cvstode-2007-2026.md), [SERMO III](SERMO-III-runtime-study.md), [software freedom](../docs/software-freedom-and-distribution-2005-2015.md).
+
+## 2026-11-26 developer ecosystem follow-up
+
+[STEMMA R1](STEMMA-R1.md) and [FASCICVLVS R1](FASCICVLVS-R1.md) are subsequent paper candidates for source identity and target-specific package distribution. No real license, trust roots, boot policy or native ABI changed; signature serialization and digest suites remain open.

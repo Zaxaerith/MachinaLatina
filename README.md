@@ -88,6 +88,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [CVSTOS I/R1](specifications/CVSTOS-I-R1.md) proposes installation-scoped identity, revocable process-local capabilities and user-selected immutable document access. [Distribution and energy policy](specifications/CVSTOS-distribution-and-energy-R1.md) separates package trust, runtime grants, owner boot control and illustrative background quotas. [History](docs/de-cvstode-2007-2026.md) traces mobile computing and device ownership debates. DRAFT, not CANON or implemented; no CI.
 
+## Phase XXXIV — Software collaboration and distribution (2005–2026)
+
+[STEMMA R1](specifications/STEMMA-R1.md) proposes typed immutable source objects and revision genealogy with canonical preimages; the digest suite is open. [FASCICVLVS R1](specifications/FASCICVLVS-R1.md) proposes publisher-scoped package identity, target-specific artifacts and dependency locking. [History](docs/de-codicibus-2005-2026.md) develops FORVM CODICVM and LIBERTAS CODICVM. DRAFT, not CANON or implemented. No CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

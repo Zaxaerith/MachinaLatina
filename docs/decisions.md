@@ -234,6 +234,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [CVSTOS I/R1](../specifications/CVSTOS-I-R1.md) proposes a Mobilis M32 capability-oriented hybrid, installation identity, nontransferable process handles, revocable document grants and a trusted document picker. [Distribution/energy study](../specifications/CVSTOS-distribution-and-energy-R1.md) separates app trust, boot trust, permissions and accounting; background quotas are illustrations, not energy benchmarks. [History](de-cvstode-2007-2026.md) proposes coexistence of owner-controlled and vendor-managed devices. No native ABI, crypto format, real drivers, M64 protection, kernel implementation or CI.
 
+## D050 — STEMMA and FASCICVLVS developer ecosystem
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-26)
+
+[STEMMA R1](../specifications/STEMMA-R1.md) proposes typed canonical source-object preimages, exact CID names and immutable revisions with ordered parents. Digest suite, network transport and merge algorithms remain open. [FASCICVLVS R1](../specifications/FASCICVLVS-R1.md) proposes logical manifest, publisher-scoped identity, exact target requirements and locked dependency graph; canonical signature format and installers remain open. [History](de-codicibus-2005-2026.md) proposes independent FORVM CODICVM forges and freedom of installation debates. No code, CI or license change.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

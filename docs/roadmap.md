@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.5 — Phase XXXIV: developer collaboration
+
+- [x] Propose [STEMMA source genealogy](../specifications/STEMMA-R1.md)
+- [x] Propose [FASCICVLVS package identity and dependency contracts](../specifications/FASCICVLVS-R1.md)
+- [x] Write [FORVM CODICVM and freedom history](de-codicibus-2005-2026.md)
+- [ ] Define digest/signature suites, canonical package encoding and authenticated network mutation
+- [ ] Study graphical computing and scientific application ecosystem
+
+Documentation only; no code, CI or CANON promotion.
+
 ## 3.4 — Phase XXXIII: CVSTOS
 
 - [x] Propose [application identities and document capabilities](../specifications/CVSTOS-I-R1.md)

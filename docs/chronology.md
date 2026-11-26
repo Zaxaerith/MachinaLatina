@@ -50,6 +50,9 @@
 | 2005–2015 | DRAFT (ORDO-N III) | 商业与 ORDO-N LIBER 候选开放发行版 | 内核来源、许可待定 |
 | 2007–2010 | DRAFT (CVSTOS I) | Mobilis M32、应用隔离、文档代理与能力授权 | 设备驱动与 ABI 未定 |
 | 2011–2018 | DRAFT (CVSTOS II / owner-control debate) | 签名分发、后台预算、用户信任根候选 | 签名不等于运行授权，具体密码协议未定 |
+| 2008–2012 | DRAFT (STEMMA) | 分布式源码世系、类型化对象和精确 COS 名称 | 摘要算法与传输未定 |
+| 2010–2015 | DRAFT (FORVM CODICVM) | 公共托管、修改提案、审阅与镜像 | 认证写入协议未定 |
+| 2011–2018 | DRAFT (FASCICVLVS) | 按发行者与目标 ABI 分发、依赖锁定 | 签名格式及加载器未定 |
 | 2010—2012 | DRAFT | 多文字源码分发、跨架构包清单与版本控制 | COS 文件名与包名、来源和 ABI |
 | 2005–2015 | DRAFT (SERMO II–IV candidates) | 服务器服务、可选客户端、能力句柄与异步任务的候选演化 | 被动 NODVS 不自动执行脚本，RETE R1 无写入或安全握手 |
 | 2012—2014 | DRAFT | 云端科学计算与数值可复算性争论 | Sextaria 数学传统可脱离 48 位硬件存活 |
