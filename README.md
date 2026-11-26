@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XXXVIII — Future branch (2027–2030)
+
+[Future chronology](docs/future-chronology-2027-2050.md) is separate from the historical synthesis. [AI-native computing](docs/de-mente-et-machinis-2027-2030.md), [MENTIS task R1](specifications/MENTIS-agent-task-R1.md) and [system integration](specifications/MENTIS-system-integration-study.md) propose a bounded user-space planner/broker with scoped operations and explicit publication. FUTURE SCENARIO / DRAFT; no implementation or new CANON.
+
 ## Current entry point / 当前阅读入口 · Phase XXXVII
 
 The primary reading path is now the **[1954–2026 Computer Civilization History](docs/historia-machinae-latinae-1954-2026.md)**. It integrates earlier period studies without upgrading fictional **DRAFT** hardware, languages, companies or protocols to **CANON**. Read the [institution/technology genealogy](docs/institutions-and-lineages.md) alongside the [continuity audit](docs/continuity-audit.md).

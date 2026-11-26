@@ -2,6 +2,15 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.9 — Phase XXXVIII: AI-native computing (future scenario)
+
+- [x] Propose [MENTIS bounded task contract](../specifications/MENTIS-agent-task-R1.md)
+- [x] Study [system integration](../specifications/MENTIS-system-integration-study.md)
+- [x] Write [2027–2030 scenario](de-mente-et-machinis-2027-2030.md) and [future chronology](future-chronology-2027-2050.md)
+- [ ] Research 2030–2035 memory-centred architectures and heterogeneous execution
+
+Documentation only. All future events conditional; C19–C25 remain open. No code or CI.
+
 ## 3.8 — Phase XXXVII: continuity and historical synthesis
 
 - [x] Revise [history v0.2](historia-machinae-latinae-1954-2026.md) and reading entry

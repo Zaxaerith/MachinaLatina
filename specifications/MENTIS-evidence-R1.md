@@ -20,3 +20,7 @@ These are distinct record types, not an automatic ladder: a claim can have a ver
 A hypothetical survey researcher asks for the coordinate difference in the RATIO audit example. MENTIS may retrieve an authorized pinned NODVS record containing the source inputs (no real resource ID asserted), propose B-A, ask a calculation tool for a declared F32/F36 profile, then attach execution evidence and numerical tolerance result. Paper reasoning predicts F32 zero, F36 0.03125 m, with 0.01 m tolerance failing F32. Do not mark these paper predictions CALCVLATVM: no fictional tool was run. Measurement uncertainty and CRS remain distinct. Human acceptance cannot be inferred from a passing tolerance. A model reading user documents must not send them to a remote tool without separate permission; revocation cannot erase already disclosed copies.
 
 See [RATIO audit](RATIO-numeric-audit-study.md), [LIGAMEN](LIGAMEN-99-R1.md), [CVSTOS](CVSTOS-I-R1.md), [prior AI evidence study](../docs/ai-provenance-and-numerics-2015-2026.md).
+
+## Phase XXXVIII future scenario
+
+[MENTIS agent task R1](MENTIS-agent-task-R1.md) and [system integration study](MENTIS-system-integration-study.md) propose later user-space contracts, not changes to this existing profile. No ambient authority, remote mutation protocol or native ABI is implied.

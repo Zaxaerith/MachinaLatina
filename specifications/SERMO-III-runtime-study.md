@@ -66,3 +66,7 @@ Early Nova clients could support a lightweight FORM/CLIENS interpreter, while se
 Open questions: source module/package identity, module signing and trust, permission mediation UX, browser origin binding, DOM-like view object API, garbage collection or ownership strategy, server authentication, rich object layout, event registration, service mutation semantics, stable bytecode and ABI. No need to decide all of these in 1999.
 
 Related: [core form language](SERMO-I-R1.md), [NODVS](NODVS-98-R1.md), [RETE](RETE-00-R1.md), [historical narrative](../docs/de-sermone-1999-2015.md).
+
+## Phase XXXVIII future scenario
+
+[MENTIS agent task R1](MENTIS-agent-task-R1.md) and [system integration study](MENTIS-system-integration-study.md) propose later user-space contracts, not changes to this existing profile. No ambient authority, remote mutation protocol or native ABI is implied.

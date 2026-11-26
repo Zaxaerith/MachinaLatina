@@ -144,3 +144,7 @@
 这些候选已经具有部分精确的格式、指令和接口，但不能被描述为正式颁行或已经运行的标准。详细依赖与兼容矩阵见[技术图谱](technology-atlas-1954-2026.md)，七个时代的典型场景见[时代画像](era-portraits-1954-2026.md)。
 
 下一步可以在清楚标明未决前提的情况下，推演 2027–2050 年的未来分支；不必为了增加年代而假设 M64、完整 GPU、网络安全或 AI 体系已经定案。
+
+## Future branch / 2027–2050
+
+See [future chronology](future-chronology-2027-2050.md) and [AI-native computing 2027–2030](de-mente-et-machinis-2027-2030.md). These are future scenarios, not additions to the historical event table or newly ratified world assumptions.

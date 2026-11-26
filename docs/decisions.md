@@ -254,6 +254,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [History v0.2](historia-machinae-latinae-1954-2026.md), [atlas](technology-atlas-1954-2026.md), [era portraits](era-portraits-1954-2026.md) and [audit C13–C25](continuity-audit.md) integrate Phase XXI–XXXVI candidates while preserving earlier studies and unresolved dependencies. Chronology sorted by start year, overlapping intervals retained. D035 evidence policy and D024 no-CI decision unchanged. No new technical standard, implementation, license change or historical event ratified.
 
+## D054 — Future MENTIS task computing branch
+**State:** FUTURE SCENARIO / DRAFT / NOT CANON (2026-11-26)
+
+[Task R1](../specifications/MENTIS-agent-task-R1.md) separates model planning, trusted host grants, bounded typed steps, private staging, explicit compare-and-set publication and receipts. [Integration](../specifications/MENTIS-system-integration-study.md) retains the three OS families and prefers local-first interoperable adapters with optional authorized remote services. [2027–2030 history](de-mente-et-machinis-2027-2030.md) is conditional and listed separately in the [future chronology](future-chronology-2027-2050.md). No existing authority, ABI, cryptographic, network or numeric contract is silently extended. No implementation or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

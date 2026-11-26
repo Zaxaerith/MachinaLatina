@@ -35,3 +35,7 @@ Map reader installation 17, process 3, receives handle 9 for broker object 42 re
 
 ## 6. Evolution
 Later versions may support foreground camera/microphone/location sessions, one-time permissions, explicit durable consent, bounded background grants and separate app-distribution trust. See [policy study](CVSTOS-distribution-and-energy-R1.md). No automatic sharing of ORDO-N paths, PARTES endpoints, SERMO runtime or native binaries. M64 protection, loader/ABI, device IOMMU, secure transport, storage encryption and real GUI remain open.
+
+## Phase XXXVIII future scenario
+
+[MENTIS agent task R1](MENTIS-agent-task-R1.md) and [system integration study](MENTIS-system-integration-study.md) propose later user-space contracts, not changes to this existing profile. No ambient authority, remote mutation protocol or native ABI is implied.
