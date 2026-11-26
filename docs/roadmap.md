@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.4 — Phase XXXIII: CVSTOS
+
+- [x] Propose [application identities and document capabilities](../specifications/CVSTOS-I-R1.md)
+- [x] Describe [distribution, owner trust and background accounting](../specifications/CVSTOS-distribution-and-energy-R1.md)
+- [x] Write [2007–2026 mobile history](de-cvstode-2007-2026.md)
+- [ ] Define device interfaces, actual IPC/ABI, boot/package serialization and M64 isolation
+- [ ] Explore cross-system software distribution and package identity
+
+Documentation only, no code, CI or CANON promotion.
+
 ## 3.3 — Phase XXXII: PARTES
 
 - [x] Propose [S2 word-region protection](../specifications/Sextaria-S2-PROTECT-R1.md)

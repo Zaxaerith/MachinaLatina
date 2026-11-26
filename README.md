@@ -84,6 +84,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [Sextaria S2 protection](specifications/Sextaria-S2-PROTECT-R1.md) proposes relocatable word regions and trap instructions. [PARTES I IPC](specifications/PARTES-I-R1.md) defines bounded synchronous calls, endpoint rights and typed envelopes. [Record service](specifications/PARTES-record-service-R1.md) gives a six-octet MODVLA record example, and [history](docs/de-partibus-1987-2026.md) traces possible Nova migration. DRAFT, not CANON or implemented; no CI.
 
+## Phase XXXIII — CVSTOS mobile computing (2007–2026)
+
+[CVSTOS I/R1](specifications/CVSTOS-I-R1.md) proposes installation-scoped identity, revocable process-local capabilities and user-selected immutable document access. [Distribution and energy policy](specifications/CVSTOS-distribution-and-energy-R1.md) separates package trust, runtime grants, owner boot control and illustrative background quotas. [History](docs/de-cvstode-2007-2026.md) traces mobile computing and device ownership debates. DRAFT, not CANON or implemented; no CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

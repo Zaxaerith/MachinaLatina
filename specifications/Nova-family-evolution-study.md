@@ -47,3 +47,7 @@ Shared buffers require explicit ownership/lifetime, synchronization and address 
 | Scientific result | Declared formats, order, inputs and tolerance |
 
 Related: [history](../docs/de-nova-1981-2026.md), [OS families](operating-system-families-2005-2015.md), [Sextaria](Sextaria-S1-R1.md).
+
+## 2026-11-26 CVSTOS follow-up
+
+[CVSTOS I/R1](CVSTOS-I-R1.md) and [distribution/energy policy](CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.

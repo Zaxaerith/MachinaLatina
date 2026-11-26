@@ -100,3 +100,7 @@ See [Phase XVIII historical narrative](../docs/de-libertate-codicum-et-imperio-s
 ## 2026-11-26 PARTES follow-up
 
 [S2 protection](Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](PARTES-I-R1.md) and [record service](PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.
+
+## 2026-11-26 CVSTOS follow-up
+
+[CVSTOS I/R1](CVSTOS-I-R1.md) and [distribution/energy policy](CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.

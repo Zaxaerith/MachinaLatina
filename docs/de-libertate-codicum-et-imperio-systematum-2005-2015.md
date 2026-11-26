@@ -123,3 +123,7 @@ See [candidate OS families](../specifications/operating-system-families-2005-201
 ## 2026-11-26 ORDO-N follow-up
 
 [PROTECT-R1](../specifications/Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](../specifications/ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.
+
+## 2026-11-26 CVSTOS follow-up
+
+[CVSTOS I/R1](../specifications/CVSTOS-I-R1.md) and [distribution/energy policy](../specifications/CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.

@@ -229,6 +229,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [S2 PROTECT-R1](../specifications/Sextaria-S2-PROTECT-R1.md) proposes contiguous relocated word regions and seven new trap/protection opcodes. [PARTES I](../specifications/PARTES-I-R1.md) proposes isolated service processes, synchronous bounded IPC, 24-octet envelopes, authenticated local sender identity supplied by kernel, and process-local endpoint rights. [Record service](../specifications/PARTES-record-service-R1.md) uses the existing six-octet SPECIMEN schema; no implicit F48, COS or native pointer reinterpretation. [History](de-partibus-1987-2026.md) proposes hardware migration without binary compatibility. No code, actual drivers, shared pages, disk format, M64 ABI or CI.
 
+## D049 — CVSTOS scoped capabilities and mobile policy
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-26)
+
+[CVSTOS I/R1](../specifications/CVSTOS-I-R1.md) proposes a Mobilis M32 capability-oriented hybrid, installation identity, nontransferable process handles, revocable document grants and a trusted document picker. [Distribution/energy study](../specifications/CVSTOS-distribution-and-energy-R1.md) separates app trust, boot trust, permissions and accounting; background quotas are illustrations, not energy benchmarks. [History](de-cvstode-2007-2026.md) proposes coexistence of owner-controlled and vendor-managed devices. No native ABI, crypto format, real drivers, M64 protection, kernel implementation or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

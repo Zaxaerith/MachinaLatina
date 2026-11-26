@@ -61,3 +61,7 @@ COS 的文字身份尚未冻结，旧 CVL-68 的 Latin A 和 Greek Α又具有�
 一个未来的科研包清单应考虑源码身份、构建环境、架构、操作系统 API、字符编码、输入数据来源、算术精度、运算顺序与产物校验。这是研究议题，不是假装已有规范。
 
 See [historical narrative](de-libertate-codicum-et-imperio-systematum-2005-2015.md), [programming languages](programming-ecosystem-2005-2015.md), [COS study](../specifications/COS-universal-character-registry-study.md).
+
+## 2026-11-26 CVSTOS follow-up
+
+[CVSTOS I/R1](../specifications/CVSTOS-I-R1.md) and [distribution/energy policy](../specifications/CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.
