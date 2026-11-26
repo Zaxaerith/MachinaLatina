@@ -33,3 +33,7 @@ Mobilis 低功耗设备与 CVSTOS 应用权限，ORDO-N 开放/商业发行版�
 原始 CVL 文档的五字节 SALVE（52 41 4B 54 45）在 COS/C24 下成为 15 字节，在 W1 的旧码映射下仍可为五字节，但必须声明不同 profile；两种文件内容身份不能混为一谈。2026 MENTIS 示例词表可将 SALVE 编成一个 token，既不等于五个字符变为一个字符，也不能推导真实语料的压缩比。跨时代保存原始对象、解码声明、版本与来源，才是连续性主线。
 
 See [atlas](technology-atlas-1954-2026.md), [chronology](chronology.md), [history](historia-machinae-latinae-1954-2026.md).
+
+## Phase XLIV museum follow-up
+
+[MVSEVM MACHINARVM](museum/README.md) adds eleven individual candidate exhibits to the composite era portraits. Physical appearance, installed configurations, costs and workflows remain illustrative, not implementation evidence.

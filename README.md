@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLIV — MVSEVM MACHINARVM (1954–2026)
+
+[Classic computer museum](docs/museum/README.md): [eleven exhibit dossiers](docs/museum/catalogue-1954-2026.md), [visitor guide](docs/museum/visitor-guide.md) with illustrative wage-relative costs and bilingual keyboard. Existing profiles and new hypothetical configurations are explicitly distinct. DRAFT; no implementation, image assets, benchmarks, CI or CANON promotion.
+
 ## Phase XLIII — Industry history (1970–2026) · second pass
 
 [Company register](docs/industry/company-register-1970-2026.md), [industry history](docs/industry/de-industria-1970-2026.md) and [product dossiers](docs/industry/product-dossiers-1981-2026.md) propose six fictional companies, commercial competition, licensing and product configurations. The first chronology remains complete through 2050; this second pass deepens existing eras. DRAFT; no CANON promotion, actual sales, new code or CI.

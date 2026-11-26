@@ -284,6 +284,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Company register](industry/company-register-1970-2026.md) proposes OFFICINA NOVA, ACRIBIA, DOMESTICA, PAGINA, ARCADIA and PRISMA as six illustrative firms. [Industry history](industry/de-industria-1970-2026.md) explores licensing, second sourcing, specialist hardware contraction, mobility, software freedom and accelerators. [Product dossiers](industry/product-dossiers-1981-2026.md) use candidate configurations and explicitly synthetic unit economics; no sales, actual currency, formal legal agreement, market share or new ISA/ABI is asserted. Existing institutions, technology standards and world CANON unchanged. No code or CI.
 
+## D060 — MVSEVM MACHINARVM exhibit catalogue
+**State:** DRAFT / NOT CANON (2026-11-26)
+
+[Museum](museum/README.md), [catalogue](museum/catalogue-1954-2026.md), [visitor guide](museum/visitor-guide.md) distinguish existing paper ISA/profile constraints from eleven new illustrative installations, peripherals, software scenarios, wage-relative cost assumptions and a nonnormative alphabetic bilingual keyboard. No actual hardware, historical prices, new ISA, emulator or CANON promotion. Existing license and no-CI policy unchanged.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

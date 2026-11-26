@@ -32,3 +32,7 @@ Founded in 1992 from engineering visualization board design, serving scientific 
 CCL and CSM are proposed text-standard bodies; Consortium Scientiarum is a research constituency; Collegium Machinarum and Officinae Telegraphicae are earlier interests/constituencies. LIBERTAS CODICVM is a movement, FORVM CODICVM is a class of collaborative platforms. None is assigned to these six firms. ORDO-N, PARTES, CVSTOS, TABVLA, FIGVRA and the processor family names are not asserted as corporate-exclusive trademarks. Six firms are a narrative sample, not the entire global industry; independent manufacturers and communities, especially those serving other writing systems, remain possible.
 
 See [industry narrative](de-industria-1970-2026.md), [product and economics dossiers](product-dossiers-1981-2026.md), [premise](../premise.md).
+
+## Phase XLIV museum follow-up
+
+[Classic computer catalogue](../museum/catalogue-1954-2026.md) supplies individual illustrative products, not corporate shipment histories or exclusive ownership of any standard.

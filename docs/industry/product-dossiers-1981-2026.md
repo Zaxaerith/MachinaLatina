@@ -23,3 +23,7 @@ For a game platform illustrative hardware loss 20 U per unit, net platform contr
 A future commercial catalogue should distinguish DATA (explicit profile/codec), SOURCE (language/backend), BINARY (ISA, loader, procedure and OS ABI), VISUAL (font/layout), DEVICE (driver/firmware) and numerical equivalence. A claim must identify the exact version and tests, not use an undifferentiated "Nova compatible" label. These are catalogue fields, not a completed certification standard. Earlier [compatibility study](../../specifications/Nova-personal-computer-study.md) and [technology atlas](../technology-atlas-1954-2026.md) remain normative only to their stated DRAFT scope.
 
 Related [Nova family](../../specifications/Nova-family-evolution-study.md), [LVDVS](../../specifications/LVDVS-console-study.md), [FIGVRA](../../specifications/FIGVRA-95-R1.md), [company register](company-register-1970-2026.md). No implementations, benchmark runs or new technical contracts.
+
+## Phase XLIV museum follow-up
+
+The [museum catalogue](../museum/catalogue-1954-2026.md) extends these candidate associations to eleven machine configurations; the [visitor guide](../museum/visitor-guide.md) supplies explicitly hypothetical wage-relative ratios, independent of the earlier U accounting example. No market statistics or standardized product claims.
