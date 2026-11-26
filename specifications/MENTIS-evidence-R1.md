@@ -24,3 +24,7 @@ See [RATIO audit](RATIO-numeric-audit-study.md), [LIGAMEN](LIGAMEN-99-R1.md), [C
 ## Phase XXXVIII future scenario
 
 [MENTIS agent task R1](MENTIS-agent-task-R1.md) and [system integration study](MENTIS-system-integration-study.md) propose later user-space contracts, not changes to this existing profile. No ambient authority, remote mutation protocol or native ABI is implied.
+
+## Phase XL future scenario
+
+[ORBIS spatial R1](ORBIS-spatiotemporal-R1.md) and [world model study](ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.

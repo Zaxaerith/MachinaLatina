@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XL — ORBIS scientific world models (2035–2040)
+
+[ORBIS spatial records](specifications/ORBIS-spatiotemporal-R1.md) propose local raster tiles with explicit grid, time, provenance and missing-data mask. [World models](specifications/ORBIS-world-model-study.md) distinguish observations, scene representations, state, prediction and decisions. [Future history](docs/de-orbe-2035-2040.md) explores regional digital twins and federated scientific models. FUTURE SCENARIO / DRAFT; no deployment, model training or CANON promotion.
+
 ## Phase XXXIX — Memory-centred computing (2030–2035)
 
 [Nova Memoria R1](specifications/Nova-Memoria-R1.md) proposes bounded buffer ownership and heterogeneous memory resources; [Sextaria scientific engine](specifications/Sextaria-scientific-engine-study.md) proposes a precision-oriented service and finite F64/R0. [Future history](docs/de-memoria-2030-2035.md) explores modular platforms, near-memory computation and workstations. FUTURE SCENARIO / DRAFT. No silicon, runtime, benchmark or CANON promotion.

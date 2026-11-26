@@ -2,12 +2,21 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 4.1 — Phase XL: ORBIS scientific world models
+
+- [x] Propose [bounded spatiotemporal raster records](../specifications/ORBIS-spatiotemporal-R1.md)
+- [x] Study [world models and scientific evidence](../specifications/ORBIS-world-model-study.md)
+- [x] Write [2035–2040 future scenario](de-orbe-2035-2040.md)
+- [ ] Study 2040–2045 conditional optical/electronic computing
+
+Documentation only. No global CRS, deployed simulation, code, CI or CANON promotion.
+
 ## 4.0 — Phase XXXIX: memory-centred computing (future scenario)
 
 - [x] Propose [Memoria buffer ownership contract](../specifications/Nova-Memoria-R1.md)
 - [x] Study [Sextaria numerical service and F64/R0](../specifications/Sextaria-scientific-engine-study.md)
 - [x] Write [2030–2035 future scenario](de-memoria-2030-2035.md)
-- [ ] Study 2035–2040 scientific world models and digital twins
+- [x] Study 2035–2040 scientific world models and digital twins (Phase XL; paper study)
 
 Documentation only; C19–C25 remain open. No implementation or CI.
 

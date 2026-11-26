@@ -32,3 +32,7 @@ For a dense 8-billion-parameter model at 4 bits per weight, packed weights = 4e9
 Near-memory operations (filter, scan, reduction) may reduce bytes crossing host interconnect. For an ideal 1 GiB scan returning 1 MiB, output payload crossing host link is 1/1024 of input if resident there and the operation needs no other transfer. Input ingest, command metadata, internal memory reads and coherence are excluded; computation does not become free. In-memory arithmetic remains a separate research branch with precision, endurance, temperature and manufacturing constraints.
 
 Related: [Nova M64](Nova-Maior-Magna-R1.md), [MATRICES](MENTIS-matrix-R1.md), [Sextaria scientific engine](Sextaria-scientific-engine-study.md), [future history](../docs/de-memoria-2030-2035.md).
+
+## Phase XL future scenario
+
+[ORBIS spatial R1](ORBIS-spatiotemporal-R1.md) and [world model study](ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.

@@ -264,6 +264,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Memoria R1](../specifications/Nova-Memoria-R1.md) proposes whole-allocation ownership, explicit handoff, generation checks and quarantine after uncertain device completion, not universal cache coherence or native ISA. [Scientific engine](../specifications/Sextaria-scientific-engine-study.md) proposes a bounded numerical service and finite 1/11/52 F64/R0 distinct from IEEE binary64; RATIO-I unchanged. [2030–2035 scenario](de-memoria-2030-2035.md) explores conditional modular and near-memory systems. All capacity/bandwidth figures are illustrative, not forecasts. C19–C25 open. No implementation or CI.
 
+## D056 — ORBIS scientific world model future branch
+**State:** FUTURE SCENARIO / DRAFT / NOT CANON (2026-11-26)
+
+[Spatial R1](../specifications/ORBIS-spatiotemporal-R1.md) proposes a 256x256 local grid tile with signed millimetre values, explicit validity mask and logical spatiotemporal/provenance metadata. [World model study](../specifications/ORBIS-world-model-study.md) separates observation, scene, state, transition, forecast and decision; includes an illustrative campus water balance. [2035–2040 scenario](de-orbe-2035-2040.md) prefers bounded multi-resolution edge/region/cloud collaboration, not a perfect Earth mirror. No global CRS, new RATIO grammar, native IPC extension, training, actual observations or implementation. C19–C25 remain open.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

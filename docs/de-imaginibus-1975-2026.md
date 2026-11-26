@@ -28,3 +28,7 @@ TABVLA 希望将字符身份、字形布局、像素和打印分开。候选 IMA
 | 2015–2026 | GPU、矩阵设备与异构计算 |
 
 具体纸面候选见 [IMAGO](../specifications/IMAGO-86-R1.md)、[FIGVRA](../specifications/FIGVRA-95-R1.md)、[LVDVS](../specifications/LVDVS-console-study.md)。未定义实际硬件时序、完整 3D 管线、字体渲染、音频/输入、ROM、着色器、设备驱动、游戏或加速器实现。下一阶段可深入现代矩阵计算、GPU 内存与 AI 语料标准，或专门推演游戏文化和软件产业。无代码与 CI。
+
+## Phase XL future scenario
+
+[ORBIS spatial R1](../specifications/ORBIS-spatiotemporal-R1.md) and [world model study](../specifications/ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.

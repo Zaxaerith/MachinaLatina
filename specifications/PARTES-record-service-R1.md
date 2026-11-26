@@ -24,3 +24,7 @@ Total 42 octets = seven S2 words. Client decodes 4660,165,66051, independent of 
 
 ## Migration
 Sextaria and Nova can exchange the exact schema octets, although they require different native ABI, pointer types and kernel implementations. A possible early Nova port uses M32 PROTECT hardware with a separate IPC syscall ABI; M64 hardware protection is not yet defined. Preserve original six-octet F48 archives even where later CPUs use different floating-point hardware. Neither a record schema nor a process message is itself the RETE network protocol. Remote access requires authentication, transport, authorization and network framing outside this profile.
+
+## Phase XL future scenario
+
+[ORBIS spatial R1](ORBIS-spatiotemporal-R1.md) and [world model study](ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.
