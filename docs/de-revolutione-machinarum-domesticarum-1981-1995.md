@@ -93,3 +93,7 @@ Related: [Nova PC hardware study](../specifications/Nova-personal-computer-study
 ## 2026-11-25 Nova family follow-up
 
 [Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) and [Nova family evolution](../specifications/Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.
+
+## 2026-11-26 graphics follow-up
+
+[IMAGO](../specifications/IMAGO-86-R1.md), [FIGVRA](../specifications/FIGVRA-95-R1.md) and [LVDVS](../specifications/LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.

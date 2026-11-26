@@ -92,6 +92,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [STEMMA R1](specifications/STEMMA-R1.md) proposes typed immutable source objects and revision genealogy with canonical preimages; the digest suite is open. [FASCICVLVS R1](specifications/FASCICVLVS-R1.md) proposes publisher-scoped package identity, target-specific artifacts and dependency locking. [History](docs/de-codicibus-2005-2026.md) develops FORVM CODICVM and LIBERTAS CODICVM. DRAFT, not CANON or implemented. No CI.
 
+## Phase XXXV — Graphics and video game evolution (1975–2026)
+
+[IMAGO-86/R1](specifications/IMAGO-86-R1.md) proposes bounded 2D surfaces and drawing commands. [FIGVRA-95/R1](specifications/FIGVRA-95-R1.md) proposes exact screen-space triangle coverage and depth tests. [LVDVS](specifications/LVDVS-console-study.md) studies tile/sprite hardware and later console families. [History](docs/de-imaginibus-1975-2026.md) links TABVLA, scientific workstations, games and heterogeneous devices. DRAFT, not CANON or implemented. No CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

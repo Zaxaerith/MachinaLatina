@@ -51,3 +51,7 @@ Related: [history](../docs/de-nova-1981-2026.md), [OS families](operating-system
 ## 2026-11-26 CVSTOS follow-up
 
 [CVSTOS I/R1](CVSTOS-I-R1.md) and [distribution/energy policy](CVSTOS-distribution-and-energy-R1.md) provide subsequent paper candidates. No existing ISA/OS ABI, license or actual device policy is changed. App signature, runtime capability and boot authority remain distinct.
+
+## 2026-11-26 graphics follow-up
+
+[IMAGO](IMAGO-86-R1.md), [FIGVRA](FIGVRA-95-R1.md) and [LVDVS](LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.

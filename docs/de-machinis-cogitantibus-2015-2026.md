@@ -88,3 +88,7 @@ Nova 的后代可能演化为通用 64 位服务器；XXXVI 只剩科学档案�
 **未交付：** 加速器 ISA、AI 模型或训练数据集、操作系统、工具链、CI、Tag 或 Release。
 
 相关研究：[异构计算](../specifications/heterogeneous-computing-2015-2026-study.md)、[模型与 COS](ai-languages-and-cos-2015-2026.md)、[科学证据与数值契约](ai-provenance-and-numerics-2015-2026.md)。
+
+## 2026-11-26 graphics follow-up
+
+[IMAGO](../specifications/IMAGO-86-R1.md), [FIGVRA](../specifications/FIGVRA-95-R1.md) and [LVDVS](../specifications/LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.

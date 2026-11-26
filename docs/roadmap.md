@@ -2,6 +2,17 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.6 — Phase XXXV: graphics and games
+
+- [x] Propose [IMAGO 2D surfaces](../specifications/IMAGO-86-R1.md)
+- [x] Propose [FIGVRA triangle raster contract](../specifications/FIGVRA-95-R1.md)
+- [x] Develop [LVDVS console study](../specifications/LVDVS-console-study.md)
+- [x] Write [1975–2026 graphics history](de-imaginibus-1975-2026.md)
+- [ ] Design complete 3D pipeline, programmable shaders, GPU memory and device ABI
+- [ ] Develop modern matrix/AI accelerator and/or game software culture
+
+Documentation only; no code, CI or CANON promotion.
+
 ## 3.5 — Phase XXXIV: developer collaboration
 
 - [x] Propose [STEMMA source genealogy](../specifications/STEMMA-R1.md)

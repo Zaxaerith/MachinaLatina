@@ -239,6 +239,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [STEMMA R1](../specifications/STEMMA-R1.md) proposes typed canonical source-object preimages, exact CID names and immutable revisions with ordered parents. Digest suite, network transport and merge algorithms remain open. [FASCICVLVS R1](../specifications/FASCICVLVS-R1.md) proposes logical manifest, publisher-scoped identity, exact target requirements and locked dependency graph; canonical signature format and installers remain open. [History](de-codicibus-2005-2026.md) proposes independent FORVM CODICVM forges and freedom of installation debates. No code, CI or license change.
 
+## D051 — IMAGO, FIGVRA and LVDVS graphics ecosystem
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-26)
+
+[IMAGO](../specifications/IMAGO-86-R1.md) proposes explicit pixel formats and bounded 2D fill/copy records. [FIGVRA](../specifications/FIGVRA-95-R1.md) defines fixed-point screen-space coverage, affine depth and flat color, not a complete 3D pipeline. [LVDVS](../specifications/LVDVS-console-study.md) proposes a 10144-octet tile/sprite snapshot and provisional console genealogy. [History](de-imaginibus-1975-2026.md) separates graphics, scientific precision, game portability and matrix devices. All names/dates and industry outcomes remain candidates. No implementation, CI or license change.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

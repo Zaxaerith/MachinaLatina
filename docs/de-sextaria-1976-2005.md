@@ -35,3 +35,7 @@ S2 可考虑虚拟内存、中断、设备控制、图形缓冲与联网。S1 �
 ## 2026-11-26 PARTES follow-up
 
 [S2 protection](../specifications/Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](../specifications/PARTES-I-R1.md) and [record service](../specifications/PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.
+
+## 2026-11-26 graphics follow-up
+
+[IMAGO](../specifications/IMAGO-86-R1.md), [FIGVRA](../specifications/FIGVRA-95-R1.md) and [LVDVS](../specifications/LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.
