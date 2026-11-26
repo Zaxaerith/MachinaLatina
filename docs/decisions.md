@@ -274,6 +274,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Photonic R1](../specifications/LVMEN-photonic-R1.md) proposes a bounded signed fixed-point matrix-vector service with independent full digital reference and declared absolute error. [System study](../specifications/LVMEN-system-study.md) separates optical links, approximate arithmetic and electronic control, and illustrates total-job costs. [Future history](de-lvmine-2040-2045.md) prefers interconnect-first selective acceleration; no all-optical CPU assumption. No change to exact MATRICES, RATIO-I, device ownership or prior ISA. Physical implementation, performance, link protocol and calibration remain open. No code or CI.
 
+## D058 — CONCORDIA federation and first chronology endpoint
+**State:** FUTURE SCENARIO / DRAFT / NOT CANON (2026-11-26)
+
+[Task federation R1](../specifications/CONCORDIA-task-federation-R1.md) proposes independently administered domains, explicit disclosure and resource reservations, bounded acyclic work, bound receipts, unknown outcomes and local-only final publication. [Personal computing study](../specifications/CONCORDIA-personal-computing-study.md) separates device ownership, data, model rights, service authority and OS control. [2045–2050 scenario](de-concordia-2045-2050.md) and [epilogue](epilogue-1954-2050.md) complete the first planned chronological pass, not the standards. RETE R1, native ABIs and prior local task semantics unchanged; secure remote protocols and durable reconciliation remain prerequisites. No implementation, CI or new CANON.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

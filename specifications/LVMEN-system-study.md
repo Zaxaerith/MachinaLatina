@@ -17,3 +17,7 @@ MODVLA candidate service manifests declare shape, numerical profile, tolerance, 
 
 Preferred branch: optical interconnect first, selective approximate acceleration second. Alternatives: links alone succeed while compute remains electronic; specialized optical appliances remain niche; integration stalls due to cost or precision. No assumption of general optical RAM or an all-optical CPU.
 See [photonic R1](LVMEN-photonic-R1.md), [Memoria](Nova-Memoria-R1.md), [ORBIS](ORBIS-world-model-study.md), [future history](../docs/de-lvmine-2040-2045.md).
+
+## Phase XLII future scenario
+
+[CONCORDIA task federation R1](CONCORDIA-task-federation-R1.md) and [personal computing study](CONCORDIA-personal-computing-study.md) propose a separate future coordination layer. No existing protocol, native ABI, device permission or local task contract is changed; remote trust and durable reconciliation remain open.

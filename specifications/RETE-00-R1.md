@@ -48,3 +48,7 @@ Cache by authority, resource, resolved nonzero revision, codec and registry rele
 Directory allocation and secure authority resolution; international labels; secure transport and content integrity; version/repertoire negotiation; partial retrieval and large attachment support; dynamic requests and SERMO; caching freshness. R1 intentionally remains small enough to reason about using paper vectors.
 
 Related: [NODVS](NODVS-98-R1.md), [LIGAMEN](LIGAMEN-99-R1.md), [worked example and fictional history](../docs/nodvs-rete-1998-2005.md).
+
+## Phase XLII future scenario
+
+[CONCORDIA task federation R1](CONCORDIA-task-federation-R1.md) and [personal computing study](CONCORDIA-personal-computing-study.md) propose a separate future coordination layer. No existing protocol, native ABI, device permission or local task contract is changed; remote trust and durable reconciliation remain open.

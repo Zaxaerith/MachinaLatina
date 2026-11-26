@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLII — CONCORDIA distributed intelligence (2045–2050)
+
+[CONCORDIA task federation R1](specifications/CONCORDIA-task-federation-R1.md) proposes bounded cross-domain work with independent authority, reservations, receipts and explicit uncertainty. [Personal computing study](specifications/CONCORDIA-personal-computing-study.md) retains the three OS families and owner choice. [2045–2050 scenario](docs/de-concordia-2045-2050.md) completes the first planned future chronology; [1954–2050 epilogue](docs/epilogue-1954-2050.md) connects the historical and future branches. FUTURE SCENARIO / DRAFT; no implementation or CANON promotion.
+
 ## Phase XLI — LVMEN hybrid computation (2040–2045)
 
 [LVMEN photonic R1](specifications/LVMEN-photonic-R1.md) proposes a bounded approximate matrix-vector interface with independent digital checking; [system study](specifications/LVMEN-system-study.md) separates optical links, arithmetic, and electronic control. [Future history](docs/de-lvmine-2040-2045.md) explores conditional multi-medium computing. FUTURE SCENARIO / DRAFT; no silicon, benchmark, implementation or CANON promotion.

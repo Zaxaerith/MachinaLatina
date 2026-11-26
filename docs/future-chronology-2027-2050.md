@@ -7,6 +7,8 @@
 | 2030–2035 | [Memory-centred heterogeneous systems](de-memoria-2030-2035.md) | Phase XXXIX: bounded Memoria ownership and scientific engine proposals |
 | 2035–2040 | [ORBIS scientific world models](de-orbe-2035-2040.md) | Phase XL: bounded raster records, digital twin and model evidence study |
 | 2040–2045 | [LVMEN hybrid optical/electronic computation](de-lvmine-2040-2045.md) | Phase XLI: conditional optical link and approximate arithmetic studies |
-| 2045–2050 | Distributed intelligence and OS futures | open topic |
+| 2045–2050 | [CONCORDIA distributed intelligence](de-concordia-2045-2050.md) | Phase XLII: bounded federation and personal computing study |
 
 Preferred branch is interoperable local-first task services with optional separately authorized remote work. Alternatives include vendor fragmentation and slow adoption. [Continuity audit](continuity-audit.md) C19–C25 remain open. No new CANON.
+
+The first planned chronological pass is complete; see [1954–2050 epilogue](epilogue-1954-2050.md). This is editorial closure, not ratification of future events or technical completion.
