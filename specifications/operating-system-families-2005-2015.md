@@ -96,3 +96,7 @@ See [Phase XVIII historical narrative](../docs/de-libertate-codicum-et-imperio-s
 ## 2026-11-26 ORDO-N follow-up
 
 [PROTECT-R1](Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.
+
+## 2026-11-26 PARTES follow-up
+
+[S2 protection](Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](PARTES-I-R1.md) and [record service](PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.

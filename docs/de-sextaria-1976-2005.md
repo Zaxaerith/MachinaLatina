@@ -31,3 +31,7 @@ S2 可考虑虚拟内存、中断、设备控制、图形缓冲与联网。S1 �
 ## 2026-11-25 Nova family follow-up
 
 [Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) and [Nova family evolution](../specifications/Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.
+
+## 2026-11-26 PARTES follow-up
+
+[S2 protection](../specifications/Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](../specifications/PARTES-I-R1.md) and [record service](../specifications/PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.

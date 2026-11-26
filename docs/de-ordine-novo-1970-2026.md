@@ -27,3 +27,7 @@ Magna 64 位迁移使大型数据库、地图和科研应用获得更大地址�
 | 2015–2026 | ORDO-N IV | 多核与异构 |
 
 本阶段仅完成 [M32 保护扩展](../specifications/Nova-M32-PROTECT-R1.md)与[早期系统调用候选](../specifications/ORDO-N-I-R1.md)的纸面设计。不交付内核、持久磁盘格式、加载器、驱动、M64 或完整 GUI。参阅[原三系统研究](../specifications/operating-system-families-2005-2015.md)、[自由软件史](de-libertate-codicum-et-imperio-systematum-2005-2015.md)。
+
+## 2026-11-26 PARTES follow-up
+
+[S2 protection](../specifications/Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](../specifications/PARTES-I-R1.md) and [record service](../specifications/PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.

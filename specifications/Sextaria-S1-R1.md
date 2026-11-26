@@ -81,3 +81,7 @@ Fetch requires installed PC. Normal instruction advances PC by one without wrap;
     000102: 000000000000 ; initial output
 
 Expected paper result at word 102 is 3A6000000000 (=2^-24). Code occupies 5 words or 30 octets; no executed result is claimed. This listing is not a standardized object file. Existing XXXVI/Nova ISAs remain incompatible. Hardware may implement operations over many cycles; no cycle, cost or performance claim. See [historical study](../docs/de-sextaria-1976-2005.md).
+
+## 2026-11-26 PARTES follow-up
+
+[S2 protection](Sextaria-S2-PROTECT-R1.md), [PARTES I IPC](PARTES-I-R1.md) and [record service](PARTES-record-service-R1.md) are subsequent paper candidates. They do not alter existing S1 or ORDO-N contracts or establish implemented drivers, shared memory, or a Nova native IPC ABI.

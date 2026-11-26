@@ -80,6 +80,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [PROTECT-R1](specifications/Nova-M32-PROTECT-R1.md) proposes M32 user/supervisor banks, 4 KiB pages and seven additional opcodes. [ORDO-N I/R1](specifications/ORDO-N-I-R1.md) describes processes, round-robin scheduling and seven syscall services. [History](docs/de-ordine-novo-1970-2026.md) traces batch roots, TABVLA and an open-distribution candidate. DRAFT, not CANON or implemented. No CI.
 
+## Phase XXXII — PARTES scientific microkernel (1987–2026)
+
+[Sextaria S2 protection](specifications/Sextaria-S2-PROTECT-R1.md) proposes relocatable word regions and trap instructions. [PARTES I IPC](specifications/PARTES-I-R1.md) defines bounded synchronous calls, endpoint rights and typed envelopes. [Record service](specifications/PARTES-record-service-R1.md) gives a six-octet MODVLA record example, and [history](docs/de-partibus-1987-2026.md) traces possible Nova migration. DRAFT, not CANON or implemented; no CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |

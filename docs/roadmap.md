@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.3 — Phase XXXII: PARTES
+
+- [x] Propose [S2 word-region protection](../specifications/Sextaria-S2-PROTECT-R1.md)
+- [x] Propose [PARTES I bounded IPC](../specifications/PARTES-I-R1.md)
+- [x] Describe [read-only scientific record service](../specifications/PARTES-record-service-R1.md) and [history](de-partibus-1987-2026.md)
+- [ ] Define device isolation, shared buffers, persistent records and Nova IPC ABI
+- [ ] Study CVSTOS mobile permission and energy policies
+
+Documentation only, no code, CI or CANON promotion.
+
 ## 3.2 — Phase XXXI: ORDO-N
 
 - [x] Propose [M32 protection](../specifications/Nova-M32-PROTECT-R1.md)
