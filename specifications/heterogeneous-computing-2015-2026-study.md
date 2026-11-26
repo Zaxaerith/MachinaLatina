@@ -1,6 +1,6 @@
 # Heterogeneous Computing after Sextaria (2015–2026)
 
-> **DRAFT — alternate-history technical study, not an implemented CPU/GPU.** The Sextaria-S0 48-bit ISA and its F48 arithmetic have never been specified. Do not assert a 48-bit tensor accelerator exists.
+> **DRAFT — alternate-history technical study, not an implemented CPU/GPU.** At the time of this original study Sextaria-S0 had no specified ISA or F48 arithmetic. Later S1/F48-R1 paper candidates and the MENTIS matrix contract are linked below; none is implemented or ratified. Do not assert a 48-bit tensor accelerator exists.
 
 ## Architecture split
 

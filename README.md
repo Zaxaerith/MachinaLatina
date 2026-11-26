@@ -18,11 +18,11 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
-## Current entry point / 当前阅读入口 · Phase XX
+## Current entry point / 当前阅读入口 · Phase XXXVII
 
 The primary reading path is now the **[1954–2026 Computer Civilization History](docs/historia-machinae-latinae-1954-2026.md)**. It integrates earlier period studies without upgrading fictional **DRAFT** hardware, languages, companies or protocols to **CANON**. Read the [institution/technology genealogy](docs/institutions-and-lineages.md) alongside the [continuity audit](docs/continuity-audit.md).
 
-**Phases XV–XIX** remain independent supporting essays, linked from the history. They examine the 1973–1985 word-length conflict, 1981–1995 personal computing, 1995–2005 worldwide scripts and hypertext, 2005–2015 software freedom, and 2015–2026 AI/accelerators.
+**Phase XXXVII** integrates the subsequent Phase XXI–XXXVI studies in the revised history, [technology atlas and compatibility matrix](docs/technology-atlas-1954-2026.md), and [seven era portraits](docs/era-portraits-1954-2026.md). Earlier research entries below remain archival and are not separate current roadmap instructions. All detailed new designs remain DRAFT; see the Phase XXXVII audit for outstanding dependencies.
 
 Project direction: **documentation-first, no automatic CI**. The previous experimental CPU/TRANFOR Python research remains preserved as a historical testbed, not proof that hypothetical hardware existed.
 

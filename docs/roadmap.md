@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.8 — Phase XXXVII: continuity and historical synthesis
+
+- [x] Revise [history v0.2](historia-machinae-latinae-1954-2026.md) and reading entry
+- [x] Sort the [chronology](chronology.md) by candidate start year
+- [x] Add [technology atlas](technology-atlas-1954-2026.md) and [era portraits](era-portraits-1954-2026.md)
+- [x] Extend [continuity audit](continuity-audit.md) and institutional index
+- [ ] Future 2027–2050 scenarios, with explicit assumptions and unresolved branches
+
+Documentation only; no new technical names, code, CI or CANON promotion.
+
 ## 3.7 — Phase XXXVI: MENTIS
 
 - [x] Propose [mixed-precision matrix contract](../specifications/MENTIS-matrix-R1.md)
@@ -9,7 +19,7 @@
 - [x] Propose [scientific assistant evidence boundary](../specifications/MENTIS-evidence-R1.md)
 - [x] Write [1965–2026 AI history](de-mente-1965-2026.md)
 - [ ] Model architecture, training, device ABI and expanded numerical profiles
-- [ ] Consolidate chronology, lineages and continuity audit across phases
+- [x] Consolidate chronology, lineages and continuity audit across phases (Phase XXXVII; documentary scope)
 
 Documentation only; no implementation, CI or CANON promotion.
 

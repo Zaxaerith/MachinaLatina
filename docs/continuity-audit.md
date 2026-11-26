@@ -67,3 +67,30 @@ The separate [TP1 study](../specifications/CVL-63-TP1.md) recommends carrying or
 只要不跨越上述证据等级，Machina Latina 就能继续拥有丰富、细节可信的技术史，而不必为每一个草案写 Python 模拟器。
 
 关联：[总通史](historia-machinae-latinae-1954-2026.md)、[机构世系](institutions-and-lineages.md)、[原始决策记录](decisions.md)。
+
+## Phase XXXVII · 2026-11-26 — follow-up audit
+> 文档层审阅，基线 9ec3dca91822b6fd9e957e89b3981d8eb87fd0e5。原 Phase XX 发现保留为历史快照。基线 Git tree 有 161 个文件（docs/ 51、specifications/ 59、Python 32 含 tests/ 10），无 .github/workflows/ 文件。未运行测试、模拟器、编译器，未逐条验证所有历史算例。
+
+| ID | Finding | Disposition |
+| --- | --- | --- |
+| C13 | README 当前入口仍标 Phase XX | 更新为 XXXVII，保留历史阶段章节 |
+| C14 | 年表追加条目不再按时间排列 | 保留 68 个事件行并按起始年稳定排序；不消除重叠 |
+| C15 | 通史及旧异构研究仍称 F48/ISA 没有提出，S1/F48/S2 已有候选 | 区分早期研究状态与后续纸面规格，仍不定案或宣称实现 |
+| C16 | 早期 COS/NODVS 讨论只有概念；Phase XXIV–XXV 有精确候选 | 更新总索引；全球字表与网络信任仍开放 |
+| C17 | 2007–2009 三系统概念叙事易被解读为三个 OS 同时诞生 | 明确 ORDO-N I、PARTES I 的较早候选年代及 CVSTOS 移动时代；早期文章不改作伪史 |
+| C18 | 原始 CPU/语言实验和后来 R1 纸面规范容易混同 | 图谱和时代画像按实现状态分类，不新跑历史测试 |
+| C19 | M32 与 M64 共用编码框架，却缺少 M64 保护/加载器/ABI；PARTES Nova port 无 native IPC ABI | OPEN，不能声称现代 64 位 OS 已具备执行合同 |
+| C20 | RETE 只有 FETCH/RESULT，但 FORVM/软件分发/MENTIS 需要认证授权或写入 | OPEN，必须设计目录、安全传输和写协议；禁止把 ID 当认证 |
+| C21 | STEMMA 摘要套件、FASCICVLVS 签名序列化均未定义 | OPEN，逻辑身份与前像不能替代验证系统 |
+| C22 | RATIO-I 仅 F32/F36 标量，F48 与 M16/F32 矩阵另有候选 | OPEN，不能把后来数值格式或矩阵算例当成 RATIO 已验收的语言功能 |
+| C23 | 图形 R1 是有限绘制/光栅化，LVDVS 仅逻辑快照；缺着色器/设备/音频/输入 | OPEN，不能宣称完整图形或游戏系统 |
+| C24 | COS 只登记候选范围与少量映射；W1 非自同步；STEMMA/MENTIS 依赖明确 registry | OPEN，完整 repertoire、语言组合、跨平台名称、错误恢复独立研究 |
+| C25 | 早期候选组织、许可证与 2026 现代产业画像尚无全面制度依据 | OPEN，不虚构正式厂商、市场份额、法律文本或政治版图 |
+
+## Priority dependency register (not a mandate to implement)
+1. Identity/data foundations: CVL/COS ratification and registry, strict migration and text processing; CCL/CSM legitimacy.
+2. Host execution foundations: M64 privilege/address model, loaders/procedure ABIs, concurrency, device isolation; distinct native OS adapters.
+3. Network/trust: authority resolution and security, immutable identity, mutation and signatures; package and forge transport.
+4. Numeric/graphics/AI: F64 and RATIO expansion, device memory/synchronization, full graphics pipeline and model evaluation.
+
+These are engineering dependencies, not scheduled historical events. A future scenario may explicitly assume one or more are solved, but must label the assumption rather than silently claim an existing spec. See [atlas](technology-atlas-1954-2026.md), [era portraits](era-portraits-1954-2026.md). No new CANON decision.
