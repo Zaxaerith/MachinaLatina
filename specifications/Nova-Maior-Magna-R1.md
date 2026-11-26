@@ -74,3 +74,7 @@ Expected: bytes at 100..103 = 00 00 00 2A, R3 = 42. This holds in both M32 and M
 ## Extension boundaries
 
 Native F32 compatibility, a new F64 numerical format, vector registers, condition/compare operations, privileged state, memory translation, atomics, device I/O, code density, executable format and ABI are open. Old F36/F48 scientific archives must be explicitly decoded; raw numerical bits are not a portable value. Related: [N1](Machina-Nova-N1.md), [MODVLA](MODVLA-I-R1.md), [family study](Nova-family-evolution-study.md).
+
+## 2026-11-26 ORDO-N follow-up
+
+[PROTECT-R1](Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.

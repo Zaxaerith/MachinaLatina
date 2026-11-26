@@ -92,3 +92,7 @@ See [Phase XVIII historical narrative](../docs/de-libertate-codicum-et-imperio-s
 ## 2026-11-25 Nova family follow-up
 
 [Maior/Magna R1](Nova-Maior-Magna-R1.md) and [Nova family evolution](Nova-family-evolution-study.md) propose later hardware profiles. These do not alter existing N1/Sextaria specifications, claim native OS compatibility or ratify historical adoption. All new profiles remain DRAFT.
+
+## 2026-11-26 ORDO-N follow-up
+
+[PROTECT-R1](Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.

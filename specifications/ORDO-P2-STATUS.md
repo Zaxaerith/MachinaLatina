@@ -73,3 +73,7 @@ python -m unittest discover -s tests -p test_record_status.py -v
 [GitHub Actions run #45154527919](https://github.com/Zaxaerith/MachinaLatina/actions/runs/45154527919) passed **110/110 full-repository Python tests**, including 13 new native status/series tests. The workflow separately ran the older four-job input deck. The new six-job demonstration was also invoked by its test methods against the actual CPU interpreters; adding a separate workflow step to show the six-job CLI output in CI remains worthwhile.
 
 The tested research implementation does not provide a real Unix-like kernel, physical EOF signals, hardware device-driver timing, byte-level tape encoding, or multiplexed user processes.
+
+## 2026-11-26 ORDO-N follow-up
+
+[PROTECT-R1](Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.

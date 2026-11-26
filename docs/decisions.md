@@ -219,6 +219,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) proposes 16 general registers, fixed 32-bit instructions, 16 assigned opcodes, distinct 32/64-bit arithmetic/address profiles and optional M32 execution on Magna. It does not preserve N1 binary encoding or imply a common OS ABI. [Family study](../specifications/Nova-family-evolution-study.md) proposes Minor banked memory, Media linear addressing, and low-power Mobilis descendants with a shared-subset industry path rather than necessarily unrelated dominant ISAs. [1981–2026 narrative](de-nova-1981-2026.md) remains DRAFT. F64, full ISA, privilege, concurrency, accelerator interfaces and operating systems remain open. No implementation or CI.
 
+## D047 — ORDO-N protected process and byte-stream service candidates
+**State:** REVIEW CANDIDATE / NOT CANON (2026-11-26)
+
+[PROTECT-R1](../specifications/Nova-M32-PROTECT-R1.md) proposes single-core M32 user/supervisor banks, 10/10/12 translation and opcodes 80–86. [ORDO-N I/R1](../specifications/ORDO-N-I-R1.md) proposes private processes, round-robin scheduling, bounded CVL pathname subset and seven services. [History](de-ordine-novo-1970-2026.md) develops candidate commercial/open-distribution branches. No actual kernel, code or CI; M64, persistent disk, loaders, general ABI, GUI and multicore remain open.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

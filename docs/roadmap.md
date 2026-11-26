@@ -2,6 +2,16 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 3.2 — Phase XXXI: ORDO-N
+
+- [x] Propose [M32 protection](../specifications/Nova-M32-PROTECT-R1.md)
+- [x] Propose [process/file syscall ABI](../specifications/ORDO-N-I-R1.md)
+- [x] Develop [1970–2026 history](de-ordine-novo-1970-2026.md)
+- [ ] Define storage, loaders, M64 and later OS extensions
+- [ ] Study PARTES and CVSTOS
+
+Documentation only; no implementation, CI or CANON promotion.
+
 ## 3.1 — Phase XXX: Nova from personal computers to heterogeneous systems
 
 - [x] Propose [Maior/Magna R1](../specifications/Nova-Maior-Magna-R1.md) common encoding and explicit execution modes

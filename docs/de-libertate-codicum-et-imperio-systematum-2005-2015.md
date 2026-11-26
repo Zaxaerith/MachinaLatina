@@ -119,3 +119,7 @@
 **未交付：** 真正的客体操作系统、源码仓库协议、软件包格式、移动系统、许可证法律文本、编译器、设备固件、测试或 CI。
 
 See [candidate OS families](../specifications/operating-system-families-2005-2015.md), [code freedom and distribution](software-freedom-and-distribution-2005-2015.md), [language ecology](programming-ecosystem-2005-2015.md), [Phase XVII](de-bello-scripturarum-et-retis-1995-2005.md).
+
+## 2026-11-26 ORDO-N follow-up
+
+[PROTECT-R1](../specifications/Nova-M32-PROTECT-R1.md) and [ORDO-N I/R1](../specifications/ORDO-N-I-R1.md) are subsequent paper candidates, not a change to implemented CPU/monitor code or an approved guest OS. M64 and later profiles remain open.

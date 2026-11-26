@@ -76,6 +76,10 @@ The [SERMO-I/R1 core](specifications/SERMO-I-R1.md) proposes a small typed docum
 
 [Nova Maior/Magna R1](specifications/Nova-Maior-Magna-R1.md) proposes a common 32-bit instruction envelope, 16 registers, distinct M32/M64 semantics and optional M32 execution on Magna. [Family study](specifications/Nova-family-evolution-study.md) specifies candidate Minor bank mapping, Media direction and Mobilis/heterogeneous profiles. [History](docs/de-nova-1981-2026.md) traces the mass-market transition. DRAFT, not CANON or implemented. No CI.
 
+## Phase XXXI — ORDO-N (1970–2026)
+
+[PROTECT-R1](specifications/Nova-M32-PROTECT-R1.md) proposes M32 user/supervisor banks, 4 KiB pages and seven additional opcodes. [ORDO-N I/R1](specifications/ORDO-N-I-R1.md) describes processes, round-robin scheduling and seven syscall services. [History](docs/de-ordine-novo-1970-2026.md) traces batch roots, TABVLA and an open-distribution candidate. DRAFT, not CANON or implemented. No CI.
+
 ## Start here / 从这里开始
 
 | Document | Purpose |
