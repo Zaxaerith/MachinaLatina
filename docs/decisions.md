@@ -279,6 +279,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Task federation R1](../specifications/CONCORDIA-task-federation-R1.md) proposes independently administered domains, explicit disclosure and resource reservations, bounded acyclic work, bound receipts, unknown outcomes and local-only final publication. [Personal computing study](../specifications/CONCORDIA-personal-computing-study.md) separates device ownership, data, model rights, service authority and OS control. [2045–2050 scenario](de-concordia-2045-2050.md) and [epilogue](epilogue-1954-2050.md) complete the first planned chronological pass, not the standards. RETE R1, native ABIs and prior local task semantics unchanged; secure remote protocols and durable reconciliation remain prerequisites. No implementation, CI or new CANON.
 
+## D059 — Candidate computer industry and company genealogy
+**State:** DRAFT / NOT CANON (2026-11-26)
+
+[Company register](industry/company-register-1970-2026.md) proposes OFFICINA NOVA, ACRIBIA, DOMESTICA, PAGINA, ARCADIA and PRISMA as six illustrative firms. [Industry history](industry/de-industria-1970-2026.md) explores licensing, second sourcing, specialist hardware contraction, mobility, software freedom and accelerators. [Product dossiers](industry/product-dossiers-1981-2026.md) use candidate configurations and explicitly synthetic unit economics; no sales, actual currency, formal legal agreement, market share or new ISA/ABI is asserted. Existing institutions, technology standards and world CANON unchanged. No code or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

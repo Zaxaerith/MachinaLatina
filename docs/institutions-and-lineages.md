@@ -111,3 +111,7 @@ SERMO 与 TRANFOR 的谱系不一定是语法直接继承；可描述为文化/�
 
 ## Phase XXXVII update · 2026-11-26
 The diagrams above preserve the Phase XX viewpoint. For current detailed design candidates use [technology atlas](technology-atlas-1954-2026.md). CSM is the proposed global body described in the charter; the older unnamed COS community is an earlier narrative, not evidence of a second approved organization. Nova Maior/Magna R1 and Mobilis now supply a suggested shared-subset lineage, with independent mobile ISA still possible; Sextaria S1/F48/S2 and PARTES I now have paper profiles. ORDO-N I and PARTES I have bounded service contracts; CVSTOS I has abstract capabilities rather than a native syscall ABI. STEMMA/FASCICVLVS/FORVM CODICVM and IMAGO/FIGVRA/LVDVS/MENTIS extend the software ecology without establishing new legally constituted organizations. No inferred corporate continuity or approved market share.
+
+## Phase XLIII industry follow-up
+
+[Candidate company register](industry/company-register-1970-2026.md), [industry history](industry/de-industria-1970-2026.md) and [product dossiers](industry/product-dossiers-1981-2026.md) add a fictional commercial layer. Earlier technical family names remain distinct from corporate identities. All proposed affiliations, dates and outcomes are DRAFT; no existing standard or institution is ratified or reassigned.

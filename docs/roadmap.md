@@ -2,6 +2,15 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 5.0 — Phase XLIII: industry history (second pass)
+
+- [x] Create [six candidate company dossiers](industry/company-register-1970-2026.md)
+- [x] Write [1970–2026 commercial history](industry/de-industria-1970-2026.md)
+- [x] Propose [product associations and illustrative economics](industry/product-dossiers-1981-2026.md)
+- [ ] Deepen classic computer catalogue, model variants, relative prices and software environments
+
+Documentation only. Existing technology families are not exclusive corporate marks; no new CANON, code, CI or market statistics.
+
 ## 4.3 — Phase XLII: CONCORDIA distributed intelligence
 
 - [x] Propose [bounded cross-domain task federation](../specifications/CONCORDIA-task-federation-R1.md)

@@ -32,3 +32,7 @@ TABVLA 希望将字符身份、字形布局、像素和打印分开。候选 IMA
 ## Phase XL future scenario
 
 [ORBIS spatial R1](../specifications/ORBIS-spatiotemporal-R1.md) and [world model study](../specifications/ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.
+
+## Phase XLIII industry follow-up
+
+[Candidate company register](industry/company-register-1970-2026.md), [industry history](industry/de-industria-1970-2026.md) and [product dossiers](industry/product-dossiers-1981-2026.md) add a fictional commercial layer. Earlier technical family names remain distinct from corporate identities. All proposed affiliations, dates and outcomes are DRAFT; no existing standard or institution is ratified or reassigned.

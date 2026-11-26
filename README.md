@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLIII — Industry history (1970–2026) · second pass
+
+[Company register](docs/industry/company-register-1970-2026.md), [industry history](docs/industry/de-industria-1970-2026.md) and [product dossiers](docs/industry/product-dossiers-1981-2026.md) propose six fictional companies, commercial competition, licensing and product configurations. The first chronology remains complete through 2050; this second pass deepens existing eras. DRAFT; no CANON promotion, actual sales, new code or CI.
+
 ## Phase XLII — CONCORDIA distributed intelligence (2045–2050)
 
 [CONCORDIA task federation R1](specifications/CONCORDIA-task-federation-R1.md) proposes bounded cross-domain work with independent authority, reservations, receipts and explicit uncertainty. [Personal computing study](specifications/CONCORDIA-personal-computing-study.md) retains the three OS families and owner choice. [2045–2050 scenario](docs/de-concordia-2045-2050.md) completes the first planned future chronology; [1954–2050 epilogue](docs/epilogue-1954-2050.md) connects the historical and future branches. FUTURE SCENARIO / DRAFT; no implementation or CANON promotion.

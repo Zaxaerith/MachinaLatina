@@ -39,3 +39,7 @@ S2 可考虑虚拟内存、中断、设备控制、图形缓冲与联网。S1 �
 ## 2026-11-26 graphics follow-up
 
 [IMAGO](../specifications/IMAGO-86-R1.md), [FIGVRA](../specifications/FIGVRA-95-R1.md) and [LVDVS](../specifications/LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.
+
+## Phase XLIII industry follow-up
+
+[Candidate company register](industry/company-register-1970-2026.md), [industry history](industry/de-industria-1970-2026.md) and [product dossiers](industry/product-dossiers-1981-2026.md) add a fictional commercial layer. Earlier technical family names remain distinct from corporate identities. All proposed affiliations, dates and outcomes are DRAFT; no existing standard or institution is ratified or reassigned.
