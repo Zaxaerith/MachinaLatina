@@ -269,6 +269,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Spatial R1](../specifications/ORBIS-spatiotemporal-R1.md) proposes a 256x256 local grid tile with signed millimetre values, explicit validity mask and logical spatiotemporal/provenance metadata. [World model study](../specifications/ORBIS-world-model-study.md) separates observation, scene, state, transition, forecast and decision; includes an illustrative campus water balance. [2035–2040 scenario](de-orbe-2035-2040.md) prefers bounded multi-resolution edge/region/cloud collaboration, not a perfect Earth mirror. No global CRS, new RATIO grammar, native IPC extension, training, actual observations or implementation. C19–C25 remain open.
 
+## D057 — LVMEN conditional hybrid computing
+**State:** FUTURE SCENARIO / DRAFT / NOT CANON (2026-11-26)
+
+[Photonic R1](../specifications/LVMEN-photonic-R1.md) proposes a bounded signed fixed-point matrix-vector service with independent full digital reference and declared absolute error. [System study](../specifications/LVMEN-system-study.md) separates optical links, approximate arithmetic and electronic control, and illustrates total-job costs. [Future history](de-lvmine-2040-2045.md) prefers interconnect-first selective acceleration; no all-optical CPU assumption. No change to exact MATRICES, RATIO-I, device ownership or prior ISA. Physical implementation, performance, link protocol and calibration remain open. No code or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

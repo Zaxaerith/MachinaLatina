@@ -36,3 +36,7 @@ Related: [Nova M64](Nova-Maior-Magna-R1.md), [MATRICES](MENTIS-matrix-R1.md), [S
 ## Phase XL future scenario
 
 [ORBIS spatial R1](ORBIS-spatiotemporal-R1.md) and [world model study](ORBIS-world-model-study.md) propose later scientific spatial contracts, not new implemented device, IPC, inference or control features. Observation, visualization, forecast and authority remain distinct.
+
+## Phase XLI future scenario
+
+[LVMEN photonic R1](LVMEN-photonic-R1.md) and [system study](LVMEN-system-study.md) propose optional future links and approximate arithmetic. No silent substitution for exact arithmetic, no new device/ISA or RATIO grammar implied. Actual hardware and performance remain open.

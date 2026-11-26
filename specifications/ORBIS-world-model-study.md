@@ -20,3 +20,7 @@ Memoria may hand off bounded arrays to FIGVRA, MATRICES or Sextaria engines unde
 Use [MENTIS task R1](MENTIS-agent-task-R1.md) for inspection, calculation, staging and separately approved publication. Publish a report under expected revision checks; publishing a map is not authorization to actuate infrastructure. Real-world control requires independently validated controller, bounds, local fail-safe and human/organizational authority, beyond R1. Record access and privacy policy at each node. Distinguish provenance of actual retrieval, execution, numerical acceptance and review per [evidence](MENTIS-evidence-R1.md).
 
 See [spatial records](ORBIS-spatiotemporal-R1.md), [history](../docs/de-orbe-2035-2040.md), [RATIO](RATIO-I-R1.md). No code, datasets, trained models, deployment or benchmark.
+
+## Phase XLI future scenario
+
+[LVMEN photonic R1](LVMEN-photonic-R1.md) and [system study](LVMEN-system-study.md) propose optional future links and approximate arithmetic. No silent substitution for exact arithmetic, no new device/ISA or RATIO grammar implied. Actual hardware and performance remain open.

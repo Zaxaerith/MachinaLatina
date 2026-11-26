@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLI — LVMEN hybrid computation (2040–2045)
+
+[LVMEN photonic R1](specifications/LVMEN-photonic-R1.md) proposes a bounded approximate matrix-vector interface with independent digital checking; [system study](specifications/LVMEN-system-study.md) separates optical links, arithmetic, and electronic control. [Future history](docs/de-lvmine-2040-2045.md) explores conditional multi-medium computing. FUTURE SCENARIO / DRAFT; no silicon, benchmark, implementation or CANON promotion.
+
 ## Phase XL — ORBIS scientific world models (2035–2040)
 
 [ORBIS spatial records](specifications/ORBIS-spatiotemporal-R1.md) propose local raster tiles with explicit grid, time, provenance and missing-data mask. [World models](specifications/ORBIS-world-model-study.md) distinguish observations, scene representations, state, prediction and decisions. [Future history](docs/de-orbe-2035-2040.md) explores regional digital twins and federated scientific models. FUTURE SCENARIO / DRAFT; no deployment, model training or CANON promotion.

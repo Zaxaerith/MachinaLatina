@@ -31,3 +31,7 @@ Related: [FLOAT-P0](FLOAT-P0.md), [F48](Sextaria-F48-R1.md), [FIGVRA](FIGVRA-95-
 ## Phase XXXIX future scenario
 
 [Nova Memoria R1](Nova-Memoria-R1.md) and [Sextaria scientific engine](Sextaria-scientific-engine-study.md) propose later platform/precision contracts. No earlier ISA, matrix arithmetic, F48 or RATIO-I accepted format is changed; F64/R0 and device ownership are unimplemented future candidates.
+
+## Phase XLI future scenario
+
+[LVMEN photonic R1](LVMEN-photonic-R1.md) and [system study](LVMEN-system-study.md) propose optional future links and approximate arithmetic. No silent substitution for exact arithmetic, no new device/ISA or RATIO grammar implied. Actual hardware and performance remain open.

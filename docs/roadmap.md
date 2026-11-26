@@ -2,12 +2,21 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 4.2 — Phase XLI: LVMEN optical/electronic computing
+
+- [x] Propose [bounded approximate photonic arithmetic](../specifications/LVMEN-photonic-R1.md)
+- [x] Study [optical links and hybrid system costs](../specifications/LVMEN-system-study.md)
+- [x] Write [2040–2045 future scenario](de-lvmine-2040-2045.md)
+- [ ] Study distributed intelligence and OS futures (2045–2050)
+
+Documentation only; no hardware, code, CI or CANON promotion.
+
 ## 4.1 — Phase XL: ORBIS scientific world models
 
 - [x] Propose [bounded spatiotemporal raster records](../specifications/ORBIS-spatiotemporal-R1.md)
 - [x] Study [world models and scientific evidence](../specifications/ORBIS-world-model-study.md)
 - [x] Write [2035–2040 future scenario](de-orbe-2035-2040.md)
-- [ ] Study 2040–2045 conditional optical/electronic computing
+- [x] Study 2040–2045 conditional optical/electronic computing (Phase XLI; paper study)
 
 Documentation only. No global CRS, deployed simulation, code, CI or CANON promotion.
 
