@@ -27,3 +27,7 @@ A= [1, 2^-10, -1], B= [1,1,1] column. A octets 46 00 1E 00 C6 00; B 46 00 46 00 
 For two 256×256 M16 inputs and one F32 output, payload storage is 512 KiB (128+128+256 KiB); arithmetic is 16,777,216 multiply-accumulate steps (one multiplication and one addition each). Excludes scratch, transfer and model state. No throughput, latency, clock, training performance or wattage follows from these counts. In later profiles wider inputs, quantized integers, flexible reduction trees, gradients, nonlinear operators and mixed-precision optimization need independent definitions.
 
 Related: [FLOAT-P0](FLOAT-P0.md), [F48](Sextaria-F48-R1.md), [FIGVRA](FIGVRA-95-R1.md), [RATIO](RATIO-I-R1.md).
+
+## Phase XXXIX future scenario
+
+[Nova Memoria R1](Nova-Memoria-R1.md) and [Sextaria scientific engine](Sextaria-scientific-engine-study.md) propose later platform/precision contracts. No earlier ISA, matrix arithmetic, F48 or RATIO-I accepted format is changed; F64/R0 and device ownership are unimplemented future candidates.

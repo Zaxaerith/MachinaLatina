@@ -4,7 +4,7 @@
 | Era | Candidate | Status |
 | --- | --- | --- |
 | 2027–2030 | [AI-native task computing](de-mente-et-machinis-2027-2030.md) | Phase XXXVIII: bounded local task contract and system study |
-| 2030–2035 | Memory-centred heterogeneous systems, edge intelligence | open topic, not a specified design |
+| 2030–2035 | [Memory-centred heterogeneous systems](de-memoria-2030-2035.md) | Phase XXXIX: bounded Memoria ownership and scientific engine proposals |
 | 2035–2040 | Scientific world models, digital twins | open topic |
 | 2040–2045 | Hybrid optical/electronic computation | conditional, no assumed manufacturing breakthrough |
 | 2045–2050 | Distributed intelligence and OS futures | open topic |

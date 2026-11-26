@@ -259,6 +259,11 @@ Editorial erratum: correct alpha with smooth breathing and perispomeni to ἆ (A
 
 [Task R1](../specifications/MENTIS-agent-task-R1.md) separates model planning, trusted host grants, bounded typed steps, private staging, explicit compare-and-set publication and receipts. [Integration](../specifications/MENTIS-system-integration-study.md) retains the three OS families and prefers local-first interoperable adapters with optional authorized remote services. [2027–2030 history](de-mente-et-machinis-2027-2030.md) is conditional and listed separately in the [future chronology](future-chronology-2027-2050.md). No existing authority, ABI, cryptographic, network or numeric contract is silently extended. No implementation or CI.
 
+## D055 — Nova Memoria and Sextaria scientific engine
+**State:** FUTURE SCENARIO / DRAFT / NOT CANON (2026-11-26)
+
+[Memoria R1](../specifications/Nova-Memoria-R1.md) proposes whole-allocation ownership, explicit handoff, generation checks and quarantine after uncertain device completion, not universal cache coherence or native ISA. [Scientific engine](../specifications/Sextaria-scientific-engine-study.md) proposes a bounded numerical service and finite 1/11/52 F64/R0 distinct from IEEE binary64; RATIO-I unchanged. [2030–2035 scenario](de-memoria-2030-2035.md) explores conditional modular and near-memory systems. All capacity/bandwidth figures are illustrative, not forecasts. C19–C25 open. No implementation or CI.
+
 ## Open decisions
 
 - [ ] D006: fixed table for CVL-54 and exact shift/reset behavior

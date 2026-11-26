@@ -41,3 +41,7 @@ Related: [Phase XIX](../docs/de-machinis-cogitantibus-2015-2026.md), [Sextaria-S
 ## 2026-11-26 MENTIS follow-up
 
 [Matrices R1](MENTIS-matrix-R1.md), [tokenizer R1](MENTIS-tokenizer-R1.md) and [evidence R1](MENTIS-evidence-R1.md) are later paper candidates. F48/R1 was separately proposed in Phase XXIX; no accelerator implementation or RATIO matrix grammar follows. Earlier unselected-format statements describe the original study. No trained model, benchmark or deployed assistant.
+
+## Phase XXXIX future scenario
+
+[Nova Memoria R1](Nova-Memoria-R1.md) and [Sextaria scientific engine](Sextaria-scientific-engine-study.md) propose later platform/precision contracts. No earlier ISA, matrix arithmetic, F48 or RATIO-I accepted format is changed; F64/R0 and device ownership are unimplemented future candidates.

@@ -2,12 +2,21 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 4.0 — Phase XXXIX: memory-centred computing (future scenario)
+
+- [x] Propose [Memoria buffer ownership contract](../specifications/Nova-Memoria-R1.md)
+- [x] Study [Sextaria numerical service and F64/R0](../specifications/Sextaria-scientific-engine-study.md)
+- [x] Write [2030–2035 future scenario](de-memoria-2030-2035.md)
+- [ ] Study 2035–2040 scientific world models and digital twins
+
+Documentation only; C19–C25 remain open. No implementation or CI.
+
 ## 3.9 — Phase XXXVIII: AI-native computing (future scenario)
 
 - [x] Propose [MENTIS bounded task contract](../specifications/MENTIS-agent-task-R1.md)
 - [x] Study [system integration](../specifications/MENTIS-system-integration-study.md)
 - [x] Write [2027–2030 scenario](de-mente-et-machinis-2027-2030.md) and [future chronology](future-chronology-2027-2050.md)
-- [ ] Research 2030–2035 memory-centred architectures and heterogeneous execution
+- [x] Research 2030–2035 memory-centred architectures and heterogeneous execution (Phase XXXIX; paper study)
 
 Documentation only. All future events conditional; C19–C25 remain open. No code or CI.
 

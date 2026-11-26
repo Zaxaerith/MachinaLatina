@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XXXIX — Memory-centred computing (2030–2035)
+
+[Nova Memoria R1](specifications/Nova-Memoria-R1.md) proposes bounded buffer ownership and heterogeneous memory resources; [Sextaria scientific engine](specifications/Sextaria-scientific-engine-study.md) proposes a precision-oriented service and finite F64/R0. [Future history](docs/de-memoria-2030-2035.md) explores modular platforms, near-memory computation and workstations. FUTURE SCENARIO / DRAFT. No silicon, runtime, benchmark or CANON promotion.
+
 ## Phase XXXVIII — Future branch (2027–2030)
 
 [Future chronology](docs/future-chronology-2027-2050.md) is separate from the historical synthesis. [AI-native computing](docs/de-mente-et-machinis-2027-2030.md), [MENTIS task R1](specifications/MENTIS-agent-task-R1.md) and [system integration](specifications/MENTIS-system-integration-study.md) propose a bounded user-space planner/broker with scoped operations and explicit publication. FUTURE SCENARIO / DRAFT; no implementation or new CANON.

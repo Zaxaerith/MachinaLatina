@@ -55,3 +55,7 @@ Related: [history](../docs/de-nova-1981-2026.md), [OS families](operating-system
 ## 2026-11-26 graphics follow-up
 
 [IMAGO](IMAGO-86-R1.md), [FIGVRA](FIGVRA-95-R1.md) and [LVDVS](LVDVS-console-study.md) provide subsequent paper candidates; no CPU ISA or existing numeric format changed. Actual devices, shader ISA, full drivers and accelerator execution remain open.
+
+## Phase XXXIX future scenario
+
+[Nova Memoria R1](Nova-Memoria-R1.md) and [Sextaria scientific engine](Sextaria-scientific-engine-study.md) propose later platform/precision contracts. No earlier ISA, matrix arithmetic, F48 or RATIO-I accepted format is changed; F64/R0 and device ownership are unimplemented future candidates.

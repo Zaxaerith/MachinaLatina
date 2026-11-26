@@ -30,3 +30,7 @@ Decode both finite operands; apply exact rational add/subtract/multiply/divide; 
 | maximum positive | 7FBFFFFFFFFF |
 
 1+2^-38 rounds to 1 (halfway); 1+2^-37 is the next value (406000000001). F48 and F36 retain (1+2^-24)-1; F32 yields zero. RATIO-I/R1 does not yet accept F48; a separate profile must approve it. Six-octet high-first serialization is possible under an explicit schema, not a complete archive format. See [S1](Sextaria-S1-R1.md), [FLOAT-P0](FLOAT-P0.md).
+
+## Phase XXXIX future scenario
+
+[Nova Memoria R1](Nova-Memoria-R1.md) and [Sextaria scientific engine](Sextaria-scientific-engine-study.md) propose later platform/precision contracts. No earlier ISA, matrix arithmetic, F48 or RATIO-I accepted format is changed; F64/R0 and device ownership are unimplemented future candidates.
