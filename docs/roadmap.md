@@ -2,12 +2,20 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 5.2 — Phase XLV: programming-language civilization history
+
+- [x] [Language history](historia-linguarum-programmandi-1954-2026.md)
+- [x] [Source gallery](language-gallery-1954-2026.md)
+- [ ] Developer culture, terminals, editors, IDEs and debugging (suggested XLVI)
+
+Documentation only, no implementation, CI or CANON promotion.
+
 ## 5.1 — Phase XLIV: classic computer museum
 
 - [x] Organize [museum index](museum/README.md)
 - [x] Describe [eleven classic machine configurations](museum/catalogue-1954-2026.md)
 - [x] Write [visitor guide](museum/visitor-guide.md): keyboard, purchase costs, migration and preservation
-- [ ] Deepen programming-language history, syntax and period-appropriate examples
+- [x] Deepen programming-language history, syntax and period-appropriate examples (Phase XLV)
 
 Documentation only. New product configurations and price ratios are hypothetical; no new standard, code, CI or CANON.
 

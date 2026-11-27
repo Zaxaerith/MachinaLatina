@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLV — HISTORIA LINGVARVM PROGRAMMANDI (1954–2026)
+
+[Language history](docs/historia-linguarum-programmandi-1954-2026.md) and [source gallery](docs/language-gallery-1954-2026.md) study four language traditions, objects, functional styles, managed memory, ownership and bilingual source identity. DRAFT, not CANON; no new code or CI.
+
 ## Phase XLIV — MVSEVM MACHINARVM (1954–2026)
 
 [Classic computer museum](docs/museum/README.md): [eleven exhibit dossiers](docs/museum/catalogue-1954-2026.md), [visitor guide](docs/museum/visitor-guide.md) with illustrative wage-relative costs and bilingual keyboard. Existing profiles and new hypothetical configurations are explicitly distinct. DRAFT; no implementation, image assets, benchmarks, CI or CANON promotion.
