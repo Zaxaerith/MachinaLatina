@@ -2,11 +2,19 @@
 
 **Approach since 2026-11-23:** **documentary alternate-history research first**; preserve earlier experimental source as reference material. The automatic GitHub Actions conformance workflow was removed and is not to be reinstated without an explicit new decision. Historical code/test items below are archival milestones, not a request to restart CI.
 
+## 5.3 — Phase XLVI: developer workbench history
+
+- [x] [Developer tool history](officina-programmatorum-1954-2026.md)
+- [x] [Text workbench gallery](workbench-gallery-1954-2026.md)
+- [ ] Command interpreters and filesystem culture (suggested XLVII)
+
+Documentation only; no editor, debugger, protocol, CI or CANON promotion.
+
 ## 5.2 — Phase XLV: programming-language civilization history
 
 - [x] [Language history](historia-linguarum-programmandi-1954-2026.md)
 - [x] [Source gallery](language-gallery-1954-2026.md)
-- [ ] Developer culture, terminals, editors, IDEs and debugging (suggested XLVI)
+- [x] Developer culture, terminals, editors, IDEs and debugging (Phase XLVI)
 
 Documentation only, no implementation, CI or CANON promotion.
 

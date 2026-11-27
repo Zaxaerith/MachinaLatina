@@ -18,6 +18,10 @@ Instead of translating modern English keywords after the fact, this project asks
 
 项目遵循 **Timeline B**：不是默认现实中的 ASCII、Unix、x86、C 等标准必然出现，而是保持物理学与计算理论大致同步，让标准化历史独立演化。
 
+## Phase XLVI — OFFICINA PROGRAMMATORVM (1954–2026)
+
+[Developer workbench history](docs/officina-programmatorum-1954-2026.md) and [workbench gallery](docs/workbench-gallery-1954-2026.md) explore paper listings, terminals, editors, IDEs, bilingual source inspection and MENTIS-assisted development. DRAFT; no software, terminal protocol, CI or CANON promotion.
+
 ## Phase XLV — HISTORIA LINGVARVM PROGRAMMANDI (1954–2026)
 
 [Language history](docs/historia-linguarum-programmandi-1954-2026.md) and [source gallery](docs/language-gallery-1954-2026.md) study four language traditions, objects, functional styles, managed memory, ownership and bilingual source identity. DRAFT, not CANON; no new code or CI.
